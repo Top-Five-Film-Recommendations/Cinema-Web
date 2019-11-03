@@ -1,0 +1,255 @@
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{% static '../static/img/logo_white.png' %}">
+
+    <link rel="stylesheet" href="{% static '../static/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static '../static/style.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/custom.css' %}">
+    <link href='https://fonts.googleapis.com/css?family="Josefin+Sans"&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+
+    <script src="{% static '../static/js/jquery-2.1.0.min.js' %}"></script>
+    <script src="{% static '../static/js/bootstrap.min.js' %}"></script>
+    <script src="{% static '../static/js/blocs.min.js' %}"></script>
+    <script src="{% static '../static/js/jquery.touchSwipe.min.js' %}" defer></script>
+    <script src="{% static '../static/js/lazysizes.min.js' %}" defer></script>
+    <title>{{movie.title}} — {{movie.original_title}} ({{movie.year}})</title>
+
+    <!-- Google Analytics -->
+
+    <!-- Google Analytics END -->
+
+</head>
+
+<body style="margin:0 auto">
+<!-- Main container -->
+<div class="page-container">
+
+    <!-- Search Bar -->
+    <div class="bloc bgc-black d-bloc" id="bloc-0">
+        <div class="container fill-bloc-top-edge">
+            <nav class="navbar row">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="{% url 'movie_display' %}"><img
+                            src="{% static '../static/img/logo_white.png' %}"
+                            alt="logo" class="lazyload"/><span
+                            style=:"bold">Cinema</span></a>
+                    <button id="nav-toggle" type="button"
+                            class="ui-navbar-toggle navbar-toggle menu-icon-rounded-bars"
+                            data-toggle="collapse" data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+                    <form action="{% url 'movie_search_form' %}" method="post" class="navbar-form pull-right"
+                          role="search">
+                        {% csrf_token %}
+                        <input type="text" name="q" class="form-control" placeholder="Search">
+                        <button type="submit" name="submit" class="btn btn-info">搜索</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Search Bar END -->
+
+    <!-- Page Content -->
+    <div class="bloc bgc-splashed-white l-bloc" id="bloc-1" style="margin-top:20px">
+        <div style="float:left;width:800px">
+            <div class="container bloc-lg">
+                <h2 class="movie-name">{{movie.title}} — {{movie.original_title}} ({{movie.year}})</h2>
+                <div class="row voffset">
+                    <!--left-->
+                    <div class="col-sm-3 col-xs-6">
+                        <img src="{{movie.image}}" alt="图片找不到了" class="movie_detail_page" height="190px"/>
+                        <!--<img src="{{other_info.image}}" class="movie_detail_page" width="140px" />-->
+                    </div>
+                    <!--end left-->
+
+                    <!--middle-->
+                    <div class="col-sm-5 col-xs-6 movie-info">
+                        <div id="info">
+                                <span><span class="pl">导演：</span> <span
+                                        class="attrs">{{movie.directors}}</span></span><br>
+                            <span class="actor"><span class="pl">主演：</span> <span
+                                    class="attrs">{{movie.casts}}</span></span><br>
+                            <span class="pl">类型：</span> <span property="v:genre">{{movie.genres}}</span><br>
+
+                            <span class="pl">制片国家/地区：</span>{{other_info.region}}<br>
+                            <span class="pl">语言：</span> {{other_info.languages}}<br>
+                            <span class="pl">片长：</span> {{other_info.durations}}<br>
+                            <span class="pl">上映日期：</span> <span property="v:initialReleaseDate"
+                                                                content="">{{movie.year}}年</span><br>
+                            <span class="pl">评分：</span>{{movie.rating}}<br>
+                            <span class="pl">评分人数：</span>{{movie.viewnumber}}<br>
+
+                        </div>
+                    </div>
+                    <!--end middle-->
+
+                </div>
+
+                <div class="col-sm-12" style="margin-top:30px">
+                    <div>
+                        <h3 class="detail-page-title"><span
+                                class="label label-primary">剧情简介</span><span> </span></h3>
+                        <!--<h4 class="detail-page-title" style="float: left;">-->
+                        <!--<a-->
+                        <!--href="https://movie.douban.com/subject/{{movie.id}}/"><span-->
+                        <!--class="label label-info" style="width: 30px;height: 20px">@豆瓣</span></a>-->
+                        <!--</h4>-->
+                    </div>
+                    <div class="col-sm-9" style="margin-top:10px">
+                        <p style="text-indent: 2em">{{other_info.intro}}<a
+                                href="https://movie.douban.com/subject/{{movie.id}}/"><span
+                                class="">©豆瓣</span></a>
+                        </p>
+                    </div>
+                </div>
+
+                <!--豆瓣影评 Top5-->
+                <div class="col-sm-12" style="margin-top:30px">
+                    <div>
+                        <h3 class="detail-page-title"><span class="label label-primary">豆瓣影评 Top5</span></h3>
+                    </div>
+                    <div style="margin-top:10px">
+                        {% for i in other_info.reviews %}
+                        <div class="col-sm-9 reviews" style="margin-top:20px">
+                            <div class="review-item">
+                                <a href="{{i.alt}}/">
+                                    <img width="28" height="28" src="{{i.author.avatar}}"
+                                         style="border:#337ab7;border-style:double">
+                                    <span class="label label-info">{{i.title}}</span>
+                                    <div class="review-summary">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{i.summary}}
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <!--豆瓣影评 Top5 END-->
+
+                <!--本站影评-->
+                {% if not review_list is None %}
+                <div class="col-sm-12" style="margin-top:30px">
+                    <div>
+                        <h3 class="detail-page-title"><span class="label label-primary">本站影评</span></h3>
+                    </div>
+                    <div style="margin-top:10px">
+                        {% for i in review_list %}
+                        <div class="col-sm-9 reviews" style="margin-top:20px">
+                            <div class="review-item">
+                                <header class="main-hd">
+                                <span class="label label-info">
+                                    {{i.author}}
+                                </span>
+                                    <span>
+                                        &nbsp
+                                    </span>
+                                    <span class="label label-success">
+                                    评分：{{i.score}}
+                                    </span>
+                                    <span>
+                                        &nbsp
+                                    </span>
+                                    <span class="label label-warning">
+                                    {{i.time}}
+                                    </span>
+                                </header>
+
+                                <div class="review-summary">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{i.content}}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                <!--本站影评 END-->
+
+                <!--添加影评-->
+                <div class="col-sm-12" style="margin-top:30px">
+                    <div>
+                        <h3 class="detail-page-title"><span class="label label-primary">添加影评</span></h3>
+                    </div>
+                    <div class="col-sm-12" style="margin-left:20px;margin-top:5px">
+                        <form action="{% url 'add_review' movie.id %}" method="post" class="comment-form">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label> 作者：</label>
+                                    {{ form.author }}
+                                    {{ form.author.errors }}
+                                </div>
+                                <div class="col-sm-3">
+                                    <label> 评分：</label>
+                                    {{ form.score }}
+                                    {{ form.score.errors }}
+                                </div>
+                            </div>    <!-- row -->
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <label> 内容：</label>
+                                    {{ form.content }}
+                                    {{ form.content.errors }}
+                                    <button type="submit" class="comment-btn">发表</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--添加影评 END-->
+
+            </div>
+        </div>
+
+        <!--相似电影推荐-->
+        {% if not recommend_list is None %}
+        <div style="float:right;width:200px;margin-top:85px">
+            <h3 class="detail-page-title"><span class="label label-primary">相似电影推荐</span></h3>
+            <div>
+                {% for rec in recommend_list %}
+                <div class="col-sm-10 col-xs-1" style="margin-top:35px">
+                    <a href="{% url 'movie_detail' rec.id %}" data-gallery-id="gallery-1">
+                        <img src="{{rec.image}}" alt="图片无法显示" class="img-responsive lazyload movie-img"/>
+                        <p class="text-center">
+                        <span style="color:#444">
+                            {%if rec.title|length >= 8 %}
+                            {{rec.title|slice:'6'}}…
+                            {%else%}
+                            {{rec.title}}
+                            {%endif%}
+                        </span>
+                        </p>
+                    </a>
+                    <p class="text-center movie-rating" style="margin-top:4px">
+                        <span class="label label-info">评分：{{rec.rating}}</span>
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        <!--相似电影推荐 END-->
+    </div>
+</div>
+<!-- Page Content END -->
+<!-- Main container END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+        class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+</body>
+</html>
