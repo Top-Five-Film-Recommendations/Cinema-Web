@@ -2,7 +2,7 @@ use cinema;
 SET NAMES utf8;
 
 Begin;
-INSERT INTO movie VALUES (   1291545 , '大鱼' , 'Big Fish' , '2003' , NULL , 8.7 , 'https://movie.douban.com/subject/1291545/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p692813374.jpg'    
+INSERT INTO Movie VALUES (   1291545 , '大鱼' , 'Big Fish' , '2003' , NULL , 8.7 , 'https://movie.douban.com/subject/1291545/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p692813374.jpg'    
  , 1 );
 INSERT INTO Director VALUES (0, '蒂姆·波顿', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291545 ,  0 );
@@ -18,7 +18,7 @@ INSERT INTO Category VALUES ('家庭' , NULL);
 INSERT INTO Belong VALUES (  1291545,'家庭');
 INSERT INTO Category VALUES ('奇幻' , NULL);
 INSERT INTO Belong VALUES (  1291545,'奇幻');
-INSERT INTO movie VALUES (   1291546 , '霸王别姬' , '霸王别姬' , '1993' , NULL , 9.5 , 'https://movie.douban.com/subject/1291546/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910813120.jpg'    
+INSERT INTO Movie VALUES (   1291546 , '霸王别姬' , '霸王别姬' , '1993' , NULL , 9.5 , 'https://movie.douban.com/subject/1291546/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910813120.jpg'    
  , 1 );
 INSERT INTO Director VALUES (1, '陈凯歌', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291546 ,  1 );
@@ -33,7 +33,7 @@ INSERT INTO Category VALUES ('爱情' , NULL);
 INSERT INTO Belong VALUES (  1291546,'爱情');
 INSERT INTO Category VALUES ('同性' , NULL);
 INSERT INTO Belong VALUES (  1291546,'同性');
-INSERT INTO movie VALUES (   1291548 , '死亡诗社' , 'Dead Poets Society' , '1989' , NULL , 8.9 , 'https://movie.douban.com/subject/1291548/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910824340.jpg'    
+INSERT INTO Movie VALUES (   1291548 , '死亡诗社' , 'Dead Poets Society' , '1989' , NULL , 8.9 , 'https://movie.douban.com/subject/1291548/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910824340.jpg'    
  , 1 );
 INSERT INTO Director VALUES (2, '彼得·威尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291548 ,  2 );
@@ -44,7 +44,7 @@ INSERT INTO Play VALUES (   1291548 ,  7 );
 INSERT INTO Actor VALUES ('伊桑·霍克', NULL, NULL, NULL, 8);
 INSERT INTO Play VALUES (   1291548 ,  8 );
 INSERT INTO Belong VALUES (  1291548,'剧情');
-INSERT INTO movie VALUES (   1291549 , '放牛班的春天' , 'Les choristes' , '2004' , NULL , 9.2 , 'https://movie.douban.com/subject/1291549/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910824951.jpg'    
+INSERT INTO Movie VALUES (   1291549 , '放牛班的春天' , 'Les choristes' , '2004' , NULL , 9.2 , 'https://movie.douban.com/subject/1291549/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910824951.jpg'    
  , 1 );
 INSERT INTO Director VALUES (3, '克里斯托夫·巴拉蒂', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291549 ,  3 );
@@ -57,7 +57,7 @@ INSERT INTO Play VALUES (   1291549 ,  11 );
 INSERT INTO Belong VALUES (  1291549,'剧情');
 INSERT INTO Category VALUES ('音乐' , NULL);
 INSERT INTO Belong VALUES (  1291549,'音乐');
-INSERT INTO movie VALUES (   1291552 , '指环王3：王者无敌' , 'The Lord of the Rings: The Return of the King' , '2003' , NULL , 9.1 , 'https://movie.douban.com/subject/1291552/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910825503.jpg'    
+INSERT INTO Movie VALUES (   1291552 , '指环王3：王者无敌' , 'The Lord of the Rings: The Return of the King' , '2003' , NULL , 9.1 , 'https://movie.douban.com/subject/1291552/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910825503.jpg'    
  , 1 );
 INSERT INTO Director VALUES (4, '彼得·杰克逊', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291552 ,  4 );
@@ -71,7 +71,7 @@ INSERT INTO Belong VALUES (  1291552,'剧情');
 INSERT INTO Category VALUES ('动作' , NULL);
 INSERT INTO Belong VALUES (  1291552,'动作');
 INSERT INTO Belong VALUES (  1291552,'奇幻');
-INSERT INTO movie VALUES (   1291557 , '花样年华' , '花樣年華' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1291557/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910828286.webp'    
+INSERT INTO Movie VALUES (   1291557 , '花样年华' , '花樣年華' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1291557/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910828286.webp'    
  , 1 );
 INSERT INTO Director VALUES (5, '王家卫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291557 ,  5 );
@@ -83,7 +83,7 @@ INSERT INTO Actor VALUES ('潘迪华', NULL, NULL, NULL, 17);
 INSERT INTO Play VALUES (   1291557 ,  17 );
 INSERT INTO Belong VALUES (  1291557,'剧情');
 INSERT INTO Belong VALUES (  1291557,'爱情');
-INSERT INTO movie VALUES (   1291560 , '龙猫' , 'となりのトトロ' , '1988' , NULL , 9.1 , 'https://movie.douban.com/subject/1291560/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p537668599.webp'    
+INSERT INTO Movie VALUES (   1291560 , '龙猫' , 'となりのトトロ' , '1988' , NULL , 9.1 , 'https://movie.douban.com/subject/1291560/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p537668599.webp'    
  , 1 );
 INSERT INTO Director VALUES (6, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291560 ,  6 );
@@ -96,7 +96,7 @@ INSERT INTO Play VALUES (   1291560 ,  20 );
 INSERT INTO Category VALUES ('动画' , NULL);
 INSERT INTO Belong VALUES (  1291560,'动画');
 INSERT INTO Belong VALUES (  1291560,'奇幻');
-INSERT INTO movie VALUES (   1291561 , '千与千寻' , '千と千尋の神隠し' , '2001' , NULL , 9.2 , 'https://movie.douban.com/subject/1291561/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1606727862.webp'    
+INSERT INTO Movie VALUES (   1291561 , '千与千寻' , '千と千尋の神隠し' , '2001' , NULL , 9.2 , 'https://movie.douban.com/subject/1291561/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1606727862.webp'    
  , 1 );
 INSERT INTO Director VALUES (7, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291561 ,  7 );
@@ -109,7 +109,7 @@ INSERT INTO Play VALUES (   1291561 ,  23 );
 INSERT INTO Belong VALUES (  1291561,'剧情');
 INSERT INTO Belong VALUES (  1291561,'动画');
 INSERT INTO Belong VALUES (  1291561,'奇幻');
-INSERT INTO movie VALUES (   1291568 , '东京物语' , '東京物語' , '1953' , NULL , 9.2 , 'https://movie.douban.com/subject/1291568/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910832390.jpg'    
+INSERT INTO Movie VALUES (   1291568 , '东京物语' , '東京物語' , '1953' , NULL , 9.2 , 'https://movie.douban.com/subject/1291568/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910832390.jpg'    
  , 1 );
 INSERT INTO Director VALUES (8, '小津安二郎', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291568 ,  8 );
@@ -121,7 +121,7 @@ INSERT INTO Actor VALUES ('杉村春子', NULL, NULL, NULL, 26);
 INSERT INTO Play VALUES (   1291568 ,  26 );
 INSERT INTO Belong VALUES (  1291568,'剧情');
 INSERT INTO Belong VALUES (  1291568,'家庭');
-INSERT INTO movie VALUES (   1291571 , '指环王1：魔戒再现' , 'The Lord of the Rings: The Fellowship of the Ring' , '2001' , NULL , 8.9 , 'https://movie.douban.com/subject/1291571/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1354436051.jpg'    
+INSERT INTO Movie VALUES (   1291571 , '指环王1：魔戒再现' , 'The Lord of the Rings: The Fellowship of the Ring' , '2001' , NULL , 8.9 , 'https://movie.douban.com/subject/1291571/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1354436051.jpg'    
  , 1 );
 INSERT INTO Director VALUES (9, '彼得·杰克逊', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291571 ,  9 );
@@ -134,7 +134,7 @@ INSERT INTO Play VALUES (   1291571 ,  29 );
 INSERT INTO Belong VALUES (  1291571,'剧情');
 INSERT INTO Belong VALUES (  1291571,'动作');
 INSERT INTO Belong VALUES (  1291571,'奇幻');
-INSERT INTO movie VALUES (   1291572 , '指环王2：双塔奇兵' , 'The Lord of the Rings: The Two Towers' , '2002' , NULL , 8.9 , 'https://movie.douban.com/subject/1291572/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p909265336.jpg'    
+INSERT INTO Movie VALUES (   1291572 , '指环王2：双塔奇兵' , 'The Lord of the Rings: The Two Towers' , '2002' , NULL , 8.9 , 'https://movie.douban.com/subject/1291572/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p909265336.jpg'    
  , 1 );
 INSERT INTO Director VALUES (10, '彼得·杰克逊', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291572 ,  10 );
@@ -147,7 +147,7 @@ INSERT INTO Play VALUES (   1291572 ,  32 );
 INSERT INTO Belong VALUES (  1291572,'剧情');
 INSERT INTO Belong VALUES (  1291572,'动作');
 INSERT INTO Belong VALUES (  1291572,'奇幻');
-INSERT INTO movie VALUES (   1291578 , '冰川时代' , 'Ice Age' , '2002' , NULL , 8.4 , 'https://movie.douban.com/subject/1291578/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1910895719.jpg'    
+INSERT INTO Movie VALUES (   1291578 , '冰川时代' , 'Ice Age' , '2002' , NULL , 8.4 , 'https://movie.douban.com/subject/1291578/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1910895719.jpg'    
  , 1 );
 INSERT INTO Director VALUES (11, '卡洛斯·萨尔达尼亚', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291578 ,  11 );
@@ -164,7 +164,7 @@ INSERT INTO Belong VALUES (  1291578,'喜剧');
 INSERT INTO Belong VALUES (  1291578,'动画');
 INSERT INTO Category VALUES ('冒险' , NULL);
 INSERT INTO Belong VALUES (  1291578,'冒险');
-INSERT INTO movie VALUES (   1291579 , '怪兽电力公司' , 'Monsters Inc.' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1291579/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.webp'    
+INSERT INTO Movie VALUES (   1291579 , '怪兽电力公司' , 'Monsters Inc.' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1291579/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.webp'    
  , 1 );
 INSERT INTO Director VALUES (13, '彼特·道格特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291579 ,  13 );
@@ -183,7 +183,7 @@ INSERT INTO Belong VALUES (  1291579,'喜剧');
 INSERT INTO Belong VALUES (  1291579,'动画');
 INSERT INTO Category VALUES ('儿童' , NULL);
 INSERT INTO Belong VALUES (  1291579,'儿童');
-INSERT INTO movie VALUES (   1291583 , '天空之城' , '天空の城ラピュタ' , '1986' , NULL , 9.0 , 'https://movie.douban.com/subject/1291583/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1446261379.jpg'    
+INSERT INTO Movie VALUES (   1291583 , '天空之城' , '天空の城ラピュタ' , '1986' , NULL , 9.0 , 'https://movie.douban.com/subject/1291583/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1446261379.jpg'    
  , 1 );
 INSERT INTO Director VALUES (16, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291583 ,  16 );
@@ -196,7 +196,7 @@ INSERT INTO Play VALUES (   1291583 ,  41 );
 INSERT INTO Belong VALUES (  1291583,'动画');
 INSERT INTO Belong VALUES (  1291583,'奇幻');
 INSERT INTO Belong VALUES (  1291583,'冒险');
-INSERT INTO movie VALUES (   1291585 , '风之谷' , '風の谷のナウシカ' , '1984' , NULL , 8.8 , 'https://movie.douban.com/subject/1291585/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1917567652.jpg'    
+INSERT INTO Movie VALUES (   1291585 , '风之谷' , '風の谷のナウシカ' , '1984' , NULL , 8.8 , 'https://movie.douban.com/subject/1291585/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1917567652.jpg'    
  , 1 );
 INSERT INTO Director VALUES (17, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291585 ,  17 );
@@ -210,7 +210,7 @@ INSERT INTO Category VALUES ('科幻' , NULL);
 INSERT INTO Belong VALUES (  1291585,'科幻');
 INSERT INTO Belong VALUES (  1291585,'动画');
 INSERT INTO Belong VALUES (  1291585,'奇幻');
-INSERT INTO movie VALUES (   1291818 , '饮食男女' , '飲食男女' , '1994' , NULL , 9.0 , 'https://movie.douban.com/subject/1291818/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910899751.jpg'    
+INSERT INTO Movie VALUES (   1291818 , '饮食男女' , '飲食男女' , '1994' , NULL , 9.0 , 'https://movie.douban.com/subject/1291818/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910899751.jpg'    
  , 1 );
 INSERT INTO Director VALUES (18, '李安', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291818 ,  18 );
@@ -222,7 +222,7 @@ INSERT INTO Actor VALUES ('王渝文', NULL, NULL, NULL, 47);
 INSERT INTO Play VALUES (   1291818 ,  47 );
 INSERT INTO Belong VALUES (  1291818,'剧情');
 INSERT INTO Belong VALUES (  1291818,'家庭');
-INSERT INTO movie VALUES (   1291822 , '卢旺达饭店' , 'Hotel Rwanda' , '2004' , NULL , 8.8 , 'https://movie.douban.com/subject/1291822/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2159368352.jpg'    
+INSERT INTO Movie VALUES (   1291822 , '卢旺达饭店' , 'Hotel Rwanda' , '2004' , NULL , 8.8 , 'https://movie.douban.com/subject/1291822/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2159368352.jpg'    
  , 1 );
 INSERT INTO Director VALUES (19, '特瑞·乔治', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291822 ,  19 );
@@ -237,7 +237,7 @@ INSERT INTO Category VALUES ('历史' , NULL);
 INSERT INTO Belong VALUES (  1291822,'历史');
 INSERT INTO Category VALUES ('战争' , NULL);
 INSERT INTO Belong VALUES (  1291822,'战争');
-INSERT INTO movie VALUES (   1291824 , '黑鹰坠落' , 'Black Hawk Down' , '2001' , NULL , 8.5 , 'https://movie.douban.com/subject/1291824/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910900710.jpg'    
+INSERT INTO Movie VALUES (   1291824 , '黑鹰坠落' , 'Black Hawk Down' , '2001' , NULL , 8.5 , 'https://movie.douban.com/subject/1291824/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910900710.jpg'    
  , 1 );
 INSERT INTO Director VALUES (20, '雷德利·斯科特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291824 ,  20 );
@@ -250,7 +250,7 @@ INSERT INTO Play VALUES (   1291824 ,  53 );
 INSERT INTO Belong VALUES (  1291824,'动作');
 INSERT INTO Belong VALUES (  1291824,'历史');
 INSERT INTO Belong VALUES (  1291824,'战争');
-INSERT INTO movie VALUES (   1291828 , '天堂电影院' , 'Nuovo Cinema Paradiso' , '1988' , NULL , 9.1 , 'https://movie.douban.com/subject/1291828/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910901025.jpg'    
+INSERT INTO Movie VALUES (   1291828 , '天堂电影院' , 'Nuovo Cinema Paradiso' , '1988' , NULL , 9.1 , 'https://movie.douban.com/subject/1291828/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910901025.jpg'    
  , 1 );
 INSERT INTO Director VALUES (21, '朱塞佩·托纳多雷', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291828 ,  21 );
@@ -262,7 +262,7 @@ INSERT INTO Actor VALUES ('艾萨·丹尼埃利', NULL, NULL, NULL, 56);
 INSERT INTO Play VALUES (   1291828 ,  56 );
 INSERT INTO Belong VALUES (  1291828,'剧情');
 INSERT INTO Belong VALUES (  1291828,'爱情');
-INSERT INTO movie VALUES (   1291832 , '低俗小说' , 'Pulp Fiction' , '1994' , NULL , 8.7 , 'https://movie.douban.com/subject/1291832/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910902213.jpg'    
+INSERT INTO Movie VALUES (   1291832 , '低俗小说' , 'Pulp Fiction' , '1994' , NULL , 8.7 , 'https://movie.douban.com/subject/1291832/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910902213.jpg'    
  , 1 );
 INSERT INTO Director VALUES (22, '昆汀·塔伦蒂诺', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291832 ,  22 );
@@ -276,7 +276,7 @@ INSERT INTO Belong VALUES (  1291832,'剧情');
 INSERT INTO Belong VALUES (  1291832,'喜剧');
 INSERT INTO Category VALUES ('犯罪' , NULL);
 INSERT INTO Belong VALUES (  1291832,'犯罪');
-INSERT INTO movie VALUES (   1291841 , '教父' , 'The Godfather' , '1972' , NULL , 9.2 , 'https://movie.douban.com/subject/1291841/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2190556185.webp'    
+INSERT INTO Movie VALUES (   1291841 , '教父' , 'The Godfather' , '1972' , NULL , 9.2 , 'https://movie.douban.com/subject/1291841/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2190556185.webp'    
  , 1 );
 INSERT INTO Director VALUES (23, '弗朗西斯·福特·科波拉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291841 ,  23 );
@@ -288,7 +288,7 @@ INSERT INTO Actor VALUES ('詹姆斯·肯恩', NULL, NULL, NULL, 62);
 INSERT INTO Play VALUES (   1291841 ,  62 );
 INSERT INTO Belong VALUES (  1291841,'剧情');
 INSERT INTO Belong VALUES (  1291841,'犯罪');
-INSERT INTO movie VALUES (   1291843 , '黑客帝国' , 'The Matrix' , '1999' , NULL , 8.8 , 'https://movie.douban.com/subject/1291843/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp'    
+INSERT INTO Movie VALUES (   1291843 , '黑客帝国' , 'The Matrix' , '1999' , NULL , 8.8 , 'https://movie.douban.com/subject/1291843/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp'    
  , 1 );
 INSERT INTO Director VALUES (24, '莉莉·沃卓斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291843 ,  24 );
@@ -302,7 +302,7 @@ INSERT INTO Actor VALUES ('劳伦斯·菲什伯恩', NULL, NULL, NULL, 65);
 INSERT INTO Play VALUES (   1291843 ,  65 );
 INSERT INTO Belong VALUES (  1291843,'动作');
 INSERT INTO Belong VALUES (  1291843,'科幻');
-INSERT INTO movie VALUES (   1291844 , '终结者2：审判日' , 'Terminator 2: Judgment Day' , '1991' , NULL , 8.5 , 'https://movie.douban.com/subject/1291844/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910909085.jpg'    
+INSERT INTO Movie VALUES (   1291844 , '终结者2：审判日' , 'Terminator 2: Judgment Day' , '1991' , NULL , 8.5 , 'https://movie.douban.com/subject/1291844/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910909085.jpg'    
  , 1 );
 INSERT INTO Director VALUES (26, '詹姆斯·卡梅隆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291844 ,  26 );
@@ -314,7 +314,7 @@ INSERT INTO Actor VALUES ('爱德华·福隆', NULL, NULL, NULL, 68);
 INSERT INTO Play VALUES (   1291844 ,  68 );
 INSERT INTO Belong VALUES (  1291844,'动作');
 INSERT INTO Belong VALUES (  1291844,'科幻');
-INSERT INTO movie VALUES (   1291853 , '英国病人' , 'The English Patient' , '1996' , NULL , 8.4 , 'https://movie.douban.com/subject/1291853/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2408623752.jpg'    
+INSERT INTO Movie VALUES (   1291853 , '英国病人' , 'The English Patient' , '1996' , NULL , 8.4 , 'https://movie.douban.com/subject/1291853/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2408623752.jpg'    
  , 1 );
 INSERT INTO Director VALUES (27, '安东尼·明格拉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291853 ,  27 );
@@ -327,7 +327,7 @@ INSERT INTO Play VALUES (   1291853 ,  71 );
 INSERT INTO Belong VALUES (  1291853,'爱情');
 INSERT INTO Belong VALUES (  1291853,'剧情');
 INSERT INTO Belong VALUES (  1291853,'战争');
-INSERT INTO movie VALUES (   1291858 , '鬼子来了' , '鬼子来了' , '2000' , NULL , 9.2 , 'https://movie.douban.com/subject/1291858/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1181775734.jpg'    
+INSERT INTO Movie VALUES (   1291858 , '鬼子来了' , '鬼子来了' , '2000' , NULL , 9.2 , 'https://movie.douban.com/subject/1291858/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1181775734.jpg'    
  , 1 );
 INSERT INTO Director VALUES (28, '姜文', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291858 ,  28 );
@@ -339,7 +339,7 @@ INSERT INTO Actor VALUES ('袁丁', NULL, NULL, NULL, 74);
 INSERT INTO Play VALUES (   1291858 ,  74 );
 INSERT INTO Belong VALUES (  1291858,'剧情');
 INSERT INTO Belong VALUES (  1291858,'战争');
-INSERT INTO movie VALUES (   1291870 , '雨人' , 'Rain Man' , '1988' , NULL , 8.6 , 'https://movie.douban.com/subject/1291870/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p942376281.jpg'    
+INSERT INTO Movie VALUES (   1291870 , '雨人' , 'Rain Man' , '1988' , NULL , 8.6 , 'https://movie.douban.com/subject/1291870/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p942376281.jpg'    
  , 1 );
 INSERT INTO Director VALUES (29, '巴瑞·莱文森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291870 ,  29 );
@@ -350,7 +350,7 @@ INSERT INTO Play VALUES (   1291870 ,  76 );
 INSERT INTO Actor VALUES ('瓦莱丽亚·戈利诺', NULL, NULL, NULL, 77);
 INSERT INTO Play VALUES (   1291870 ,  77 );
 INSERT INTO Belong VALUES (  1291870,'剧情');
-INSERT INTO movie VALUES (   1291875 , '阳光灿烂的日子' , '阳光灿烂的日子' , '1994' , NULL , 8.7 , 'https://movie.douban.com/subject/1291875/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p967457079.jpg'    
+INSERT INTO Movie VALUES (   1291875 , '阳光灿烂的日子' , '阳光灿烂的日子' , '1994' , NULL , 8.7 , 'https://movie.douban.com/subject/1291875/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p967457079.jpg'    
  , 1 );
 INSERT INTO Director VALUES (30, '姜文', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291875 ,  30 );
@@ -361,7 +361,7 @@ INSERT INTO Play VALUES (   1291875 ,  79 );
 INSERT INTO Actor VALUES ('陶虹', NULL, NULL, NULL, 80);
 INSERT INTO Play VALUES (   1291875 ,  80 );
 INSERT INTO Belong VALUES (  1291875,'剧情');
-INSERT INTO movie VALUES (   1291879 , '罗生门' , '羅生門' , '1950' , NULL , 8.7 , 'https://movie.douban.com/subject/1291879/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1864872647.jpg'    
+INSERT INTO Movie VALUES (   1291879 , '罗生门' , '羅生門' , '1950' , NULL , 8.7 , 'https://movie.douban.com/subject/1291879/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1864872647.jpg'    
  , 1 );
 INSERT INTO Director VALUES (31, '黑泽明', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291879 ,  31 );
@@ -375,7 +375,7 @@ INSERT INTO Belong VALUES (  1291879,'犯罪');
 INSERT INTO Belong VALUES (  1291879,'剧情');
 INSERT INTO Category VALUES ('悬疑' , NULL);
 INSERT INTO Belong VALUES (  1291879,'悬疑');
-INSERT INTO movie VALUES (   1291990 , '爱在日落黄昏时' , 'Before Sunset' , '2004' , NULL , 8.7 , 'https://movie.douban.com/subject/1291990/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910924055.jpg'    
+INSERT INTO Movie VALUES (   1291990 , '爱在日落黄昏时' , 'Before Sunset' , '2004' , NULL , 8.7 , 'https://movie.douban.com/subject/1291990/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1910924055.jpg'    
  , 1 );
 INSERT INTO Director VALUES (32, '理查德·林克莱特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291990 ,  32 );
@@ -387,7 +387,7 @@ INSERT INTO Actor VALUES ('弗农·多布切夫', NULL, NULL, NULL, 86);
 INSERT INTO Play VALUES (   1291990 ,  86 );
 INSERT INTO Belong VALUES (  1291990,'剧情');
 INSERT INTO Belong VALUES (  1291990,'爱情');
-INSERT INTO movie VALUES (   1291992 , '末路狂花' , 'Thelma & Louise' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1291992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p794583044.jpg'    
+INSERT INTO Movie VALUES (   1291992 , '末路狂花' , 'Thelma & Louise' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1291992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p794583044.jpg'    
  , 1 );
 INSERT INTO Director VALUES (33, '雷德利·斯科特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291992 ,  33 );
@@ -401,7 +401,7 @@ INSERT INTO Belong VALUES (  1291992,'犯罪');
 INSERT INTO Belong VALUES (  1291992,'剧情');
 INSERT INTO Category VALUES ('惊悚' , NULL);
 INSERT INTO Belong VALUES (  1291992,'惊悚');
-INSERT INTO movie VALUES (   1291999 , '重庆森林' , '重慶森林' , '1994' , NULL , 8.6 , 'https://movie.douban.com/subject/1291999/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792381411.jpg'    
+INSERT INTO Movie VALUES (   1291999 , '重庆森林' , '重慶森林' , '1994' , NULL , 8.6 , 'https://movie.douban.com/subject/1291999/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792381411.jpg'    
  , 1 );
 INSERT INTO Director VALUES (34, '王家卫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1291999 ,  34 );
@@ -413,7 +413,7 @@ INSERT INTO Actor VALUES ('梁朝伟', NULL, NULL, NULL, 92);
 INSERT INTO Play VALUES (   1291999 ,  92 );
 INSERT INTO Belong VALUES (  1291999,'剧情');
 INSERT INTO Belong VALUES (  1291999,'爱情');
-INSERT INTO movie VALUES (   1292000 , '搏击俱乐部' , 'Fight Club' , '1999' , NULL , 9.0 , 'https://movie.douban.com/subject/1292000/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1910926158.jpg'    
+INSERT INTO Movie VALUES (   1292000 , '搏击俱乐部' , 'Fight Club' , '1999' , NULL , 9.0 , 'https://movie.douban.com/subject/1292000/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1910926158.jpg'    
  , 1 );
 INSERT INTO Director VALUES (35, '大卫·芬奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292000 ,  35 );
@@ -426,7 +426,7 @@ INSERT INTO Play VALUES (   1292000 ,  95 );
 INSERT INTO Belong VALUES (  1292000,'剧情');
 INSERT INTO Belong VALUES (  1292000,'动作');
 INSERT INTO Belong VALUES (  1292000,'悬疑');
-INSERT INTO movie VALUES (   1292001 , '海上钢琴师' , 'La leggenda del pianista sull/oceano' , '1998' , NULL , 9.2 , 'https://movie.douban.com/subject/1292001/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p511146807.webp'    
+INSERT INTO Movie VALUES (   1292001 , '海上钢琴师' , 'La leggenda del pianista sull/oceano' , '1998' , NULL , 9.2 , 'https://movie.douban.com/subject/1292001/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p511146807.webp'    
  , 1 );
 INSERT INTO Director VALUES (36, '朱塞佩·托纳多雷', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292001 ,  36 );
@@ -438,7 +438,7 @@ INSERT INTO Actor VALUES ('比尔·努恩', NULL, NULL, NULL, 98);
 INSERT INTO Play VALUES (   1292001 ,  98 );
 INSERT INTO Belong VALUES (  1292001,'剧情');
 INSERT INTO Belong VALUES (  1292001,'音乐');
-INSERT INTO movie VALUES (   1292052 , '肖申克的救赎' , 'The Shawshank Redemption' , '1994' , NULL , 9.6 , 'https://movie.douban.com/subject/1292052/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480747492.jpg'    
+INSERT INTO Movie VALUES (   1292052 , '肖申克的救赎' , 'The Shawshank Redemption' , '1994' , NULL , 9.6 , 'https://movie.douban.com/subject/1292052/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480747492.jpg'    
  , 1 );
 INSERT INTO Director VALUES (37, '弗兰克·德拉邦特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292052 ,  37 );
@@ -450,7 +450,7 @@ INSERT INTO Actor VALUES ('鲍勃·冈顿', NULL, NULL, NULL, 101);
 INSERT INTO Play VALUES (   1292052 ,  101 );
 INSERT INTO Belong VALUES (  1292052,'犯罪');
 INSERT INTO Belong VALUES (  1292052,'剧情');
-INSERT INTO movie VALUES (   1292056 , '蝴蝶' , 'Le Papillon' , '2002' , NULL , 8.6 , 'https://movie.douban.com/subject/1292056/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1451436171.jpg'    
+INSERT INTO Movie VALUES (   1292056 , '蝴蝶' , 'Le Papillon' , '2002' , NULL , 8.6 , 'https://movie.douban.com/subject/1292056/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1451436171.jpg'    
  , 1 );
 INSERT INTO Director VALUES (38, '费利普·弥勒', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292056 ,  38 );
@@ -463,7 +463,7 @@ INSERT INTO Play VALUES (   1292056 ,  104 );
 INSERT INTO Belong VALUES (  1292056,'剧情');
 INSERT INTO Belong VALUES (  1292056,'儿童');
 INSERT INTO Belong VALUES (  1292056,'喜剧');
-INSERT INTO movie VALUES (   1292062 , '美国丽人' , 'American Beauty' , '1999' , NULL , 8.4 , 'https://movie.douban.com/subject/1292062/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p571671715.jpg'    
+INSERT INTO Movie VALUES (   1292062 , '美国丽人' , 'American Beauty' , '1999' , NULL , 8.4 , 'https://movie.douban.com/subject/1292062/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p571671715.jpg'    
  , 1 );
 INSERT INTO Director VALUES (39, '萨姆·门德斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292062 ,  39 );
@@ -475,7 +475,7 @@ INSERT INTO Actor VALUES ('索拉·伯奇', NULL, NULL, NULL, 107);
 INSERT INTO Play VALUES (   1292062 ,  107 );
 INSERT INTO Belong VALUES (  1292062,'剧情');
 INSERT INTO Belong VALUES (  1292062,'家庭');
-INSERT INTO movie VALUES (   1292063 , '美丽人生' , 'La vita è bella' , '1997' , NULL , 9.5 , 'https://movie.douban.com/subject/1292063/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p510861873.jpg'    
+INSERT INTO Movie VALUES (   1292063 , '美丽人生' , 'La vita è bella' , '1997' , NULL , 9.5 , 'https://movie.douban.com/subject/1292063/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p510861873.jpg'    
  , 1 );
 INSERT INTO Director VALUES (40, '罗伯托·贝尼尼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292063 ,  40 );
@@ -488,7 +488,7 @@ INSERT INTO Play VALUES (   1292063 ,  110 );
 INSERT INTO Belong VALUES (  1292063,'剧情');
 INSERT INTO Belong VALUES (  1292063,'喜剧');
 INSERT INTO Belong VALUES (  1292063,'爱情');
-INSERT INTO movie VALUES (   1292064 , '楚门的世界' , 'The Truman Show' , '1998' , NULL , 9.0 , 'https://movie.douban.com/subject/1292064/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p479682972.jpg'    
+INSERT INTO Movie VALUES (   1292064 , '楚门的世界' , 'The Truman Show' , '1998' , NULL , 9.0 , 'https://movie.douban.com/subject/1292064/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p479682972.jpg'    
  , 1 );
 INSERT INTO Director VALUES (41, '彼得·威尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292064 ,  41 );
@@ -500,7 +500,7 @@ INSERT INTO Actor VALUES ('艾德·哈里斯', NULL, NULL, NULL, 113);
 INSERT INTO Play VALUES (   1292064 ,  113 );
 INSERT INTO Belong VALUES (  1292064,'剧情');
 INSERT INTO Belong VALUES (  1292064,'科幻');
-INSERT INTO movie VALUES (   1292208 , '上帝之城' , 'Cidade de Deus' , '2002' , NULL , 8.9 , 'https://movie.douban.com/subject/1292208/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p455677490.jpg'    
+INSERT INTO Movie VALUES (   1292208 , '上帝之城' , 'Cidade de Deus' , '2002' , NULL , 8.9 , 'https://movie.douban.com/subject/1292208/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p455677490.jpg'    
  , 1 );
 INSERT INTO Director VALUES (42, '卡迪亚·兰德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292208 ,  42 );
@@ -514,7 +514,7 @@ INSERT INTO Actor VALUES ('菲利佩·哈根森', NULL, NULL, NULL, 116);
 INSERT INTO Play VALUES (   1292208 ,  116 );
 INSERT INTO Belong VALUES (  1292208,'犯罪');
 INSERT INTO Belong VALUES (  1292208,'剧情');
-INSERT INTO movie VALUES (   1292213 , '大话西游之大圣娶亲' , '西遊記大結局之仙履奇緣' , '1995' , NULL , 9.2 , 'https://movie.douban.com/subject/1292213/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2455050536.jpg'    
+INSERT INTO Movie VALUES (   1292213 , '大话西游之大圣娶亲' , '西遊記大結局之仙履奇緣' , '1995' , NULL , 9.2 , 'https://movie.douban.com/subject/1292213/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2455050536.jpg'    
  , 1 );
 INSERT INTO Director VALUES (44, '刘镇伟', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292213 ,  44 );
@@ -527,7 +527,7 @@ INSERT INTO Play VALUES (   1292213 ,  119 );
 INSERT INTO Belong VALUES (  1292213,'动作');
 INSERT INTO Belong VALUES (  1292213,'冒险');
 INSERT INTO Belong VALUES (  1292213,'喜剧');
-INSERT INTO movie VALUES (   1292214 , '非常嫌疑犯' , 'The Usual Suspects' , '1995' , NULL , 8.6 , 'https://movie.douban.com/subject/1292214/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p470383576.jpg'    
+INSERT INTO Movie VALUES (   1292214 , '非常嫌疑犯' , 'The Usual Suspects' , '1995' , NULL , 8.6 , 'https://movie.douban.com/subject/1292214/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p470383576.jpg'    
  , 1 );
 INSERT INTO Director VALUES (45, '布莱恩·辛格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292214 ,  45 );
@@ -540,7 +540,7 @@ INSERT INTO Play VALUES (   1292214 ,  122 );
 INSERT INTO Belong VALUES (  1292214,'剧情');
 INSERT INTO Belong VALUES (  1292214,'犯罪');
 INSERT INTO Belong VALUES (  1292214,'悬疑');
-INSERT INTO movie VALUES (   1292215 , '天使爱美丽' , 'Le fabuleux destin d/Amélie Poulain' , '2001' , NULL , 8.7 , 'https://movie.douban.com/subject/1292215/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p803896904.jpg'    
+INSERT INTO Movie VALUES (   1292215 , '天使爱美丽' , 'Le fabuleux destin d/Amélie Poulain' , '2001' , NULL , 8.7 , 'https://movie.douban.com/subject/1292215/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p803896904.jpg'    
  , 1 );
 INSERT INTO Director VALUES (46, '让-皮埃尔·热内', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292215 ,  46 );
@@ -552,7 +552,7 @@ INSERT INTO Actor VALUES ('吕菲斯', NULL, NULL, NULL, 125);
 INSERT INTO Play VALUES (   1292215 ,  125 );
 INSERT INTO Belong VALUES (  1292215,'喜剧');
 INSERT INTO Belong VALUES (  1292215,'爱情');
-INSERT INTO movie VALUES (   1292217 , '穆赫兰道' , 'Mulholland Dr.' , '2001' , NULL , 8.3 , 'https://movie.douban.com/subject/1292217/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792248233.jpg'    
+INSERT INTO Movie VALUES (   1292217 , '穆赫兰道' , 'Mulholland Dr.' , '2001' , NULL , 8.3 , 'https://movie.douban.com/subject/1292217/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792248233.jpg'    
  , 1 );
 INSERT INTO Director VALUES (47, '大卫·林奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292217 ,  47 );
@@ -565,7 +565,7 @@ INSERT INTO Play VALUES (   1292217 ,  128 );
 INSERT INTO Belong VALUES (  1292217,'剧情');
 INSERT INTO Belong VALUES (  1292217,'悬疑');
 INSERT INTO Belong VALUES (  1292217,'惊悚');
-INSERT INTO movie VALUES (   1292218 , '中央车站' , 'Central do Brasil' , '1998' , NULL , 8.7 , 'https://movie.douban.com/subject/1292218/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p976338551.webp'    
+INSERT INTO Movie VALUES (   1292218 , '中央车站' , 'Central do Brasil' , '1998' , NULL , 8.7 , 'https://movie.douban.com/subject/1292218/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p976338551.webp'    
  , 1 );
 INSERT INTO Director VALUES (48, '沃尔特·塞勒斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292218 ,  48 );
@@ -576,7 +576,7 @@ INSERT INTO Play VALUES (   1292218 ,  130 );
 INSERT INTO Actor VALUES ('文尼西斯·狄·奥利维拉', NULL, NULL, NULL, 131);
 INSERT INTO Play VALUES (   1292218 ,  131 );
 INSERT INTO Belong VALUES (  1292218,'剧情');
-INSERT INTO movie VALUES (   1292220 , '情书' , 'Love Letter' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1292220/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p449897379.jpg'    
+INSERT INTO Movie VALUES (   1292220 , '情书' , 'Love Letter' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1292220/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p449897379.jpg'    
  , 1 );
 INSERT INTO Director VALUES (49, '岩井俊二', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292220 ,  49 );
@@ -588,7 +588,7 @@ INSERT INTO Actor VALUES ('酒井美纪', NULL, NULL, NULL, 134);
 INSERT INTO Play VALUES (   1292220 ,  134 );
 INSERT INTO Belong VALUES (  1292220,'剧情');
 INSERT INTO Belong VALUES (  1292220,'爱情');
-INSERT INTO movie VALUES (   1292223 , '七宗罪' , 'Se7en' , '1995' , NULL , 8.7 , 'https://movie.douban.com/subject/1292223/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p457631605.jpg'    
+INSERT INTO Movie VALUES (   1292223 , '七宗罪' , 'Se7en' , '1995' , NULL , 8.7 , 'https://movie.douban.com/subject/1292223/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p457631605.jpg'    
  , 1 );
 INSERT INTO Director VALUES (50, '大卫·芬奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292223 ,  50 );
@@ -601,7 +601,7 @@ INSERT INTO Play VALUES (   1292223 ,  137 );
 INSERT INTO Belong VALUES (  1292223,'剧情');
 INSERT INTO Belong VALUES (  1292223,'犯罪');
 INSERT INTO Belong VALUES (  1292223,'悬疑');
-INSERT INTO movie VALUES (   1292224 , '飞越疯人院' , 'One Flew Over the Cuckoo/s Nest' , '1975' , NULL , 9.0 , 'https://movie.douban.com/subject/1292224/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792238287.jpg'    
+INSERT INTO Movie VALUES (   1292224 , '飞越疯人院' , 'One Flew Over the Cuckoo/s Nest' , '1975' , NULL , 9.0 , 'https://movie.douban.com/subject/1292224/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792238287.jpg'    
  , 1 );
 INSERT INTO Director VALUES (51, '米洛斯·福尔曼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292224 ,  51 );
@@ -612,7 +612,7 @@ INSERT INTO Play VALUES (   1292224 ,  139 );
 INSERT INTO Actor VALUES ('克里斯托弗·洛伊德', NULL, NULL, NULL, 140);
 INSERT INTO Play VALUES (   1292224 ,  140 );
 INSERT INTO Belong VALUES (  1292224,'剧情');
-INSERT INTO movie VALUES (   1292233 , '发条橙' , 'A Clockwork Orange' , '1971' , NULL , 8.4 , 'https://movie.douban.com/subject/1292233/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p529908155.jpg'    
+INSERT INTO Movie VALUES (   1292233 , '发条橙' , 'A Clockwork Orange' , '1971' , NULL , 8.4 , 'https://movie.douban.com/subject/1292233/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p529908155.jpg'    
  , 1 );
 INSERT INTO Director VALUES (52, '斯坦利·库布里克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292233 ,  52 );
@@ -625,7 +625,7 @@ INSERT INTO Play VALUES (   1292233 ,  143 );
 INSERT INTO Belong VALUES (  1292233,'犯罪');
 INSERT INTO Belong VALUES (  1292233,'剧情');
 INSERT INTO Belong VALUES (  1292233,'科幻');
-INSERT INTO movie VALUES (   1292262 , '美国往事' , 'Once Upon a Time in America' , '1984' , NULL , 9.1 , 'https://movie.douban.com/subject/1292262/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p477229647.jpg'    
+INSERT INTO Movie VALUES (   1292262 , '美国往事' , 'Once Upon a Time in America' , '1984' , NULL , 9.1 , 'https://movie.douban.com/subject/1292262/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p477229647.jpg'    
  , 1 );
 INSERT INTO Director VALUES (53, '赛尔乔·莱翁内', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292262 ,  53 );
@@ -637,7 +637,7 @@ INSERT INTO Actor VALUES ('伊丽莎白·麦戈文', NULL, NULL, NULL, 146);
 INSERT INTO Play VALUES (   1292262 ,  146 );
 INSERT INTO Belong VALUES (  1292262,'犯罪');
 INSERT INTO Belong VALUES (  1292262,'剧情');
-INSERT INTO movie VALUES (   1292270 , '梦之安魂曲' , 'Requiem for a Dream' , '2000' , NULL , 8.7 , 'https://movie.douban.com/subject/1292270/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p884936202.jpg'    
+INSERT INTO Movie VALUES (   1292270 , '梦之安魂曲' , 'Requiem for a Dream' , '2000' , NULL , 8.7 , 'https://movie.douban.com/subject/1292270/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p884936202.jpg'    
  , 1 );
 INSERT INTO Director VALUES (54, '达伦·阿伦诺夫斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292270 ,  54 );
@@ -648,7 +648,7 @@ INSERT INTO Play VALUES (   1292270 ,  148 );
 INSERT INTO Actor VALUES ('詹妮弗·康纳利', NULL, NULL, NULL, 149);
 INSERT INTO Play VALUES (   1292270 ,  149 );
 INSERT INTO Belong VALUES (  1292270,'剧情');
-INSERT INTO movie VALUES (   1292274 , '幸福终点站' , 'The Terminal' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1292274/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792263736.webp'    
+INSERT INTO Movie VALUES (   1292274 , '幸福终点站' , 'The Terminal' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1292274/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792263736.webp'    
  , 1 );
 INSERT INTO Director VALUES (55, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292274 ,  55 );
@@ -661,7 +661,7 @@ INSERT INTO Play VALUES (   1292274 ,  152 );
 INSERT INTO Belong VALUES (  1292274,'喜剧');
 INSERT INTO Belong VALUES (  1292274,'剧情');
 INSERT INTO Belong VALUES (  1292274,'爱情');
-INSERT INTO movie VALUES (   1292281 , '迁徙的鸟' , 'Le peuple migrateur' , '2001' , NULL , 9.1 , 'https://movie.douban.com/subject/1292281/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2238274168.jpg'    
+INSERT INTO Movie VALUES (   1292281 , '迁徙的鸟' , 'Le peuple migrateur' , '2001' , NULL , 9.1 , 'https://movie.douban.com/subject/1292281/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2238274168.jpg'    
  , 1 );
 INSERT INTO Director VALUES (56, '雅克·贝汉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292281 ,  56 );
@@ -671,7 +671,7 @@ INSERT INTO Actor VALUES ('米歇尔·德巴', NULL, NULL, NULL, 154);
 INSERT INTO Play VALUES (   1292281 ,  154 );
 INSERT INTO Category VALUES ('纪录片' , NULL);
 INSERT INTO Belong VALUES (  1292281,'纪录片');
-INSERT INTO movie VALUES (   1292287 , '新龙门客栈' , '新龍門客棧' , '1992' , NULL , 8.4 , 'https://movie.douban.com/subject/1292287/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1421018669.jpg'    
+INSERT INTO Movie VALUES (   1292287 , '新龙门客栈' , '新龍門客棧' , '1992' , NULL , 8.4 , 'https://movie.douban.com/subject/1292287/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1421018669.jpg'    
  , 1 );
 INSERT INTO Director VALUES (57, '李惠民', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292287 ,  57 );
@@ -685,7 +685,7 @@ INSERT INTO Belong VALUES (  1292287,'剧情');
 INSERT INTO Belong VALUES (  1292287,'动作');
 INSERT INTO Category VALUES ('武侠' , NULL);
 INSERT INTO Belong VALUES (  1292287,'武侠');
-INSERT INTO movie VALUES (   1292328 , '东邪西毒' , '東邪西毒' , '1994' , NULL , 8.6 , 'https://movie.douban.com/subject/1292328/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1982176012.jpg'    
+INSERT INTO Movie VALUES (   1292328 , '东邪西毒' , '東邪西毒' , '1994' , NULL , 8.6 , 'https://movie.douban.com/subject/1292328/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1982176012.jpg'    
  , 1 );
 INSERT INTO Director VALUES (58, '王家卫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292328 ,  58 );
@@ -698,7 +698,7 @@ INSERT INTO Play VALUES (   1292328 ,  160 );
 INSERT INTO Belong VALUES (  1292328,'剧情');
 INSERT INTO Belong VALUES (  1292328,'动作');
 INSERT INTO Belong VALUES (  1292328,'爱情');
-INSERT INTO movie VALUES (   1292329 , '牯岭街少年杀人事件' , '牯嶺街少年殺人事件' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1292329/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p848381236.jpg'    
+INSERT INTO Movie VALUES (   1292329 , '牯岭街少年杀人事件' , '牯嶺街少年殺人事件' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1292329/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p848381236.jpg'    
  , 1 );
 INSERT INTO Director VALUES (59, '杨德昌', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292329 ,  59 );
@@ -710,7 +710,7 @@ INSERT INTO Actor VALUES ('张国柱', NULL, NULL, NULL, 163);
 INSERT INTO Play VALUES (   1292329 ,  163 );
 INSERT INTO Belong VALUES (  1292329,'剧情');
 INSERT INTO Belong VALUES (  1292329,'犯罪');
-INSERT INTO movie VALUES (   1292343 , '蝴蝶效应' , 'The Butterfly Effect' , '2004' , NULL , 8.7 , 'https://movie.douban.com/subject/1292343/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2209066019.jpg'    
+INSERT INTO Movie VALUES (   1292343 , '蝴蝶效应' , 'The Butterfly Effect' , '2004' , NULL , 8.7 , 'https://movie.douban.com/subject/1292343/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2209066019.jpg'    
  , 1 );
 INSERT INTO Director VALUES (60, '埃里克·布雷斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292343 ,  60 );
@@ -725,7 +725,7 @@ INSERT INTO Play VALUES (   1292343 ,  166 );
 INSERT INTO Belong VALUES (  1292343,'剧情');
 INSERT INTO Belong VALUES (  1292343,'悬疑');
 INSERT INTO Belong VALUES (  1292343,'科幻');
-INSERT INTO movie VALUES (   1292365 , '活着' , '活着' , '1994' , NULL , 9.1 , 'https://movie.douban.com/subject/1292365/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2513253791.webp'    
+INSERT INTO Movie VALUES (   1292365 , '活着' , '活着' , '1994' , NULL , 9.1 , 'https://movie.douban.com/subject/1292365/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2513253791.webp'    
  , 1 );
 INSERT INTO Director VALUES (62, '张艺谋', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292365 ,  62 );
@@ -737,7 +737,7 @@ INSERT INTO Actor VALUES ('姜武', NULL, NULL, NULL, 169);
 INSERT INTO Play VALUES (   1292365 ,  169 );
 INSERT INTO Belong VALUES (  1292365,'剧情');
 INSERT INTO Belong VALUES (  1292365,'家庭');
-INSERT INTO movie VALUES (   1292370 , '剪刀手爱德华' , 'Edward Scissorhands' , '1990' , NULL , 8.7 , 'https://movie.douban.com/subject/1292370/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p480956937.jpg'    
+INSERT INTO Movie VALUES (   1292370 , '剪刀手爱德华' , 'Edward Scissorhands' , '1990' , NULL , 8.7 , 'https://movie.douban.com/subject/1292370/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p480956937.jpg'    
  , 1 );
 INSERT INTO Director VALUES (63, '蒂姆·波顿', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292370 ,  63 );
@@ -750,7 +750,7 @@ INSERT INTO Play VALUES (   1292370 ,  172 );
 INSERT INTO Belong VALUES (  1292370,'剧情');
 INSERT INTO Belong VALUES (  1292370,'奇幻');
 INSERT INTO Belong VALUES (  1292370,'爱情');
-INSERT INTO movie VALUES (   1292401 , '真爱至上' , 'Love Actually' , '2003' , NULL , 8.5 , 'https://movie.douban.com/subject/1292401/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p475600770.jpg'    
+INSERT INTO Movie VALUES (   1292401 , '真爱至上' , 'Love Actually' , '2003' , NULL , 8.5 , 'https://movie.douban.com/subject/1292401/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p475600770.jpg'    
  , 1 );
 INSERT INTO Director VALUES (64, '理查德·柯蒂斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292401 ,  64 );
@@ -763,7 +763,7 @@ INSERT INTO Play VALUES (   1292401 ,  175 );
 INSERT INTO Belong VALUES (  1292401,'喜剧');
 INSERT INTO Belong VALUES (  1292401,'剧情');
 INSERT INTO Belong VALUES (  1292401,'爱情');
-INSERT INTO movie VALUES (   1292402 , '西西里的美丽传说' , 'Malèna' , '2000' , NULL , 8.7 , 'https://movie.douban.com/subject/1292402/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792400696.jpg'    
+INSERT INTO Movie VALUES (   1292402 , '西西里的美丽传说' , 'Malèna' , '2000' , NULL , 8.7 , 'https://movie.douban.com/subject/1292402/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792400696.jpg'    
  , 1 );
 INSERT INTO Director VALUES (65, '朱塞佩·托纳多雷', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292402 ,  65 );
@@ -777,7 +777,7 @@ INSERT INTO Belong VALUES (  1292402,'剧情');
 INSERT INTO Belong VALUES (  1292402,'战争');
 INSERT INTO Category VALUES ('情色' , NULL);
 INSERT INTO Belong VALUES (  1292402,'情色');
-INSERT INTO movie VALUES (   1292434 , '一一' , '一一' , '2000' , NULL , 8.9 , 'https://movie.douban.com/subject/1292434/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2119675128.jpg'    
+INSERT INTO Movie VALUES (   1292434 , '一一' , '一一' , '2000' , NULL , 8.9 , 'https://movie.douban.com/subject/1292434/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2119675128.jpg'    
  , 1 );
 INSERT INTO Director VALUES (66, '杨德昌', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292434 ,  66 );
@@ -790,7 +790,7 @@ INSERT INTO Play VALUES (   1292434 ,  181 );
 INSERT INTO Belong VALUES (  1292434,'剧情');
 INSERT INTO Belong VALUES (  1292434,'爱情');
 INSERT INTO Belong VALUES (  1292434,'家庭');
-INSERT INTO movie VALUES (   1292528 , '猜火车' , 'Trainspotting' , '1996' , NULL , 8.5 , 'https://movie.douban.com/subject/1292528/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p513567548.jpg'    
+INSERT INTO Movie VALUES (   1292528 , '猜火车' , 'Trainspotting' , '1996' , NULL , 8.5 , 'https://movie.douban.com/subject/1292528/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p513567548.jpg'    
  , 1 );
 INSERT INTO Director VALUES (67, '丹尼·博伊尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292528 ,  67 );
@@ -802,7 +802,7 @@ INSERT INTO Actor VALUES ('约翰尼·李·米勒', NULL, NULL, NULL, 184);
 INSERT INTO Play VALUES (   1292528 ,  184 );
 INSERT INTO Belong VALUES (  1292528,'犯罪');
 INSERT INTO Belong VALUES (  1292528,'剧情');
-INSERT INTO movie VALUES (   1292656 , '心灵捕手' , 'Good Will Hunting' , '1997' , NULL , 8.7 , 'https://movie.douban.com/subject/1292656/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480965695.jpg'    
+INSERT INTO Movie VALUES (   1292656 , '心灵捕手' , 'Good Will Hunting' , '1997' , NULL , 8.7 , 'https://movie.douban.com/subject/1292656/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480965695.jpg'    
  , 1 );
 INSERT INTO Director VALUES (68, '格斯·范·桑特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292656 ,  68 );
@@ -813,7 +813,7 @@ INSERT INTO Play VALUES (   1292656 ,  186 );
 INSERT INTO Actor VALUES ('本·阿弗莱克', NULL, NULL, NULL, 187);
 INSERT INTO Play VALUES (   1292656 ,  187 );
 INSERT INTO Belong VALUES (  1292656,'剧情');
-INSERT INTO movie VALUES (   1292659 , '变脸' , 'Face/Off' , '1997' , NULL , 8.4 , 'https://movie.douban.com/subject/1292659/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173855883.jpg'    
+INSERT INTO Movie VALUES (   1292659 , '变脸' , 'Face/Off' , '1997' , NULL , 8.4 , 'https://movie.douban.com/subject/1292659/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173855883.jpg'    
  , 1 );
 INSERT INTO Director VALUES (69, '吴宇森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292659 ,  69 );
@@ -826,7 +826,7 @@ INSERT INTO Play VALUES (   1292659 ,  190 );
 INSERT INTO Belong VALUES (  1292659,'动作');
 INSERT INTO Belong VALUES (  1292659,'科幻');
 INSERT INTO Belong VALUES (  1292659,'犯罪');
-INSERT INTO movie VALUES (   1292679 , '春光乍泄' , '春光乍洩' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1292679/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p465939041.jpg'    
+INSERT INTO Movie VALUES (   1292679 , '春光乍泄' , '春光乍洩' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1292679/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p465939041.jpg'    
  , 1 );
 INSERT INTO Director VALUES (70, '王家卫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292679 ,  70 );
@@ -839,7 +839,7 @@ INSERT INTO Play VALUES (   1292679 ,  193 );
 INSERT INTO Belong VALUES (  1292679,'剧情');
 INSERT INTO Belong VALUES (  1292679,'爱情');
 INSERT INTO Belong VALUES (  1292679,'同性');
-INSERT INTO movie VALUES (   1292720 , '阿甘正传' , 'Forrest Gump' , '1994' , NULL , 9.4 , 'https://movie.douban.com/subject/1292720/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p510876377.jpg'    
+INSERT INTO Movie VALUES (   1292720 , '阿甘正传' , 'Forrest Gump' , '1994' , NULL , 9.4 , 'https://movie.douban.com/subject/1292720/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p510876377.jpg'    
  , 1 );
 INSERT INTO Director VALUES (71, '罗伯特·泽米吉斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292720 ,  71 );
@@ -851,7 +851,7 @@ INSERT INTO Actor VALUES ('加里·西尼斯', NULL, NULL, NULL, 196);
 INSERT INTO Play VALUES (   1292720 ,  196 );
 INSERT INTO Belong VALUES (  1292720,'剧情');
 INSERT INTO Belong VALUES (  1292720,'爱情');
-INSERT INTO movie VALUES (   1292722 , '泰坦尼克号' , 'Titanic' , '1997' , NULL , 9.2 , 'https://movie.douban.com/subject/1292722/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p457760035.jpg'    
+INSERT INTO Movie VALUES (   1292722 , '泰坦尼克号' , 'Titanic' , '1997' , NULL , 9.2 , 'https://movie.douban.com/subject/1292722/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p457760035.jpg'    
  , 1 );
 INSERT INTO Director VALUES (72, '詹姆斯·卡梅隆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292722 ,  72 );
@@ -865,7 +865,7 @@ INSERT INTO Belong VALUES (  1292722,'剧情');
 INSERT INTO Belong VALUES (  1292722,'爱情');
 INSERT INTO Category VALUES ('灾难' , NULL);
 INSERT INTO Belong VALUES (  1292722,'灾难');
-INSERT INTO movie VALUES (   1292728 , '勇闯夺命岛' , 'The Rock' , '1996' , NULL , 8.5 , 'https://movie.douban.com/subject/1292728/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p636048104.jpg'    
+INSERT INTO Movie VALUES (   1292728 , '勇闯夺命岛' , 'The Rock' , '1996' , NULL , 8.5 , 'https://movie.douban.com/subject/1292728/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p636048104.jpg'    
  , 1 );
 INSERT INTO Director VALUES (73, '迈克尔·贝', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292728 ,  73 );
@@ -877,7 +877,7 @@ INSERT INTO Actor VALUES ('艾德·哈里斯', NULL, NULL, NULL, 202);
 INSERT INTO Play VALUES (   1292728 ,  202 );
 INSERT INTO Belong VALUES (  1292728,'动作');
 INSERT INTO Belong VALUES (  1292728,'冒险');
-INSERT INTO movie VALUES (   1292849 , '拯救大兵瑞恩' , 'Saving Private Ryan' , '1998' , NULL , 8.8 , 'https://movie.douban.com/subject/1292849/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1014542496.jpg'    
+INSERT INTO Movie VALUES (   1292849 , '拯救大兵瑞恩' , 'Saving Private Ryan' , '1998' , NULL , 8.8 , 'https://movie.douban.com/subject/1292849/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1014542496.jpg'    
  , 1 );
 INSERT INTO Director VALUES (74, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1292849 ,  74 );
@@ -890,7 +890,7 @@ INSERT INTO Play VALUES (   1292849 ,  205 );
 INSERT INTO Belong VALUES (  1292849,'剧情');
 INSERT INTO Belong VALUES (  1292849,'历史');
 INSERT INTO Belong VALUES (  1292849,'战争');
-INSERT INTO movie VALUES (   1293172 , '末代皇帝' , 'The Last Emperor' , '1987' , NULL , 8.9 , 'https://movie.douban.com/subject/1293172/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p452088641.jpg'    
+INSERT INTO Movie VALUES (   1293172 , '末代皇帝' , 'The Last Emperor' , '1987' , NULL , 8.9 , 'https://movie.douban.com/subject/1293172/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p452088641.jpg'    
  , 1 );
 INSERT INTO Director VALUES (75, '贝纳尔多·贝托鲁奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293172 ,  75 );
@@ -904,7 +904,7 @@ INSERT INTO Belong VALUES (  1293172,'剧情');
 INSERT INTO Category VALUES ('传记' , NULL);
 INSERT INTO Belong VALUES (  1293172,'传记');
 INSERT INTO Belong VALUES (  1293172,'历史');
-INSERT INTO movie VALUES (   1293181 , '惊魂记' , 'Psycho' , '1960' , NULL , 8.8 , 'https://movie.douban.com/subject/1293181/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1021883305.jpg'    
+INSERT INTO Movie VALUES (   1293181 , '惊魂记' , 'Psycho' , '1960' , NULL , 8.8 , 'https://movie.douban.com/subject/1293181/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1021883305.jpg'    
  , 1 );
 INSERT INTO Director VALUES (76, '阿尔弗雷德·希区柯克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293181 ,  76 );
@@ -917,7 +917,7 @@ INSERT INTO Play VALUES (   1293181 ,  211 );
 INSERT INTO Belong VALUES (  1293181,'悬疑');
 INSERT INTO Category VALUES ('恐怖' , NULL);
 INSERT INTO Belong VALUES (  1293181,'恐怖');
-INSERT INTO movie VALUES (   1293182 , '十二怒汉' , '12 Angry Men' , '1957' , NULL , 9.4 , 'https://movie.douban.com/subject/1293182/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173577632.jpg'    
+INSERT INTO Movie VALUES (   1293182 , '十二怒汉' , '12 Angry Men' , '1957' , NULL , 9.4 , 'https://movie.douban.com/subject/1293182/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173577632.jpg'    
  , 1 );
 INSERT INTO Director VALUES (77, '西德尼·吕美特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293182 ,  77 );
@@ -928,7 +928,7 @@ INSERT INTO Play VALUES (   1293182 ,  213 );
 INSERT INTO Actor VALUES ('约翰·菲德勒', NULL, NULL, NULL, 214);
 INSERT INTO Play VALUES (   1293182 ,  214 );
 INSERT INTO Belong VALUES (  1293182,'剧情');
-INSERT INTO movie VALUES (   1293318 , '萤火虫之墓' , '火垂るの墓' , '1988' , NULL , 8.7 , 'https://movie.douban.com/subject/1293318/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2237136718.webp'    
+INSERT INTO Movie VALUES (   1293318 , '萤火虫之墓' , '火垂るの墓' , '1988' , NULL , 8.7 , 'https://movie.douban.com/subject/1293318/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2237136718.webp'    
  , 1 );
 INSERT INTO Director VALUES (78, '高畑勋', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293318 ,  78 );
@@ -941,7 +941,7 @@ INSERT INTO Play VALUES (   1293318 ,  217 );
 INSERT INTO Belong VALUES (  1293318,'动画');
 INSERT INTO Belong VALUES (  1293318,'剧情');
 INSERT INTO Belong VALUES (  1293318,'战争');
-INSERT INTO movie VALUES (   1293350 , '两杆大烟枪' , 'Lock Stock and Two Smoking Barrels' , '1998' , NULL , 9.0 , 'https://movie.douban.com/subject/1293350/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792443418.jpg'    
+INSERT INTO Movie VALUES (   1293350 , '两杆大烟枪' , 'Lock Stock and Two Smoking Barrels' , '1998' , NULL , 9.0 , 'https://movie.douban.com/subject/1293350/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792443418.jpg'    
  , 1 );
 INSERT INTO Director VALUES (79, '盖·里奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293350 ,  79 );
@@ -954,7 +954,7 @@ INSERT INTO Play VALUES (   1293350 ,  220 );
 INSERT INTO Belong VALUES (  1293350,'剧情');
 INSERT INTO Belong VALUES (  1293350,'喜剧');
 INSERT INTO Belong VALUES (  1293350,'犯罪');
-INSERT INTO movie VALUES (   1293359 , '菊次郎的夏天' , '菊次郎の夏' , '1999' , NULL , 8.7 , 'https://movie.douban.com/subject/1293359/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p751835224.jpg'    
+INSERT INTO Movie VALUES (   1293359 , '菊次郎的夏天' , '菊次郎の夏' , '1999' , NULL , 8.7 , 'https://movie.douban.com/subject/1293359/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p751835224.jpg'    
  , 1 );
 INSERT INTO Director VALUES (80, '北野武', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293359 ,  80 );
@@ -966,7 +966,7 @@ INSERT INTO Actor VALUES ('岸本加世子', NULL, NULL, NULL, 223);
 INSERT INTO Play VALUES (   1293359 ,  223 );
 INSERT INTO Belong VALUES (  1293359,'剧情');
 INSERT INTO Belong VALUES (  1293359,'喜剧');
-INSERT INTO movie VALUES (   1293460 , '雨中曲' , 'Singin/ in the Rain' , '1952' , NULL , 8.9 , 'https://movie.douban.com/subject/1293460/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1612355875.jpg'    
+INSERT INTO Movie VALUES (   1293460 , '雨中曲' , 'Singin/ in the Rain' , '1952' , NULL , 8.9 , 'https://movie.douban.com/subject/1293460/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1612355875.jpg'    
  , 1 );
 INSERT INTO Director VALUES (81, '斯坦利·多南', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293460 ,  81 );
@@ -982,7 +982,7 @@ INSERT INTO Belong VALUES (  1293460,'喜剧');
 INSERT INTO Category VALUES ('歌舞' , NULL);
 INSERT INTO Belong VALUES (  1293460,'歌舞');
 INSERT INTO Belong VALUES (  1293460,'爱情');
-INSERT INTO movie VALUES (   1293544 , '沉默的羔羊' , 'The Silence of the Lambs' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1293544/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1593414327.jpg'    
+INSERT INTO Movie VALUES (   1293544 , '沉默的羔羊' , 'The Silence of the Lambs' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1293544/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1593414327.jpg'    
  , 1 );
 INSERT INTO Director VALUES (83, '乔纳森·戴米', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293544 ,  83 );
@@ -995,7 +995,7 @@ INSERT INTO Play VALUES (   1293544 ,  229 );
 INSERT INTO Belong VALUES (  1293544,'剧情');
 INSERT INTO Belong VALUES (  1293544,'犯罪');
 INSERT INTO Belong VALUES (  1293544,'惊悚');
-INSERT INTO movie VALUES (   1293764 , '与狼共舞' , 'Dances with Wolves' , '1990' , NULL , 8.9 , 'https://movie.douban.com/subject/1293764/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p499158228.jpg'    
+INSERT INTO Movie VALUES (   1293764 , '与狼共舞' , 'Dances with Wolves' , '1990' , NULL , 8.9 , 'https://movie.douban.com/subject/1293764/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p499158228.jpg'    
  , 1 );
 INSERT INTO Director VALUES (84, '凯文·科斯特纳', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293764 ,  84 );
@@ -1009,7 +1009,7 @@ INSERT INTO Belong VALUES (  1293764,'冒险');
 INSERT INTO Belong VALUES (  1293764,'剧情');
 INSERT INTO Category VALUES ('西部' , NULL);
 INSERT INTO Belong VALUES (  1293764,'西部');
-INSERT INTO movie VALUES (   1293839 , '罗马假日' , 'Roman Holiday' , '1953' , NULL , 8.9 , 'https://movie.douban.com/subject/1293839/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2189265085.jpg'    
+INSERT INTO Movie VALUES (   1293839 , '罗马假日' , 'Roman Holiday' , '1953' , NULL , 8.9 , 'https://movie.douban.com/subject/1293839/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2189265085.jpg'    
  , 1 );
 INSERT INTO Director VALUES (85, '威廉·惠勒', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293839 ,  85 );
@@ -1022,7 +1022,7 @@ INSERT INTO Play VALUES (   1293839 ,  235 );
 INSERT INTO Belong VALUES (  1293839,'喜剧');
 INSERT INTO Belong VALUES (  1293839,'剧情');
 INSERT INTO Belong VALUES (  1293839,'爱情');
-INSERT INTO movie VALUES (   1293908 , '城市之光' , 'City Lights' , '1931' , NULL , 9.2 , 'https://movie.douban.com/subject/1293908/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2099815842.jpg'    
+INSERT INTO Movie VALUES (   1293908 , '城市之光' , 'City Lights' , '1931' , NULL , 9.2 , 'https://movie.douban.com/subject/1293908/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2099815842.jpg'    
  , 1 );
 INSERT INTO Director VALUES (86, '查理·卓别林', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293908 ,  86 );
@@ -1035,7 +1035,7 @@ INSERT INTO Play VALUES (   1293908 ,  238 );
 INSERT INTO Belong VALUES (  1293908,'喜剧');
 INSERT INTO Belong VALUES (  1293908,'剧情');
 INSERT INTO Belong VALUES (  1293908,'爱情');
-INSERT INTO movie VALUES (   1293929 , '廊桥遗梦' , 'The Bridges of Madison County' , '1995' , NULL , 8.5 , 'https://movie.douban.com/subject/1293929/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2190558219.jpg'    
+INSERT INTO Movie VALUES (   1293929 , '廊桥遗梦' , 'The Bridges of Madison County' , '1995' , NULL , 8.5 , 'https://movie.douban.com/subject/1293929/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2190558219.jpg'    
  , 1 );
 INSERT INTO Director VALUES (87, '克林特·伊斯特伍德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293929 ,  87 );
@@ -1047,7 +1047,7 @@ INSERT INTO Actor VALUES ('安妮·科利', NULL, NULL, NULL, 241);
 INSERT INTO Play VALUES (   1293929 ,  241 );
 INSERT INTO Belong VALUES (  1293929,'剧情');
 INSERT INTO Belong VALUES (  1293929,'爱情');
-INSERT INTO movie VALUES (   1293964 , '魂断蓝桥' , 'Waterloo Bridge' , '1940' , NULL , 8.8 , 'https://movie.douban.com/subject/1293964/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2351134499.jpg'    
+INSERT INTO Movie VALUES (   1293964 , '魂断蓝桥' , 'Waterloo Bridge' , '1940' , NULL , 8.8 , 'https://movie.douban.com/subject/1293964/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2351134499.jpg'    
  , 1 );
 INSERT INTO Director VALUES (88, '茂文·勒鲁瓦', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1293964 ,  88 );
@@ -1060,7 +1060,7 @@ INSERT INTO Play VALUES (   1293964 ,  244 );
 INSERT INTO Belong VALUES (  1293964,'剧情');
 INSERT INTO Belong VALUES (  1293964,'战争');
 INSERT INTO Belong VALUES (  1293964,'爱情');
-INSERT INTO movie VALUES (   1294240 , '教父3' , 'The Godfather: Part III' , '1990' , NULL , 8.7 , 'https://movie.douban.com/subject/1294240/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2169664351.jpg'    
+INSERT INTO Movie VALUES (   1294240 , '教父3' , 'The Godfather: Part III' , '1990' , NULL , 8.7 , 'https://movie.douban.com/subject/1294240/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2169664351.jpg'    
  , 1 );
 INSERT INTO Director VALUES (89, '弗朗西斯·福特·科波拉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1294240 ,  89 );
@@ -1072,7 +1072,7 @@ INSERT INTO Actor VALUES ('塔莉娅·夏尔', NULL, NULL, NULL, 247);
 INSERT INTO Play VALUES (   1294240 ,  247 );
 INSERT INTO Belong VALUES (  1294240,'剧情');
 INSERT INTO Belong VALUES (  1294240,'犯罪');
-INSERT INTO movie VALUES (   1294371 , '摩登时代' , 'Modern Times' , '1936' , NULL , 9.2 , 'https://movie.douban.com/subject/1294371/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173707976.jpg'    
+INSERT INTO Movie VALUES (   1294371 , '摩登时代' , 'Modern Times' , '1936' , NULL , 9.2 , 'https://movie.douban.com/subject/1294371/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173707976.jpg'    
  , 1 );
 INSERT INTO Director VALUES (90, '查理·卓别林', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1294371 ,  90 );
@@ -1085,7 +1085,7 @@ INSERT INTO Play VALUES (   1294371 ,  250 );
 INSERT INTO Belong VALUES (  1294371,'喜剧');
 INSERT INTO Belong VALUES (  1294371,'剧情');
 INSERT INTO Belong VALUES (  1294371,'爱情');
-INSERT INTO movie VALUES (   1294408 , '音乐之声' , 'The Sound of Music' , '1965' , NULL , 8.9 , 'https://movie.douban.com/subject/1294408/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p453788577.jpg'    
+INSERT INTO Movie VALUES (   1294408 , '音乐之声' , 'The Sound of Music' , '1965' , NULL , 8.9 , 'https://movie.douban.com/subject/1294408/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p453788577.jpg'    
  , 1 );
 INSERT INTO Director VALUES (91, '罗伯特·怀斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1294408 ,  91 );
@@ -1098,7 +1098,7 @@ INSERT INTO Play VALUES (   1294408 ,  253 );
 INSERT INTO Belong VALUES (  1294408,'剧情');
 INSERT INTO Belong VALUES (  1294408,'爱情');
 INSERT INTO Belong VALUES (  1294408,'歌舞');
-INSERT INTO movie VALUES (   1294638 , 'E.T. 外星人' , 'E.T.: The Extra-Terrestrial' , '1982' , NULL , 8.5 , 'https://movie.douban.com/subject/1294638/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p984732992.jpg'    
+INSERT INTO Movie VALUES (   1294638 , 'E.T. 外星人' , 'E.T.: The Extra-Terrestrial' , '1982' , NULL , 8.5 , 'https://movie.douban.com/subject/1294638/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p984732992.jpg'    
  , 1 );
 INSERT INTO Director VALUES (92, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1294638 ,  92 );
@@ -1110,7 +1110,7 @@ INSERT INTO Actor VALUES ('罗伯特·麦克纳夫顿', NULL, NULL, NULL, 256);
 INSERT INTO Play VALUES (   1294638 ,  256 );
 INSERT INTO Belong VALUES (  1294638,'剧情');
 INSERT INTO Belong VALUES (  1294638,'科幻');
-INSERT INTO movie VALUES (   1294639 , '勇敢的心' , 'Braveheart' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1294639/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1374546770.jpg'    
+INSERT INTO Movie VALUES (   1294639 , '勇敢的心' , 'Braveheart' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1294639/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1374546770.jpg'    
  , 1 );
 INSERT INTO Director VALUES (93, '梅尔·吉布森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1294639 ,  93 );
@@ -1123,7 +1123,7 @@ INSERT INTO Play VALUES (   1294639 ,  259 );
 INSERT INTO Belong VALUES (  1294639,'动作');
 INSERT INTO Belong VALUES (  1294639,'传记');
 INSERT INTO Belong VALUES (  1294639,'剧情');
-INSERT INTO movie VALUES (   1295038 , '哈利·波特与魔法石' , 'Harry Potter and the Sorcerer/s Stone' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1295038/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p804947166.jpg'    
+INSERT INTO Movie VALUES (   1295038 , '哈利·波特与魔法石' , 'Harry Potter and the Sorcerer/s Stone' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1295038/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p804947166.jpg'    
  , 1 );
 INSERT INTO Director VALUES (94, '克里斯·哥伦布', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295038 ,  94 );
@@ -1135,7 +1135,7 @@ INSERT INTO Actor VALUES ('鲁伯特·格林特', NULL, NULL, NULL, 262);
 INSERT INTO Play VALUES (   1295038 ,  262 );
 INSERT INTO Belong VALUES (  1295038,'奇幻');
 INSERT INTO Belong VALUES (  1295038,'冒险');
-INSERT INTO movie VALUES (   1295124 , '辛德勒的名单' , 'Schindler/s List' , '1993' , NULL , 9.4 , 'https://movie.douban.com/subject/1295124/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p492406163.jpg'    
+INSERT INTO Movie VALUES (   1295124 , '辛德勒的名单' , 'Schindler/s List' , '1993' , NULL , 9.4 , 'https://movie.douban.com/subject/1295124/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p492406163.jpg'    
  , 1 );
 INSERT INTO Director VALUES (95, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295124 ,  95 );
@@ -1148,7 +1148,7 @@ INSERT INTO Play VALUES (   1295124 ,  265 );
 INSERT INTO Belong VALUES (  1295124,'剧情');
 INSERT INTO Belong VALUES (  1295124,'历史');
 INSERT INTO Belong VALUES (  1295124,'战争');
-INSERT INTO movie VALUES (   1295399 , '七武士' , '七人の侍' , '1954' , NULL , 9.2 , 'https://movie.douban.com/subject/1295399/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p647099823.jpg'    
+INSERT INTO Movie VALUES (   1295399 , '七武士' , '七人の侍' , '1954' , NULL , 9.2 , 'https://movie.douban.com/subject/1295399/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p647099823.jpg'    
  , 1 );
 INSERT INTO Director VALUES (96, '黑泽明', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295399 ,  96 );
@@ -1161,7 +1161,7 @@ INSERT INTO Play VALUES (   1295399 ,  268 );
 INSERT INTO Belong VALUES (  1295399,'动作');
 INSERT INTO Belong VALUES (  1295399,'冒险');
 INSERT INTO Belong VALUES (  1295399,'剧情');
-INSERT INTO movie VALUES (   1295409 , '纵横四海' , '緃横四海' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1295409/' ,'https://img3.doubanio.com/view/photo/raw/public/p2272146906.jpg'   
+INSERT INTO Movie VALUES (   1295409 , '纵横四海' , '緃横四海' , '1991' , NULL , 8.7 , 'https://movie.douban.com/subject/1295409/' ,'https://img3.doubanio.com/view/photo/raw/public/p2272146906.jpg'   
  , 1 );
 INSERT INTO Director VALUES (97, '吴宇森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295409 ,  97 );
@@ -1174,7 +1174,7 @@ INSERT INTO Play VALUES (   1295409 ,  271 );
 INSERT INTO Belong VALUES (  1295409,'剧情');
 INSERT INTO Belong VALUES (  1295409,'喜剧');
 INSERT INTO Belong VALUES (  1295409,'动作');
-INSERT INTO movie VALUES (   1295644 , '这个杀手不太冷' , 'Léon' , '1994' , NULL , 9.4 , 'https://movie.douban.com/subject/1295644/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p511118051.jpg'    
+INSERT INTO Movie VALUES (   1295644 , '这个杀手不太冷' , 'Léon' , '1994' , NULL , 9.4 , 'https://movie.douban.com/subject/1295644/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p511118051.jpg'    
  , 1 );
 INSERT INTO Director VALUES (98, '吕克·贝松', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295644 ,  98 );
@@ -1187,7 +1187,7 @@ INSERT INTO Play VALUES (   1295644 ,  274 );
 INSERT INTO Belong VALUES (  1295644,'剧情');
 INSERT INTO Belong VALUES (  1295644,'动作');
 INSERT INTO Belong VALUES (  1295644,'犯罪');
-INSERT INTO movie VALUES (   1295865 , '燃情岁月' , 'Legends of the Fall' , '1994' , NULL , 8.8 , 'https://movie.douban.com/subject/1295865/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1023654037.jpg'    
+INSERT INTO Movie VALUES (   1295865 , '燃情岁月' , 'Legends of the Fall' , '1994' , NULL , 8.8 , 'https://movie.douban.com/subject/1295865/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1023654037.jpg'    
  , 1 );
 INSERT INTO Director VALUES (99, '爱德华·兹威克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1295865 ,  99 );
@@ -1200,7 +1200,7 @@ INSERT INTO Play VALUES (   1295865 ,  277 );
 INSERT INTO Belong VALUES (  1295865,'剧情');
 INSERT INTO Belong VALUES (  1295865,'爱情');
 INSERT INTO Belong VALUES (  1295865,'西部');
-INSERT INTO movie VALUES (   1296141 , '控方证人' , 'Witness for the Prosecution' , '1957' , NULL , 9.6 , 'https://movie.douban.com/subject/1296141/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1505392928.jpg'    
+INSERT INTO Movie VALUES (   1296141 , '控方证人' , 'Witness for the Prosecution' , '1957' , NULL , 9.6 , 'https://movie.douban.com/subject/1296141/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1505392928.jpg'    
  , 1 );
 INSERT INTO Director VALUES (100, '比利·怀德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1296141 ,  100 );
@@ -1213,7 +1213,7 @@ INSERT INTO Play VALUES (   1296141 ,  280 );
 INSERT INTO Belong VALUES (  1296141,'剧情');
 INSERT INTO Belong VALUES (  1296141,'犯罪');
 INSERT INTO Belong VALUES (  1296141,'悬疑');
-INSERT INTO movie VALUES (   1296339 , '爱在黎明破晓前' , 'Before Sunrise' , '1995' , NULL , 8.7 , 'https://movie.douban.com/subject/1296339/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452582315.webp'   
+INSERT INTO Movie VALUES (   1296339 , '爱在黎明破晓前' , 'Before Sunrise' , '1995' , NULL , 8.7 , 'https://movie.douban.com/subject/1296339/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452582315.webp'   
  , 1 );
 INSERT INTO Director VALUES (101, '理查德·林克莱特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1296339 ,  101 );
@@ -1225,7 +1225,7 @@ INSERT INTO Actor VALUES ('安德莉亚·埃克特', NULL, NULL, NULL, 283);
 INSERT INTO Play VALUES (   1296339 ,  283 );
 INSERT INTO Belong VALUES (  1296339,'剧情');
 INSERT INTO Belong VALUES (  1296339,'爱情');
-INSERT INTO movie VALUES (   1296736 , '钢琴家' , 'The Pianist' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1296736/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792484461.jpg'    
+INSERT INTO Movie VALUES (   1296736 , '钢琴家' , 'The Pianist' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1296736/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792484461.jpg'    
  , 1 );
 INSERT INTO Director VALUES (102, '罗曼·波兰斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1296736 ,  102 );
@@ -1238,7 +1238,7 @@ INSERT INTO Play VALUES (   1296736 ,  286 );
 INSERT INTO Belong VALUES (  1296736,'剧情');
 INSERT INTO Belong VALUES (  1296736,'传记');
 INSERT INTO Belong VALUES (  1296736,'历史');
-INSERT INTO movie VALUES (   1296753 , '卡萨布兰卡' , 'Casablanca' , '1942' , NULL , 8.6 , 'https://movie.douban.com/subject/1296753/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1244791866.jpg'    
+INSERT INTO Movie VALUES (   1296753 , '卡萨布兰卡' , 'Casablanca' , '1942' , NULL , 8.6 , 'https://movie.douban.com/subject/1296753/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1244791866.jpg'    
  , 1 );
 INSERT INTO Director VALUES (103, '迈克尔·柯蒂斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1296753 ,  103 );
@@ -1251,7 +1251,7 @@ INSERT INTO Play VALUES (   1296753 ,  289 );
 INSERT INTO Belong VALUES (  1296753,'剧情');
 INSERT INTO Belong VALUES (  1296753,'爱情');
 INSERT INTO Belong VALUES (  1296753,'战争');
-INSERT INTO movie VALUES (   1296909 , '虎口脱险' , 'La grande vadrouille' , '1966' , NULL , 8.9 , 'https://movie.douban.com/subject/1296909/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2399597512.jpg'    
+INSERT INTO Movie VALUES (   1296909 , '虎口脱险' , 'La grande vadrouille' , '1966' , NULL , 8.9 , 'https://movie.douban.com/subject/1296909/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2399597512.jpg'    
  , 1 );
 INSERT INTO Director VALUES (104, '热拉尔·乌里', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1296909 ,  104 );
@@ -1263,7 +1263,7 @@ INSERT INTO Actor VALUES ('克劳迪奥·布鲁克', NULL, NULL, NULL, 292);
 INSERT INTO Play VALUES (   1296909 ,  292 );
 INSERT INTO Belong VALUES (  1296909,'喜剧');
 INSERT INTO Belong VALUES (  1296909,'战争');
-INSERT INTO movie VALUES (   1297052 , '侧耳倾听' , '耳をすませば' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1297052/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456692072.jpg'    
+INSERT INTO Movie VALUES (   1297052 , '侧耳倾听' , '耳をすませば' , '1995' , NULL , 8.8 , 'https://movie.douban.com/subject/1297052/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456692072.jpg'    
  , 1 );
 INSERT INTO Director VALUES (105, '近藤喜文', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297052 ,  105 );
@@ -1276,7 +1276,7 @@ INSERT INTO Play VALUES (   1297052 ,  295 );
 INSERT INTO Belong VALUES (  1297052,'剧情');
 INSERT INTO Belong VALUES (  1297052,'爱情');
 INSERT INTO Belong VALUES (  1297052,'动画');
-INSERT INTO movie VALUES (   1297192 , '致命ID' , 'Identity' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1297192/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453720880.jpg'    
+INSERT INTO Movie VALUES (   1297192 , '致命ID' , 'Identity' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1297192/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453720880.jpg'    
  , 1 );
 INSERT INTO Director VALUES (106, '詹姆斯·曼高德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297192 ,  106 );
@@ -1289,7 +1289,7 @@ INSERT INTO Play VALUES (   1297192 ,  298 );
 INSERT INTO Belong VALUES (  1297192,'剧情');
 INSERT INTO Belong VALUES (  1297192,'悬疑');
 INSERT INTO Belong VALUES (  1297192,'惊悚');
-INSERT INTO movie VALUES (   1297359 , '幽灵公主' , 'もののけ姫' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1297359/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1613191025.jpg'    
+INSERT INTO Movie VALUES (   1297359 , '幽灵公主' , 'もののけ姫' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1297359/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1613191025.jpg'    
  , 1 );
 INSERT INTO Director VALUES (107, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297359 ,  107 );
@@ -1302,7 +1302,7 @@ INSERT INTO Play VALUES (   1297359 ,  301 );
 INSERT INTO Belong VALUES (  1297359,'动作');
 INSERT INTO Belong VALUES (  1297359,'爱情');
 INSERT INTO Belong VALUES (  1297359,'战争');
-INSERT INTO movie VALUES (   1297447 , '倩女幽魂' , '倩女幽魂' , '1987' , NULL , 8.6 , 'https://movie.douban.com/subject/1297447/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2414157745.jpg'    
+INSERT INTO Movie VALUES (   1297447 , '倩女幽魂' , '倩女幽魂' , '1987' , NULL , 8.6 , 'https://movie.douban.com/subject/1297447/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2414157745.jpg'    
  , 1 );
 INSERT INTO Director VALUES (108, '程小东', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297447 ,  108 );
@@ -1315,7 +1315,7 @@ INSERT INTO Play VALUES (   1297447 ,  304 );
 INSERT INTO Belong VALUES (  1297447,'剧情');
 INSERT INTO Belong VALUES (  1297447,'爱情');
 INSERT INTO Belong VALUES (  1297447,'武侠');
-INSERT INTO movie VALUES (   1297478 , '上帝也疯狂' , 'The Gods Must Be Crazy' , '1980' , NULL , 8.6 , 'https://movie.douban.com/subject/1297478/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2173719647.jpg'    
+INSERT INTO Movie VALUES (   1297478 , '上帝也疯狂' , 'The Gods Must Be Crazy' , '1980' , NULL , 8.6 , 'https://movie.douban.com/subject/1297478/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2173719647.jpg'    
  , 1 );
 INSERT INTO Director VALUES (109, '加美·尤伊斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297478 ,  109 );
@@ -1326,7 +1326,7 @@ INSERT INTO Play VALUES (   1297478 ,  306 );
 INSERT INTO Actor VALUES ('历苏', NULL, NULL, NULL, 307);
 INSERT INTO Play VALUES (   1297478 ,  307 );
 INSERT INTO Belong VALUES (  1297478,'喜剧');
-INSERT INTO movie VALUES (   1297574 , '英雄本色' , '英雄本色' , '1986' , NULL , 8.7 , 'https://movie.douban.com/subject/1297574/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2504997087.webp'    
+INSERT INTO Movie VALUES (   1297574 , '英雄本色' , '英雄本色' , '1986' , NULL , 8.7 , 'https://movie.douban.com/subject/1297574/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2504997087.webp'    
  , 1 );
 INSERT INTO Director VALUES (110, '吴宇森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297574 ,  110 );
@@ -1338,7 +1338,7 @@ INSERT INTO Actor VALUES ('张国荣', NULL, NULL, NULL, 310);
 INSERT INTO Play VALUES (   1297574 ,  310 );
 INSERT INTO Belong VALUES (  1297574,'动作');
 INSERT INTO Belong VALUES (  1297574,'犯罪');
-INSERT INTO movie VALUES (   1297630 , '第六感' , 'The Sixth Sense' , '1999' , NULL , 8.8 , 'https://movie.douban.com/subject/1297630/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2220184425.jpg'    
+INSERT INTO Movie VALUES (   1297630 , '第六感' , 'The Sixth Sense' , '1999' , NULL , 8.8 , 'https://movie.douban.com/subject/1297630/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2220184425.jpg'    
  , 1 );
 INSERT INTO Director VALUES (111, 'M·奈特·沙马兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1297630 ,  111 );
@@ -1351,7 +1351,7 @@ INSERT INTO Play VALUES (   1297630 ,  313 );
 INSERT INTO Belong VALUES (  1297630,'剧情');
 INSERT INTO Belong VALUES (  1297630,'悬疑');
 INSERT INTO Belong VALUES (  1297630,'恐怖');
-INSERT INTO movie VALUES (   1298070 , '加勒比海盗' , 'Pirates of the Caribbean: The Curse of the Black Pearl' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1298070/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1596085504.jpg'    
+INSERT INTO Movie VALUES (   1298070 , '加勒比海盗' , 'Pirates of the Caribbean: The Curse of the Black Pearl' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1298070/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1596085504.jpg'    
  , 1 );
 INSERT INTO Director VALUES (112, '戈尔·维宾斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1298070 ,  112 );
@@ -1364,7 +1364,7 @@ INSERT INTO Play VALUES (   1298070 ,  316 );
 INSERT INTO Belong VALUES (  1298070,'动作');
 INSERT INTO Belong VALUES (  1298070,'冒险');
 INSERT INTO Belong VALUES (  1298070,'奇幻');
-INSERT INTO movie VALUES (   1298624 , '闻香识女人' , 'Scent of a Woman' , '1992' , NULL , 8.9 , 'https://movie.douban.com/subject/1298624/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p925123037.jpg'    
+INSERT INTO Movie VALUES (   1298624 , '闻香识女人' , 'Scent of a Woman' , '1992' , NULL , 8.9 , 'https://movie.douban.com/subject/1298624/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p925123037.jpg'    
  , 1 );
 INSERT INTO Director VALUES (113, '马丁·布莱斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1298624 ,  113 );
@@ -1375,7 +1375,7 @@ INSERT INTO Play VALUES (   1298624 ,  318 );
 INSERT INTO Actor VALUES ('詹姆斯·瑞布霍恩', NULL, NULL, NULL, 319);
 INSERT INTO Play VALUES (   1298624 ,  319 );
 INSERT INTO Belong VALUES (  1298624,'剧情');
-INSERT INTO movie VALUES (   1298653 , '荒岛余生' , 'Cast Away' , '2000' , NULL , 8.4 , 'https://movie.douban.com/subject/1298653/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2207673537.webp'    
+INSERT INTO Movie VALUES (   1298653 , '荒岛余生' , 'Cast Away' , '2000' , NULL , 8.4 , 'https://movie.douban.com/subject/1298653/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2207673537.webp'    
  , 1 );
 INSERT INTO Director VALUES (114, '罗伯特·泽米吉斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1298653 ,  114 );
@@ -1387,7 +1387,7 @@ INSERT INTO Actor VALUES ('克里斯·诺斯', NULL, NULL, NULL, 322);
 INSERT INTO Play VALUES (   1298653 ,  322 );
 INSERT INTO Belong VALUES (  1298653,'冒险');
 INSERT INTO Belong VALUES (  1298653,'剧情');
-INSERT INTO movie VALUES (   1299131 , '教父2' , 'The Godfather: Part Ⅱ' , '1974' , NULL , 9.1 , 'https://movie.douban.com/subject/1299131/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp'    
+INSERT INTO Movie VALUES (   1299131 , '教父2' , 'The Godfather: Part Ⅱ' , '1974' , NULL , 9.1 , 'https://movie.douban.com/subject/1299131/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp'    
  , 1 );
 INSERT INTO Director VALUES (115, '弗朗西斯·福特·科波拉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1299131 ,  115 );
@@ -1399,7 +1399,7 @@ INSERT INTO Actor VALUES ('黛安·基顿', NULL, NULL, NULL, 325);
 INSERT INTO Play VALUES (   1299131 ,  325 );
 INSERT INTO Belong VALUES (  1299131,'剧情');
 INSERT INTO Belong VALUES (  1299131,'犯罪');
-INSERT INTO movie VALUES (   1299327 , '夜访吸血鬼' , 'Interview with the Vampire: The Vampire Chronicles' , '1994' , NULL , 8.3 , 'https://movie.douban.com/subject/1299327/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1353910572.jpg'    
+INSERT INTO Movie VALUES (   1299327 , '夜访吸血鬼' , 'Interview with the Vampire: The Vampire Chronicles' , '1994' , NULL , 8.3 , 'https://movie.douban.com/subject/1299327/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1353910572.jpg'    
  , 1 );
 INSERT INTO Director VALUES (116, '尼尔·乔丹', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1299327 ,  116 );
@@ -1412,7 +1412,7 @@ INSERT INTO Play VALUES (   1299327 ,  328 );
 INSERT INTO Belong VALUES (  1299327,'剧情');
 INSERT INTO Belong VALUES (  1299327,'奇幻');
 INSERT INTO Belong VALUES (  1299327,'惊悚');
-INSERT INTO movie VALUES (   1299361 , '爱·回家' , '???...' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1299361/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2107418134.jpg'    
+INSERT INTO Movie VALUES (   1299361 , '爱·回家' , '???...' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1299361/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2107418134.jpg'    
  , 1 );
 INSERT INTO Director VALUES (117, '李廷香', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1299361 ,  117 );
@@ -1425,7 +1425,7 @@ INSERT INTO Play VALUES (   1299361 ,  331 );
 INSERT INTO Belong VALUES (  1299361,'剧情');
 INSERT INTO Belong VALUES (  1299361,'儿童');
 INSERT INTO Belong VALUES (  1299361,'家庭');
-INSERT INTO movie VALUES (   1299398 , '大话西游之月光宝盒' , '西遊記第壹佰零壹回之月光寶盒' , '1995' , NULL , 8.9 , 'https://movie.douban.com/subject/1299398/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1280323646.jpg'    
+INSERT INTO Movie VALUES (   1299398 , '大话西游之月光宝盒' , '西遊記第壹佰零壹回之月光寶盒' , '1995' , NULL , 8.9 , 'https://movie.douban.com/subject/1299398/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1280323646.jpg'    
  , 1 );
 INSERT INTO Director VALUES (118, '刘镇伟', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1299398 ,  118 );
@@ -1438,7 +1438,7 @@ INSERT INTO Play VALUES (   1299398 ,  334 );
 INSERT INTO Belong VALUES (  1299398,'喜剧');
 INSERT INTO Belong VALUES (  1299398,'动作');
 INSERT INTO Belong VALUES (  1299398,'爱情');
-INSERT INTO movie VALUES (   1300117 , '千钧一发' , 'Gattaca' , '1997' , NULL , 8.7 , 'https://movie.douban.com/subject/1300117/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2195672555.jpg'    
+INSERT INTO Movie VALUES (   1300117 , '千钧一发' , 'Gattaca' , '1997' , NULL , 8.7 , 'https://movie.douban.com/subject/1300117/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2195672555.jpg'    
  , 1 );
 INSERT INTO Director VALUES (119, '安德鲁·尼科尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300117 ,  119 );
@@ -1450,7 +1450,7 @@ INSERT INTO Actor VALUES ('裘德·洛', NULL, NULL, NULL, 337);
 INSERT INTO Play VALUES (   1300117 ,  337 );
 INSERT INTO Belong VALUES (  1300117,'剧情');
 INSERT INTO Belong VALUES (  1300117,'科幻');
-INSERT INTO movie VALUES (   1300267 , '乱世佳人' , 'Gone with the Wind' , '1939' , NULL , 9.2 , 'https://movie.douban.com/subject/1300267/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1963126880.jpg'    
+INSERT INTO Movie VALUES (   1300267 , '乱世佳人' , 'Gone with the Wind' , '1939' , NULL , 9.2 , 'https://movie.douban.com/subject/1300267/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1963126880.jpg'    
  , 1 );
 INSERT INTO Director VALUES (120, '维克多·弗莱明', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300267 ,  120 );
@@ -1467,7 +1467,7 @@ INSERT INTO Play VALUES (   1300267 ,  340 );
 INSERT INTO Belong VALUES (  1300267,'剧情');
 INSERT INTO Belong VALUES (  1300267,'爱情');
 INSERT INTO Belong VALUES (  1300267,'战争');
-INSERT INTO movie VALUES (   1300299 , '杀人回忆' , '??? ??' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1300299/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p480225538.jpg'    
+INSERT INTO Movie VALUES (   1300299 , '杀人回忆' , '??? ??' , '2003' , NULL , 8.6 , 'https://movie.douban.com/subject/1300299/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p480225538.jpg'    
  , 1 );
 INSERT INTO Director VALUES (123, '奉俊昊', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300299 ,  123 );
@@ -1480,7 +1480,7 @@ INSERT INTO Play VALUES (   1300299 ,  343 );
 INSERT INTO Belong VALUES (  1300299,'犯罪');
 INSERT INTO Belong VALUES (  1300299,'剧情');
 INSERT INTO Belong VALUES (  1300299,'悬疑');
-INSERT INTO movie VALUES (   1300374 , '绿里奇迹' , 'The Green Mile' , '1999' , NULL , 8.7 , 'https://movie.douban.com/subject/1300374/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p767586451.jpg'    
+INSERT INTO Movie VALUES (   1300374 , '绿里奇迹' , 'The Green Mile' , '1999' , NULL , 8.7 , 'https://movie.douban.com/subject/1300374/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p767586451.jpg'    
  , 1 );
 INSERT INTO Director VALUES (124, '弗兰克·德拉邦特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300374 ,  124 );
@@ -1493,7 +1493,7 @@ INSERT INTO Play VALUES (   1300374 ,  346 );
 INSERT INTO Belong VALUES (  1300374,'犯罪');
 INSERT INTO Belong VALUES (  1300374,'剧情');
 INSERT INTO Belong VALUES (  1300374,'奇幻');
-INSERT INTO movie VALUES (   1300741 , '枪火' , '鎗火' , '1999' , NULL , 8.6 , 'https://movie.douban.com/subject/1300741/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1538646661.jpg'    
+INSERT INTO Movie VALUES (   1300741 , '枪火' , '鎗火' , '1999' , NULL , 8.6 , 'https://movie.douban.com/subject/1300741/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1538646661.jpg'    
  , 1 );
 INSERT INTO Director VALUES (125, '杜琪峰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300741 ,  125 );
@@ -1506,7 +1506,7 @@ INSERT INTO Play VALUES (   1300741 ,  349 );
 INSERT INTO Belong VALUES (  1300741,'剧情');
 INSERT INTO Belong VALUES (  1300741,'动作');
 INSERT INTO Belong VALUES (  1300741,'犯罪');
-INSERT INTO movie VALUES (   1300960 , '碧海蓝天' , 'Le grand bleu' , '1988' , NULL , 8.7 , 'https://movie.douban.com/subject/1300960/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p455722535.webp'    
+INSERT INTO Movie VALUES (   1300960 , '碧海蓝天' , 'Le grand bleu' , '1988' , NULL , 8.7 , 'https://movie.douban.com/subject/1300960/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p455722535.webp'    
  , 1 );
 INSERT INTO Director VALUES (126, '吕克·贝松', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300960 ,  126 );
@@ -1518,7 +1518,7 @@ INSERT INTO Actor VALUES ('罗姗娜·阿奎特', NULL, NULL, NULL, 352);
 INSERT INTO Play VALUES (   1300960 ,  352 );
 INSERT INTO Belong VALUES (  1300960,'剧情');
 INSERT INTO Belong VALUES (  1300960,'爱情');
-INSERT INTO movie VALUES (   1300992 , '完美的世界' , 'A Perfect World' , '1993' , NULL , 9.0 , 'https://movie.douban.com/subject/1300992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792403691.jpg'    
+INSERT INTO Movie VALUES (   1300992 , '完美的世界' , 'A Perfect World' , '1993' , NULL , 9.0 , 'https://movie.douban.com/subject/1300992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p792403691.jpg'    
  , 1 );
 INSERT INTO Director VALUES (127, '克林特·伊斯特伍德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1300992 ,  127 );
@@ -1530,7 +1530,7 @@ INSERT INTO Actor VALUES ('克林特·伊斯特伍德', NULL, NULL, NULL, 355);
 INSERT INTO Play VALUES (   1300992 ,  355 );
 INSERT INTO Belong VALUES (  1300992,'剧情');
 INSERT INTO Belong VALUES (  1300992,'犯罪');
-INSERT INTO movie VALUES (   1301171 , '偷拐抢骗' , 'Snatch' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1301171/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p616753227.jpg'    
+INSERT INTO Movie VALUES (   1301171 , '偷拐抢骗' , 'Snatch' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1301171/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p616753227.jpg'    
  , 1 );
 INSERT INTO Director VALUES (128, '盖·里奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1301171 ,  128 );
@@ -1542,7 +1542,7 @@ INSERT INTO Actor VALUES ('杰森·斯坦森', NULL, NULL, NULL, 358);
 INSERT INTO Play VALUES (   1301171 ,  358 );
 INSERT INTO Belong VALUES (  1301171,'喜剧');
 INSERT INTO Belong VALUES (  1301171,'犯罪');
-INSERT INTO movie VALUES (   1301753 , '狮子王' , 'The Lion King' , '1994' , NULL , 8.9 , 'https://movie.douban.com/subject/1301753/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp'    
+INSERT INTO Movie VALUES (   1301753 , '狮子王' , 'The Lion King' , '1994' , NULL , 8.9 , 'https://movie.douban.com/subject/1301753/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp'    
  , 1 );
 INSERT INTO Director VALUES (129, '罗杰·阿勒斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1301753 ,  129 );
@@ -1557,7 +1557,7 @@ INSERT INTO Play VALUES (   1301753 ,  361 );
 INSERT INTO Belong VALUES (  1301753,'剧情');
 INSERT INTO Belong VALUES (  1301753,'动画');
 INSERT INTO Belong VALUES (  1301753,'冒险');
-INSERT INTO movie VALUES (   1302425 , '喜剧之王' , '喜劇之王' , '1999' , NULL , 8.5 , 'https://movie.douban.com/subject/1302425/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1043597424.jpg'    
+INSERT INTO Movie VALUES (   1302425 , '喜剧之王' , '喜劇之王' , '1999' , NULL , 8.5 , 'https://movie.douban.com/subject/1302425/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1043597424.jpg'    
  , 1 );
 INSERT INTO Director VALUES (131, '周星驰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1302425 ,  131 );
@@ -1572,7 +1572,7 @@ INSERT INTO Play VALUES (   1302425 ,  364 );
 INSERT INTO Belong VALUES (  1302425,'喜剧');
 INSERT INTO Belong VALUES (  1302425,'剧情');
 INSERT INTO Belong VALUES (  1302425,'爱情');
-INSERT INTO movie VALUES (   1302467 , '黑客帝国3：矩阵革命' , 'The Matrix Revolutions' , '2003' , NULL , 8.5 , 'https://movie.douban.com/subject/1302467/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p443461818.jpg'    
+INSERT INTO Movie VALUES (   1302467 , '黑客帝国3：矩阵革命' , 'The Matrix Revolutions' , '2003' , NULL , 8.5 , 'https://movie.douban.com/subject/1302467/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p443461818.jpg'    
  , 1 );
 INSERT INTO Director VALUES (133, '莉莉·沃卓斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1302467 ,  133 );
@@ -1586,7 +1586,7 @@ INSERT INTO Actor VALUES ('凯瑞-安·莫斯', NULL, NULL, NULL, 367);
 INSERT INTO Play VALUES (   1302467 ,  367 );
 INSERT INTO Belong VALUES (  1302467,'动作');
 INSERT INTO Belong VALUES (  1302467,'科幻');
-INSERT INTO movie VALUES (   1302476 , '麦兜故事' , '麥兜故事' , '2001' , NULL , 8.5 , 'https://movie.douban.com/subject/1302476/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p804938713.jpg'    
+INSERT INTO Movie VALUES (   1302476 , '麦兜故事' , '麥兜故事' , '2001' , NULL , 8.5 , 'https://movie.douban.com/subject/1302476/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p804938713.jpg'    
  , 1 );
 INSERT INTO Director VALUES (135, '袁建滔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1302476 ,  135 );
@@ -1599,7 +1599,7 @@ INSERT INTO Play VALUES (   1302476 ,  370 );
 INSERT INTO Belong VALUES (  1302476,'剧情');
 INSERT INTO Belong VALUES (  1302476,'喜剧');
 INSERT INTO Belong VALUES (  1302476,'动画');
-INSERT INTO movie VALUES (   1302827 , '人工智能' , 'Artificial Intelligence: AI' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1302827/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792257137.jpg'    
+INSERT INTO Movie VALUES (   1302827 , '人工智能' , 'Artificial Intelligence: AI' , '2001' , NULL , 8.6 , 'https://movie.douban.com/subject/1302827/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792257137.jpg'    
  , 1 );
 INSERT INTO Director VALUES (136, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1302827 ,  136 );
@@ -1612,7 +1612,7 @@ INSERT INTO Play VALUES (   1302827 ,  373 );
 INSERT INTO Belong VALUES (  1302827,'冒险');
 INSERT INTO Belong VALUES (  1302827,'剧情');
 INSERT INTO Belong VALUES (  1302827,'科幻');
-INSERT INTO movie VALUES (   1303021 , '小鞋子' , '?????? ?????' , '1997' , NULL , 9.2 , 'https://movie.douban.com/subject/1303021/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173580603.jpg'    
+INSERT INTO Movie VALUES (   1303021 , '小鞋子' , '?????? ?????' , '1997' , NULL , 9.2 , 'https://movie.douban.com/subject/1303021/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173580603.jpg'    
  , 1 );
 INSERT INTO Director VALUES (137, '马基德·马基迪', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1303021 ,  137 );
@@ -1625,7 +1625,7 @@ INSERT INTO Play VALUES (   1303021 ,  376 );
 INSERT INTO Belong VALUES (  1303021,'剧情');
 INSERT INTO Belong VALUES (  1303021,'家庭');
 INSERT INTO Belong VALUES (  1303021,'儿童');
-INSERT INTO movie VALUES (   1303037 , '喜宴' , '喜宴' , '1993' , NULL , 8.8 , 'https://movie.douban.com/subject/1303037/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173713676.jpg'    
+INSERT INTO Movie VALUES (   1303037 , '喜宴' , '喜宴' , '1993' , NULL , 8.8 , 'https://movie.douban.com/subject/1303037/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173713676.jpg'    
  , 1 );
 INSERT INTO Director VALUES (138, '李安', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1303037 ,  138 );
@@ -1638,7 +1638,7 @@ INSERT INTO Play VALUES (   1303037 ,  379 );
 INSERT INTO Belong VALUES (  1303037,'剧情');
 INSERT INTO Belong VALUES (  1303037,'喜剧');
 INSERT INTO Belong VALUES (  1303037,'爱情');
-INSERT INTO movie VALUES (   1303394 , '青蛇' , '青蛇' , '1993' , NULL , 8.4 , 'https://movie.douban.com/subject/1303394/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p584021784.jpg'    
+INSERT INTO Movie VALUES (   1303394 , '青蛇' , '青蛇' , '1993' , NULL , 8.4 , 'https://movie.douban.com/subject/1303394/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p584021784.jpg'    
  , 1 );
 INSERT INTO Director VALUES (139, '徐克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1303394 ,  139 );
@@ -1652,7 +1652,7 @@ INSERT INTO Belong VALUES (  1303394,'剧情');
 INSERT INTO Belong VALUES (  1303394,'奇幻');
 INSERT INTO Category VALUES ('古装' , NULL);
 INSERT INTO Belong VALUES (  1303394,'古装');
-INSERT INTO movie VALUES (   1304102 , '谍影重重' , 'The Bourne Identity' , '2002' , NULL , 8.5 , 'https://movie.douban.com/subject/1304102/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1597183981.jpg'    
+INSERT INTO Movie VALUES (   1304102 , '谍影重重' , 'The Bourne Identity' , '2002' , NULL , 8.5 , 'https://movie.douban.com/subject/1304102/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1597183981.jpg'    
  , 1 );
 INSERT INTO Director VALUES (140, '道格·里曼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1304102 ,  140 );
@@ -1665,7 +1665,7 @@ INSERT INTO Play VALUES (   1304102 ,  385 );
 INSERT INTO Belong VALUES (  1304102,'动作');
 INSERT INTO Belong VALUES (  1304102,'悬疑');
 INSERT INTO Belong VALUES (  1304102,'惊悚');
-INSERT INTO movie VALUES (   1304447 , '记忆碎片' , 'Memento' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1304447/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p641688453.jpg'    
+INSERT INTO Movie VALUES (   1304447 , '记忆碎片' , 'Memento' , '2000' , NULL , 8.5 , 'https://movie.douban.com/subject/1304447/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p641688453.jpg'    
  , 1 );
 INSERT INTO Director VALUES (141, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1304447 ,  141 );
@@ -1678,7 +1678,7 @@ INSERT INTO Play VALUES (   1304447 ,  388 );
 INSERT INTO Belong VALUES (  1304447,'犯罪');
 INSERT INTO Belong VALUES (  1304447,'剧情');
 INSERT INTO Belong VALUES (  1304447,'悬疑');
-INSERT INTO movie VALUES (   1305164 , '甜蜜蜜' , '甜蜜蜜' , '1996' , NULL , 8.7 , 'https://movie.douban.com/subject/1305164/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1962839732.jpg'    
+INSERT INTO Movie VALUES (   1305164 , '甜蜜蜜' , '甜蜜蜜' , '1996' , NULL , 8.7 , 'https://movie.douban.com/subject/1305164/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1962839732.jpg'    
  , 1 );
 INSERT INTO Director VALUES (142, '陈可辛', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1305164 ,  142 );
@@ -1690,7 +1690,7 @@ INSERT INTO Actor VALUES ('杨恭如', NULL, NULL, NULL, 391);
 INSERT INTO Play VALUES (   1305164 ,  391 );
 INSERT INTO Belong VALUES (  1305164,'剧情');
 INSERT INTO Belong VALUES (  1305164,'爱情');
-INSERT INTO movie VALUES (   1305487 , '猫鼠游戏' , 'Catch Me If You Can' , '2002' , NULL , 8.7 , 'https://movie.douban.com/subject/1305487/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453924541.jpg'    
+INSERT INTO Movie VALUES (   1305487 , '猫鼠游戏' , 'Catch Me If You Can' , '2002' , NULL , 8.7 , 'https://movie.douban.com/subject/1305487/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453924541.jpg'    
  , 1 );
 INSERT INTO Director VALUES (143, '史蒂文·斯皮尔伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1305487 ,  143 );
@@ -1703,7 +1703,7 @@ INSERT INTO Play VALUES (   1305487 ,  394 );
 INSERT INTO Belong VALUES (  1305487,'传记');
 INSERT INTO Belong VALUES (  1305487,'犯罪');
 INSERT INTO Belong VALUES (  1305487,'剧情');
-INSERT INTO movie VALUES (   1305690 , '阿飞正传' , '阿飛正傳' , '1990' , NULL , 8.5 , 'https://movie.douban.com/subject/1305690/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p924558512.jpg'    
+INSERT INTO Movie VALUES (   1305690 , '阿飞正传' , '阿飛正傳' , '1990' , NULL , 8.5 , 'https://movie.douban.com/subject/1305690/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p924558512.jpg'    
  , 1 );
 INSERT INTO Director VALUES (144, '王家卫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1305690 ,  144 );
@@ -1716,7 +1716,7 @@ INSERT INTO Play VALUES (   1305690 ,  397 );
 INSERT INTO Belong VALUES (  1305690,'犯罪');
 INSERT INTO Belong VALUES (  1305690,'剧情');
 INSERT INTO Belong VALUES (  1305690,'爱情');
-INSERT INTO movie VALUES (   1305725 , '大卫·戈尔的一生' , 'The Life of David Gale' , '2003' , NULL , 8.7 , 'https://movie.douban.com/subject/1305725/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2186861098.jpg'    
+INSERT INTO Movie VALUES (   1305725 , '大卫·戈尔的一生' , 'The Life of David Gale' , '2003' , NULL , 8.7 , 'https://movie.douban.com/subject/1305725/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2186861098.jpg'    
  , 1 );
 INSERT INTO Director VALUES (145, '艾伦·帕克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1305725 ,  145 );
@@ -1729,7 +1729,7 @@ INSERT INTO Play VALUES (   1305725 ,  400 );
 INSERT INTO Belong VALUES (  1305725,'剧情');
 INSERT INTO Belong VALUES (  1305725,'犯罪');
 INSERT INTO Belong VALUES (  1305725,'悬疑');
-INSERT INTO movie VALUES (   1306029 , '美丽心灵' , 'A Beautiful Mind' , '2001' , NULL , 8.9 , 'https://movie.douban.com/subject/1306029/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1665997400.jpg'    
+INSERT INTO Movie VALUES (   1306029 , '美丽心灵' , 'A Beautiful Mind' , '2001' , NULL , 8.9 , 'https://movie.douban.com/subject/1306029/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1665997400.jpg'    
  , 1 );
 INSERT INTO Director VALUES (146, '朗·霍华德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1306029 ,  146 );
@@ -1741,7 +1741,7 @@ INSERT INTO Actor VALUES ('艾德·哈里斯', NULL, NULL, NULL, 403);
 INSERT INTO Play VALUES (   1306029 ,  403 );
 INSERT INTO Belong VALUES (  1306029,'传记');
 INSERT INTO Belong VALUES (  1306029,'剧情');
-INSERT INTO movie VALUES (   1306249 , '唐伯虎点秋香' , '唐伯虎點秋香' , '1993' , NULL , 8.4 , 'https://movie.douban.com/subject/1306249/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1946455272.jpg'    
+INSERT INTO Movie VALUES (   1306249 , '唐伯虎点秋香' , '唐伯虎點秋香' , '1993' , NULL , 8.4 , 'https://movie.douban.com/subject/1306249/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1946455272.jpg'    
  , 1 );
 INSERT INTO Director VALUES (147, '李力持', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1306249 ,  147 );
@@ -1754,7 +1754,7 @@ INSERT INTO Play VALUES (   1306249 ,  406 );
 INSERT INTO Belong VALUES (  1306249,'喜剧');
 INSERT INTO Belong VALUES (  1306249,'爱情');
 INSERT INTO Belong VALUES (  1306249,'古装');
-INSERT INTO movie VALUES (   1306861 , '我是山姆' , 'I Am Sam' , '2001' , NULL , 8.8 , 'https://movie.douban.com/subject/1306861/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p652417775.jpg'    
+INSERT INTO Movie VALUES (   1306861 , '我是山姆' , 'I Am Sam' , '2001' , NULL , 8.8 , 'https://movie.douban.com/subject/1306861/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p652417775.jpg'    
  , 1 );
 INSERT INTO Director VALUES (148, '杰茜·尼尔森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1306861 ,  148 );
@@ -1766,7 +1766,7 @@ INSERT INTO Actor VALUES ('米歇尔·菲佛', NULL, NULL, NULL, 409);
 INSERT INTO Play VALUES (   1306861 ,  409 );
 INSERT INTO Belong VALUES (  1306861,'剧情');
 INSERT INTO Belong VALUES (  1306861,'家庭');
-INSERT INTO movie VALUES (   1307315 , '哪吒闹海' , '哪吒闹海' , '1979' , NULL , 8.8 , 'https://movie.douban.com/subject/1307315/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1945506312.webp'   
+INSERT INTO Movie VALUES (   1307315 , '哪吒闹海' , '哪吒闹海' , '1979' , NULL , 8.8 , 'https://movie.douban.com/subject/1307315/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1945506312.webp'   
  , 1 );
 INSERT INTO Director VALUES (149, '严定宪', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1307315 ,  149 );
@@ -1783,7 +1783,7 @@ INSERT INTO Play VALUES (   1307315 ,  412 );
 INSERT INTO Belong VALUES (  1307315,'冒险');
 INSERT INTO Belong VALUES (  1307315,'动画');
 INSERT INTO Belong VALUES (  1307315,'奇幻');
-INSERT INTO movie VALUES (   1307793 , '燕尾蝶' , 'スワロウテイル' , '1996' , NULL , 8.6 , 'https://movie.douban.com/subject/1307793/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p532195562.jpg'    
+INSERT INTO Movie VALUES (   1307793 , '燕尾蝶' , 'スワロウテイル' , '1996' , NULL , 8.6 , 'https://movie.douban.com/subject/1307793/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p532195562.jpg'    
  , 1 );
 INSERT INTO Director VALUES (152, '岩井俊二', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1307793 ,  152 );
@@ -1795,7 +1795,7 @@ INSERT INTO Actor VALUES ('伊藤步', NULL, NULL, NULL, 415);
 INSERT INTO Play VALUES (   1307793 ,  415 );
 INSERT INTO Belong VALUES (  1307793,'犯罪');
 INSERT INTO Belong VALUES (  1307793,'剧情');
-INSERT INTO movie VALUES (   1307811 , '魔女宅急便' , '魔女の宅急便' , '1989' , NULL , 8.4 , 'https://movie.douban.com/subject/1307811/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456676352.jpg'    
+INSERT INTO Movie VALUES (   1307811 , '魔女宅急便' , '魔女の宅急便' , '1989' , NULL , 8.4 , 'https://movie.douban.com/subject/1307811/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456676352.jpg'    
  , 1 );
 INSERT INTO Director VALUES (153, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1307811 ,  153 );
@@ -1808,7 +1808,7 @@ INSERT INTO Play VALUES (   1307811 ,  418 );
 INSERT INTO Belong VALUES (  1307811,'动画');
 INSERT INTO Belong VALUES (  1307811,'奇幻');
 INSERT INTO Belong VALUES (  1307811,'冒险');
-INSERT INTO movie VALUES (   1307914 , '无间道' , '無間道' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1307914/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2233971046.jpg'    
+INSERT INTO Movie VALUES (   1307914 , '无间道' , '無間道' , '2002' , NULL , 9.0 , 'https://movie.douban.com/subject/1307914/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2233971046.jpg'    
  , 1 );
 INSERT INTO Director VALUES (154, '刘伟强', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1307914 ,  154 );
@@ -1823,7 +1823,7 @@ INSERT INTO Play VALUES (   1307914 ,  421 );
 INSERT INTO Belong VALUES (  1307914,'剧情');
 INSERT INTO Belong VALUES (  1307914,'犯罪');
 INSERT INTO Belong VALUES (  1307914,'悬疑');
-INSERT INTO movie VALUES (   1308575 , '蓝色大门' , '藍色大門' , '2002' , NULL , 8.3 , 'https://movie.douban.com/subject/1308575/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p584822570.jpg'    
+INSERT INTO Movie VALUES (   1308575 , '蓝色大门' , '藍色大門' , '2002' , NULL , 8.3 , 'https://movie.douban.com/subject/1308575/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p584822570.jpg'    
  , 1 );
 INSERT INTO Director VALUES (156, '易智言', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1308575 ,  156 );
@@ -1836,7 +1836,7 @@ INSERT INTO Play VALUES (   1308575 ,  424 );
 INSERT INTO Belong VALUES (  1308575,'剧情');
 INSERT INTO Belong VALUES (  1308575,'爱情');
 INSERT INTO Belong VALUES (  1308575,'同性');
-INSERT INTO movie VALUES (   1308767 , '谍影重重2' , 'The Bourne Supremacy' , '2004' , NULL , 8.5 , 'https://movie.douban.com/subject/1308767/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p667644866.jpg'    
+INSERT INTO Movie VALUES (   1308767 , '谍影重重2' , 'The Bourne Supremacy' , '2004' , NULL , 8.5 , 'https://movie.douban.com/subject/1308767/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p667644866.jpg'    
  , 1 );
 INSERT INTO Director VALUES (157, '保罗·格林格拉斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1308767 ,  157 );
@@ -1849,7 +1849,7 @@ INSERT INTO Play VALUES (   1308767 ,  427 );
 INSERT INTO Belong VALUES (  1308767,'动作');
 INSERT INTO Belong VALUES (  1308767,'悬疑');
 INSERT INTO Belong VALUES (  1308767,'惊悚');
-INSERT INTO movie VALUES (   1308777 , '暖暖内含光' , 'Eternal Sunshine of the Spotless Mind' , '2004' , NULL , 8.4 , 'https://movie.douban.com/subject/1308777/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p479565065.jpg'    
+INSERT INTO Movie VALUES (   1308777 , '暖暖内含光' , 'Eternal Sunshine of the Spotless Mind' , '2004' , NULL , 8.4 , 'https://movie.douban.com/subject/1308777/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p479565065.jpg'    
  , 1 );
 INSERT INTO Director VALUES (158, '米歇尔·贡德里', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1308777 ,  158 );
@@ -1862,7 +1862,7 @@ INSERT INTO Play VALUES (   1308777 ,  430 );
 INSERT INTO Belong VALUES (  1308777,'剧情');
 INSERT INTO Belong VALUES (  1308777,'爱情');
 INSERT INTO Belong VALUES (  1308777,'奇幻');
-INSERT INTO movie VALUES (   1308807 , '哈尔的移动城堡' , 'ハウルの動く城' , '2004' , NULL , 8.9 , 'https://movie.douban.com/subject/1308807/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2174346180.jpg'    
+INSERT INTO Movie VALUES (   1308807 , '哈尔的移动城堡' , 'ハウルの動く城' , '2004' , NULL , 8.9 , 'https://movie.douban.com/subject/1308807/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2174346180.jpg'    
  , 1 );
 INSERT INTO Director VALUES (159, '宫崎骏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1308807 ,  159 );
@@ -1875,7 +1875,7 @@ INSERT INTO Play VALUES (   1308807 ,  433 );
 INSERT INTO Belong VALUES (  1308807,'爱情');
 INSERT INTO Belong VALUES (  1308807,'动画');
 INSERT INTO Belong VALUES (  1308807,'奇幻');
-INSERT INTO movie VALUES (   1308857 , '可可西里' , '可可西里' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1308857/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2363208684.jpg'    
+INSERT INTO Movie VALUES (   1308857 , '可可西里' , '可可西里' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1308857/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2363208684.jpg'    
  , 1 );
 INSERT INTO Director VALUES (160, '陆川', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1308857 ,  160 );
@@ -1887,7 +1887,7 @@ INSERT INTO Actor VALUES ('亓亮', NULL, NULL, NULL, 436);
 INSERT INTO Play VALUES (   1308857 ,  436 );
 INSERT INTO Belong VALUES (  1308857,'剧情');
 INSERT INTO Belong VALUES (  1308857,'犯罪');
-INSERT INTO movie VALUES (   1309027 , '罪恶之城' , 'Sin City' , '2005' , NULL , 8.4 , 'https://movie.douban.com/subject/1309027/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2173716829.jpg'    
+INSERT INTO Movie VALUES (   1309027 , '罪恶之城' , 'Sin City' , '2005' , NULL , 8.4 , 'https://movie.douban.com/subject/1309027/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2173716829.jpg'    
  , 1 );
 INSERT INTO Director VALUES (161, '弗兰克·米勒', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1309027 ,  161 );
@@ -1904,7 +1904,7 @@ INSERT INTO Play VALUES (   1309027 ,  439 );
 INSERT INTO Belong VALUES (  1309027,'动作');
 INSERT INTO Belong VALUES (  1309027,'犯罪');
 INSERT INTO Belong VALUES (  1309027,'惊悚');
-INSERT INTO movie VALUES (   1309046 , 'V字仇杀队' , 'V for Vendetta' , '2005' , NULL , 8.8 , 'https://movie.douban.com/subject/1309046/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1465235231.jpg'    
+INSERT INTO Movie VALUES (   1309046 , 'V字仇杀队' , 'V for Vendetta' , '2005' , NULL , 8.8 , 'https://movie.douban.com/subject/1309046/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1465235231.jpg'    
  , 1 );
 INSERT INTO Director VALUES (164, '詹姆斯·麦克特格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1309046 ,  164 );
@@ -1917,7 +1917,7 @@ INSERT INTO Play VALUES (   1309046 ,  442 );
 INSERT INTO Belong VALUES (  1309046,'剧情');
 INSERT INTO Belong VALUES (  1309046,'动作');
 INSERT INTO Belong VALUES (  1309046,'科幻');
-INSERT INTO movie VALUES (   1309163 , '恋恋笔记本' , 'The Notebook' , '2004' , NULL , 8.5 , 'https://movie.douban.com/subject/1309163/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p483604864.jpg'    
+INSERT INTO Movie VALUES (   1309163 , '恋恋笔记本' , 'The Notebook' , '2004' , NULL , 8.5 , 'https://movie.douban.com/subject/1309163/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p483604864.jpg'    
  , 1 );
 INSERT INTO Director VALUES (165, '尼克·卡索维茨', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1309163 ,  165 );
@@ -1929,7 +1929,7 @@ INSERT INTO Actor VALUES ('吉娜·罗兰兹', NULL, NULL, NULL, 445);
 INSERT INTO Play VALUES (   1309163 ,  445 );
 INSERT INTO Belong VALUES (  1309163,'剧情');
 INSERT INTO Belong VALUES (  1309163,'爱情');
-INSERT INTO movie VALUES (   1316510 , '射雕英雄传之东成西就' , '射鵰英雄傳之東成西就' , '1993' , NULL , 8.7 , 'https://movie.douban.com/subject/1316510/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1993903133.jpg'    
+INSERT INTO Movie VALUES (   1316510 , '射雕英雄传之东成西就' , '射鵰英雄傳之東成西就' , '1993' , NULL , 8.7 , 'https://movie.douban.com/subject/1316510/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1993903133.jpg'    
  , 1 );
 INSERT INTO Director VALUES (166, '刘镇伟', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1316510 ,  166 );
@@ -1941,7 +1941,7 @@ INSERT INTO Actor VALUES ('张国荣', NULL, NULL, NULL, 448);
 INSERT INTO Play VALUES (   1316510 ,  448 );
 INSERT INTO Belong VALUES (  1316510,'喜剧');
 INSERT INTO Belong VALUES (  1316510,'古装');
-INSERT INTO movie VALUES (   1388216 , '撞车' , 'Crash' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1388216/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2075132390.jpg'    
+INSERT INTO Movie VALUES (   1388216 , '撞车' , 'Crash' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1388216/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2075132390.jpg'    
  , 1 );
 INSERT INTO Director VALUES (167, '保罗·哈吉斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1388216 ,  167 );
@@ -1953,7 +1953,7 @@ INSERT INTO Actor VALUES ('马特·狄龙', NULL, NULL, NULL, 451);
 INSERT INTO Play VALUES (   1388216 ,  451 );
 INSERT INTO Belong VALUES (  1388216,'犯罪');
 INSERT INTO Belong VALUES (  1388216,'剧情');
-INSERT INTO movie VALUES (   1395091 , '未麻的部屋' , 'Perfect Blue' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1395091/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1351050722.jpg'    
+INSERT INTO Movie VALUES (   1395091 , '未麻的部屋' , 'Perfect Blue' , '1997' , NULL , 8.8 , 'https://movie.douban.com/subject/1395091/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1351050722.jpg'    
  , 1 );
 INSERT INTO Director VALUES (168, '今敏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1395091 ,  168 );
@@ -1966,7 +1966,7 @@ INSERT INTO Play VALUES (   1395091 ,  454 );
 INSERT INTO Belong VALUES (  1395091,'动画');
 INSERT INTO Belong VALUES (  1395091,'奇幻');
 INSERT INTO Belong VALUES (  1395091,'惊悚');
-INSERT INTO movie VALUES (   1397546 , '追随' , 'Following' , '1998' , NULL , 8.9 , 'https://movie.douban.com/subject/1397546/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1150103377.jpg'    
+INSERT INTO Movie VALUES (   1397546 , '追随' , 'Following' , '1998' , NULL , 8.9 , 'https://movie.douban.com/subject/1397546/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1150103377.jpg'    
  , 1 );
 INSERT INTO Director VALUES (169, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1397546 ,  169 );
@@ -1979,7 +1979,7 @@ INSERT INTO Play VALUES (   1397546 ,  457 );
 INSERT INTO Belong VALUES (  1397546,'犯罪');
 INSERT INTO Belong VALUES (  1397546,'悬疑');
 INSERT INTO Belong VALUES (  1397546,'惊悚');
-INSERT INTO movie VALUES (   1401118 , '黄金三镖客' , 'Il buono il brutto il cattivo.' , '1966' , NULL , 9.1 , 'https://movie.douban.com/subject/1401118/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2101693489.jpg'    
+INSERT INTO Movie VALUES (   1401118 , '黄金三镖客' , 'Il buono il brutto il cattivo.' , '1966' , NULL , 9.1 , 'https://movie.douban.com/subject/1401118/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2101693489.jpg'    
  , 1 );
 INSERT INTO Director VALUES (170, '赛尔乔·莱翁内', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1401118 ,  170 );
@@ -1991,7 +1991,7 @@ INSERT INTO Actor VALUES ('李·范·克里夫', NULL, NULL, NULL, 460);
 INSERT INTO Play VALUES (   1401118 ,  460 );
 INSERT INTO Belong VALUES (  1401118,'冒险');
 INSERT INTO Belong VALUES (  1401118,'西部');
-INSERT INTO movie VALUES (   1417598 , '电锯惊魂' , 'Saw' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1417598/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2163771304.jpg'    
+INSERT INTO Movie VALUES (   1417598 , '电锯惊魂' , 'Saw' , '2004' , NULL , 8.6 , 'https://movie.douban.com/subject/1417598/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2163771304.jpg'    
  , 1 );
 INSERT INTO Director VALUES (171, '温子仁', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1417598 ,  171 );
@@ -2004,7 +2004,7 @@ INSERT INTO Play VALUES (   1417598 ,  463 );
 INSERT INTO Belong VALUES (  1417598,'犯罪');
 INSERT INTO Belong VALUES (  1417598,'悬疑');
 INSERT INTO Belong VALUES (  1417598,'惊悚');
-INSERT INTO movie VALUES (   1418019 , '大闹天宫' , '大闹天宫' , '1961' , NULL , 9.2 , 'https://movie.douban.com/subject/1418019/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2184505167.jpg'    
+INSERT INTO Movie VALUES (   1418019 , '大闹天宫' , '大闹天宫' , '1961' , NULL , 9.2 , 'https://movie.douban.com/subject/1418019/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2184505167.jpg'    
  , 1 );
 INSERT INTO Director VALUES (172, '万籁鸣', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1418019 ,  172 );
@@ -2018,7 +2018,7 @@ INSERT INTO Actor VALUES ('毕克', NULL, NULL, NULL, 466);
 INSERT INTO Play VALUES (   1418019 ,  466 );
 INSERT INTO Belong VALUES (  1418019,'动画');
 INSERT INTO Belong VALUES (  1418019,'奇幻');
-INSERT INTO movie VALUES (   1418200 , '傲慢与偏见' , 'Pride & Prejudice' , '2005' , NULL , 8.4 , 'https://movie.douban.com/subject/1418200/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p452005185.jpg'    
+INSERT INTO Movie VALUES (   1418200 , '傲慢与偏见' , 'Pride & Prejudice' , '2005' , NULL , 8.4 , 'https://movie.douban.com/subject/1418200/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p452005185.jpg'    
  , 1 );
 INSERT INTO Director VALUES (174, '乔·赖特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1418200 ,  174 );
@@ -2030,7 +2030,7 @@ INSERT INTO Actor VALUES ('唐纳德·萨瑟兰', NULL, NULL, NULL, 469);
 INSERT INTO Play VALUES (   1418200 ,  469 );
 INSERT INTO Belong VALUES (  1418200,'剧情');
 INSERT INTO Belong VALUES (  1418200,'爱情');
-INSERT INTO movie VALUES (   1418834 , '断背山' , 'Brokeback Mountain' , '2005' , NULL , 8.6 , 'https://movie.douban.com/subject/1418834/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p513535588.jpg'    
+INSERT INTO Movie VALUES (   1418834 , '断背山' , 'Brokeback Mountain' , '2005' , NULL , 8.6 , 'https://movie.douban.com/subject/1418834/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p513535588.jpg'    
  , 1 );
 INSERT INTO Director VALUES (175, '李安', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1418834 ,  175 );
@@ -2043,7 +2043,7 @@ INSERT INTO Play VALUES (   1418834 ,  472 );
 INSERT INTO Belong VALUES (  1418834,'剧情');
 INSERT INTO Belong VALUES (  1418834,'爱情');
 INSERT INTO Belong VALUES (  1418834,'同性');
-INSERT INTO movie VALUES (   1419936 , '战争之王' , 'Lord of War' , '2005' , NULL , 8.5 , 'https://movie.douban.com/subject/1419936/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453719066.jpg'    
+INSERT INTO Movie VALUES (   1419936 , '战争之王' , 'Lord of War' , '2005' , NULL , 8.5 , 'https://movie.douban.com/subject/1419936/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p453719066.jpg'    
  , 1 );
 INSERT INTO Director VALUES (176, '安德鲁·尼科尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1419936 ,  176 );
@@ -2055,7 +2055,7 @@ INSERT INTO Actor VALUES ('杰瑞德·莱托', NULL, NULL, NULL, 475);
 INSERT INTO Play VALUES (   1419936 ,  475 );
 INSERT INTO Belong VALUES (  1419936,'剧情');
 INSERT INTO Belong VALUES (  1419936,'犯罪');
-INSERT INTO movie VALUES (   1428175 , '血钻' , 'Blood Diamond' , '2006' , NULL , 8.5 , 'https://movie.douban.com/subject/1428175/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1244017073.webp'   
+INSERT INTO Movie VALUES (   1428175 , '血钻' , 'Blood Diamond' , '2006' , NULL , 8.5 , 'https://movie.douban.com/subject/1428175/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1244017073.webp'   
  , 1 );
 INSERT INTO Director VALUES (177, '爱德华·兹威克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1428175 ,  177 );
@@ -2068,7 +2068,7 @@ INSERT INTO Play VALUES (   1428175 ,  478 );
 INSERT INTO Belong VALUES (  1428175,'剧情');
 INSERT INTO Belong VALUES (  1428175,'惊悚');
 INSERT INTO Belong VALUES (  1428175,'冒险');
-INSERT INTO movie VALUES (   1438652 , '无耻混蛋' , 'Inglourious Basterds' , '2009' , NULL , 8.4 , 'https://movie.douban.com/subject/1438652/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p770734475.jpg'    
+INSERT INTO Movie VALUES (   1438652 , '无耻混蛋' , 'Inglourious Basterds' , '2009' , NULL , 8.4 , 'https://movie.douban.com/subject/1438652/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p770734475.jpg'    
  , 1 );
 INSERT INTO Director VALUES (178, '昆汀·塔伦蒂诺', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1438652 ,  178 );
@@ -2080,7 +2080,7 @@ INSERT INTO Actor VALUES ('克里斯托弗·瓦尔茨', NULL, NULL, NULL, 481);
 INSERT INTO Play VALUES (   1438652 ,  481 );
 INSERT INTO Belong VALUES (  1438652,'剧情');
 INSERT INTO Belong VALUES (  1438652,'犯罪');
-INSERT INTO movie VALUES (   1485260 , '本杰明·巴顿奇事' , 'The Curious Case of Benjamin Button' , '2008' , NULL , 8.7 , 'https://img3.doubanio.com/view/photo/raw/public/p2192535722.jpg' ,'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp'
+INSERT INTO Movie VALUES (   1485260 , '本杰明·巴顿奇事' , 'The Curious Case of Benjamin Button' , '2008' , NULL , 8.7 , 'https://img3.doubanio.com/view/photo/raw/public/p2192535722.jpg' ,'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp'
  , 1 );
 INSERT INTO Director VALUES (179, '大卫·芬奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1485260 ,  179 );
@@ -2093,7 +2093,7 @@ INSERT INTO Play VALUES (   1485260 ,  484 );
 INSERT INTO Belong VALUES (  1485260,'剧情');
 INSERT INTO Belong VALUES (  1485260,'爱情');
 INSERT INTO Belong VALUES (  1485260,'奇幻');
-INSERT INTO movie VALUES (   1578507 , '谍影重重3' , 'The Bourne Ultimatum' , '2007' , NULL , 8.7 , 'https://movie.douban.com/subject/1578507/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792223507.jpg'    
+INSERT INTO Movie VALUES (   1578507 , '谍影重重3' , 'The Bourne Ultimatum' , '2007' , NULL , 8.7 , 'https://movie.douban.com/subject/1578507/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792223507.jpg'    
  , 1 );
 INSERT INTO Director VALUES (180, '保罗·格林格拉斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1578507 ,  180 );
@@ -2106,7 +2106,7 @@ INSERT INTO Play VALUES (   1578507 ,  487 );
 INSERT INTO Belong VALUES (  1578507,'动作');
 INSERT INTO Belong VALUES (  1578507,'悬疑');
 INSERT INTO Belong VALUES (  1578507,'惊悚');
-INSERT INTO movie VALUES (   1652587 , '阿凡达' , 'Avatar' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/1652587/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p492458287.webp'    
+INSERT INTO Movie VALUES (   1652587 , '阿凡达' , 'Avatar' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/1652587/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p492458287.webp'    
  , 1 );
 INSERT INTO Director VALUES (181, '詹姆斯·卡梅隆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1652587 ,  181 );
@@ -2119,7 +2119,7 @@ INSERT INTO Play VALUES (   1652587 ,  490 );
 INSERT INTO Belong VALUES (  1652587,'动作');
 INSERT INTO Belong VALUES (  1652587,'冒险');
 INSERT INTO Belong VALUES (  1652587,'奇幻');
-INSERT INTO movie VALUES (   1760622 , '香水' , 'Perfume: The Story of a Murderer' , '2006' , NULL , 8.4 , 'https://movie.douban.com/subject/1760622/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p470006658.jpg'    
+INSERT INTO Movie VALUES (   1760622 , '香水' , 'Perfume: The Story of a Murderer' , '2006' , NULL , 8.4 , 'https://movie.douban.com/subject/1760622/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p470006658.jpg'    
  , 1 );
 INSERT INTO Director VALUES (182, '汤姆·提克威', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1760622 ,  182 );
@@ -2132,7 +2132,7 @@ INSERT INTO Play VALUES (   1760622 ,  493 );
 INSERT INTO Belong VALUES (  1760622,'剧情');
 INSERT INTO Belong VALUES (  1760622,'犯罪');
 INSERT INTO Belong VALUES (  1760622,'奇幻');
-INSERT INTO movie VALUES (   1780330 , '致命魔术' , 'The Prestige' , '2006' , NULL , 8.8 , 'https://movie.douban.com/subject/1780330/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480383375.jpg'    
+INSERT INTO Movie VALUES (   1780330 , '致命魔术' , 'The Prestige' , '2006' , NULL , 8.8 , 'https://movie.douban.com/subject/1780330/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p480383375.jpg'    
  , 1 );
 INSERT INTO Director VALUES (183, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1780330 ,  183 );
@@ -2145,7 +2145,7 @@ INSERT INTO Play VALUES (   1780330 ,  496 );
 INSERT INTO Belong VALUES (  1780330,'剧情');
 INSERT INTO Belong VALUES (  1780330,'悬疑');
 INSERT INTO Belong VALUES (  1780330,'惊悚');
-INSERT INTO movie VALUES (   1787291 , '被嫌弃的松子的一生' , '嫌われ松子の一生' , '2006' , NULL , 8.9 , 'https://movie.douban.com/subject/1787291/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p453723669.jpg'    
+INSERT INTO Movie VALUES (   1787291 , '被嫌弃的松子的一生' , '嫌われ松子の一生' , '2006' , NULL , 8.9 , 'https://movie.douban.com/subject/1787291/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p453723669.jpg'    
  , 1 );
 INSERT INTO Director VALUES (184, '中岛哲也', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1787291 ,  184 );
@@ -2157,7 +2157,7 @@ INSERT INTO Actor VALUES ('香川照之', NULL, NULL, NULL, 499);
 INSERT INTO Play VALUES (   1787291 ,  499 );
 INSERT INTO Belong VALUES (  1787291,'剧情');
 INSERT INTO Belong VALUES (  1787291,'歌舞');
-INSERT INTO movie VALUES (   1793929 , '达拉斯买家俱乐部' , 'Dallas Buyers Club' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/1793929/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2166160837.jpg'    
+INSERT INTO Movie VALUES (   1793929 , '达拉斯买家俱乐部' , 'Dallas Buyers Club' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/1793929/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2166160837.jpg'    
  , 1 );
 INSERT INTO Director VALUES (185, '让-马克·瓦雷', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1793929 ,  185 );
@@ -2170,7 +2170,7 @@ INSERT INTO Play VALUES (   1793929 ,  502 );
 INSERT INTO Belong VALUES (  1793929,'剧情');
 INSERT INTO Belong VALUES (  1793929,'传记');
 INSERT INTO Belong VALUES (  1793929,'同性');
-INSERT INTO movie VALUES (   1849031 , '当幸福来敲门' , 'The Pursuit of Happyness' , '2006' , NULL , 8.9 , 'https://movie.douban.com/subject/1849031/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2220721286.webp'   
+INSERT INTO Movie VALUES (   1849031 , '当幸福来敲门' , 'The Pursuit of Happyness' , '2006' , NULL , 8.9 , 'https://movie.douban.com/subject/1849031/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2220721286.webp'   
  , 1 );
 INSERT INTO Director VALUES (186, '加布里埃莱·穆奇诺', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1849031 ,  186 );
@@ -2183,7 +2183,7 @@ INSERT INTO Play VALUES (   1849031 ,  505 );
 INSERT INTO Belong VALUES (  1849031,'剧情');
 INSERT INTO Belong VALUES (  1849031,'传记');
 INSERT INTO Belong VALUES (  1849031,'家庭');
-INSERT INTO movie VALUES (   1851857 , '蝙蝠侠：黑暗骑士' , 'The Dark Knight' , '2008' , NULL , 9.0 , 'https://movie.douban.com/subject/1851857/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p462657443.jpg'    
+INSERT INTO Movie VALUES (   1851857 , '蝙蝠侠：黑暗骑士' , 'The Dark Knight' , '2008' , NULL , 9.0 , 'https://movie.douban.com/subject/1851857/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p462657443.jpg'    
  , 1 );
 INSERT INTO Director VALUES (187, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1851857 ,  187 );
@@ -2196,7 +2196,7 @@ INSERT INTO Play VALUES (   1851857 ,  508 );
 INSERT INTO Belong VALUES (  1851857,'剧情');
 INSERT INTO Belong VALUES (  1851857,'动作');
 INSERT INTO Belong VALUES (  1851857,'科幻');
-INSERT INTO movie VALUES (   1858711 , '玩具总动员3' , 'Toy Story 3' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/1858711/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1283675359.jpg'    
+INSERT INTO Movie VALUES (   1858711 , '玩具总动员3' , 'Toy Story 3' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/1858711/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1283675359.jpg'    
  , 1 );
 INSERT INTO Director VALUES (188, '李·昂克里奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1858711 ,  188 );
@@ -2209,7 +2209,7 @@ INSERT INTO Play VALUES (   1858711 ,  511 );
 INSERT INTO Belong VALUES (  1858711,'喜剧');
 INSERT INTO Belong VALUES (  1858711,'动画');
 INSERT INTO Belong VALUES (  1858711,'奇幻');
-INSERT INTO movie VALUES (   1862151 , '疯狂的石头' , '疯狂的石头' , '2006' , NULL , 8.2 , 'https://movie.douban.com/subject/1862151/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p712241453.jpg'    
+INSERT INTO Movie VALUES (   1862151 , '疯狂的石头' , '疯狂的石头' , '2006' , NULL , 8.2 , 'https://movie.douban.com/subject/1862151/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p712241453.jpg'    
  , 1 );
 INSERT INTO Director VALUES (189, '宁浩', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1862151 ,  189 );
@@ -2221,7 +2221,7 @@ INSERT INTO Actor VALUES ('连晋', NULL, NULL, NULL, 514);
 INSERT INTO Play VALUES (   1862151 ,  514 );
 INSERT INTO Belong VALUES (  1862151,'喜剧');
 INSERT INTO Belong VALUES (  1862151,'犯罪');
-INSERT INTO movie VALUES (   1865703 , '红辣椒' , 'パプリカ' , '2006' , NULL , 8.8 , 'https://movie.douban.com/subject/1865703/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p672363704.jpg'    
+INSERT INTO Movie VALUES (   1865703 , '红辣椒' , 'パプリカ' , '2006' , NULL , 8.8 , 'https://movie.douban.com/subject/1865703/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p672363704.jpg'    
  , 1 );
 INSERT INTO Director VALUES (190, '今敏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1865703 ,  190 );
@@ -2234,7 +2234,7 @@ INSERT INTO Play VALUES (   1865703 ,  517 );
 INSERT INTO Belong VALUES (  1865703,'动画');
 INSERT INTO Belong VALUES (  1865703,'悬疑');
 INSERT INTO Belong VALUES (  1865703,'科幻');
-INSERT INTO movie VALUES (   1867345 , '遗愿清单' , 'The Bucket List' , '2007' , NULL , 8.5 , 'https://movie.douban.com/subject/1867345/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p708613284.jpg'    
+INSERT INTO Movie VALUES (   1867345 , '遗愿清单' , 'The Bucket List' , '2007' , NULL , 8.5 , 'https://movie.douban.com/subject/1867345/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p708613284.jpg'    
  , 1 );
 INSERT INTO Director VALUES (191, '罗伯·莱纳', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1867345 ,  191 );
@@ -2247,7 +2247,7 @@ INSERT INTO Play VALUES (   1867345 ,  520 );
 INSERT INTO Belong VALUES (  1867345,'冒险');
 INSERT INTO Belong VALUES (  1867345,'喜剧');
 INSERT INTO Belong VALUES (  1867345,'剧情');
-INSERT INTO movie VALUES (   1889243 , '星际穿越' , 'Interstellar' , '2014' , NULL , 9.1 , 'https://movie.douban.com/subject/1889243/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2206088801.jpg'    
+INSERT INTO Movie VALUES (   1889243 , '星际穿越' , 'Interstellar' , '2014' , NULL , 9.1 , 'https://movie.douban.com/subject/1889243/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2206088801.jpg'    
  , 1 );
 INSERT INTO Director VALUES (192, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1889243 ,  192 );
@@ -2260,7 +2260,7 @@ INSERT INTO Play VALUES (   1889243 ,  523 );
 INSERT INTO Belong VALUES (  1889243,'剧情');
 INSERT INTO Belong VALUES (  1889243,'科幻');
 INSERT INTO Belong VALUES (  1889243,'冒险');
-INSERT INTO movie VALUES (   1900841 , '窃听风暴' , 'Das Leben der Anderen' , '2006' , NULL , 9.1 , 'https://movie.douban.com/subject/1900841/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1808872109.jpg'    
+INSERT INTO Movie VALUES (   1900841 , '窃听风暴' , 'Das Leben der Anderen' , '2006' , NULL , 9.1 , 'https://movie.douban.com/subject/1900841/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1808872109.jpg'    
  , 1 );
 INSERT INTO Director VALUES (193, '弗洛里安·亨克尔·冯·多纳斯马尔克', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1900841 ,  193 );
@@ -2272,7 +2272,7 @@ INSERT INTO Actor VALUES ('塞巴斯蒂安·科赫', NULL, NULL, NULL, 526);
 INSERT INTO Play VALUES (   1900841 ,  526 );
 INSERT INTO Belong VALUES (  1900841,'剧情');
 INSERT INTO Belong VALUES (  1900841,'悬疑');
-INSERT INTO movie VALUES (   1905462 , '荒野生存' , 'Into the Wild' , '2007' , NULL , 8.6 , 'https://movie.douban.com/subject/1905462/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p465687407.jpg'    
+INSERT INTO Movie VALUES (   1905462 , '荒野生存' , 'Into the Wild' , '2007' , NULL , 8.6 , 'https://movie.douban.com/subject/1905462/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p465687407.jpg'    
  , 1 );
 INSERT INTO Director VALUES (194, '西恩·潘', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1905462 ,  194 );
@@ -2285,7 +2285,7 @@ INSERT INTO Play VALUES (   1905462 ,  529 );
 INSERT INTO Belong VALUES (  1905462,'冒险');
 INSERT INTO Belong VALUES (  1905462,'传记');
 INSERT INTO Belong VALUES (  1905462,'剧情');
-INSERT INTO movie VALUES (   1907966 , '疯狂原始人' , 'The Croods' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/1907966/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1867084027.jpg'    
+INSERT INTO Movie VALUES (   1907966 , '疯狂原始人' , 'The Croods' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/1907966/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1867084027.jpg'    
  , 1 );
 INSERT INTO Director VALUES (195, '柯克·德·米科', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1907966 ,  195 );
@@ -2300,7 +2300,7 @@ INSERT INTO Play VALUES (   1907966 ,  532 );
 INSERT INTO Belong VALUES (  1907966,'喜剧');
 INSERT INTO Belong VALUES (  1907966,'动画');
 INSERT INTO Belong VALUES (  1907966,'冒险');
-INSERT INTO movie VALUES (   1929463 , '少年派的奇幻漂流' , 'Life of Pi' , '2012' , NULL , 9.0 , 'https://movie.douban.com/subject/1929463/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1784592701.jpg'    
+INSERT INTO Movie VALUES (   1929463 , '少年派的奇幻漂流' , 'Life of Pi' , '2012' , NULL , 9.0 , 'https://movie.douban.com/subject/1929463/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1784592701.jpg'    
  , 1 );
 INSERT INTO Director VALUES (197, '李安', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1929463 ,  197 );
@@ -2313,7 +2313,7 @@ INSERT INTO Play VALUES (   1929463 ,  535 );
 INSERT INTO Belong VALUES (  1929463,'剧情');
 INSERT INTO Belong VALUES (  1929463,'奇幻');
 INSERT INTO Belong VALUES (  1929463,'冒险');
-INSERT INTO movie VALUES (   1937946 , '穿越时空的少女' , '時をかける少女' , '2006' , NULL , 8.6 , 'https://movie.douban.com/subject/1937946/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2079334286.jpg'    
+INSERT INTO Movie VALUES (   1937946 , '穿越时空的少女' , '時をかける少女' , '2006' , NULL , 8.6 , 'https://movie.douban.com/subject/1937946/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2079334286.jpg'    
  , 1 );
 INSERT INTO Director VALUES (198, '细田守', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1937946 ,  198 );
@@ -2326,7 +2326,7 @@ INSERT INTO Play VALUES (   1937946 ,  538 );
 INSERT INTO Belong VALUES (  1937946,'剧情');
 INSERT INTO Belong VALUES (  1937946,'爱情');
 INSERT INTO Belong VALUES (  1937946,'科幻');
-INSERT INTO movie VALUES (   1959195 , '忠犬八公物语' , 'ハチ公物語' , '1987' , NULL , 9.0 , 'https://movie.douban.com/subject/1959195/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2297934945.jpg'    
+INSERT INTO Movie VALUES (   1959195 , '忠犬八公物语' , 'ハチ公物語' , '1987' , NULL , 9.0 , 'https://movie.douban.com/subject/1959195/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2297934945.jpg'    
  , 1 );
 INSERT INTO Director VALUES (199, '神山征二郎', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1959195 ,  199 );
@@ -2337,7 +2337,7 @@ INSERT INTO Play VALUES (   1959195 ,  540 );
 INSERT INTO Actor VALUES ('片桐入', NULL, NULL, NULL, 541);
 INSERT INTO Play VALUES (   1959195 ,  541 );
 INSERT INTO Belong VALUES (  1959195,'剧情');
-INSERT INTO movie VALUES (   1978709 , '黑天鹅' , 'Black Swan' , '2010' , NULL , 8.5 , 'https://movie.douban.com/subject/1978709/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p719282906.jpg'    
+INSERT INTO Movie VALUES (   1978709 , '黑天鹅' , 'Black Swan' , '2010' , NULL , 8.5 , 'https://movie.douban.com/subject/1978709/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p719282906.jpg'    
  , 1 );
 INSERT INTO Director VALUES (200, '达伦·阿伦诺夫斯基', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   1978709 ,  200 );
@@ -2349,7 +2349,7 @@ INSERT INTO Actor VALUES ('薇诺娜·瑞德', NULL, NULL, NULL, 544);
 INSERT INTO Play VALUES (   1978709 ,  544 );
 INSERT INTO Belong VALUES (  1978709,'剧情');
 INSERT INTO Belong VALUES (  1978709,'惊悚');
-INSERT INTO movie VALUES (   2043546 , '秒速5厘米' , '秒速5センチメートル' , '2007' , NULL , 8.3 , 'https://movie.douban.com/subject/2043546/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p982896012.jpg'    
+INSERT INTO Movie VALUES (   2043546 , '秒速5厘米' , '秒速5センチメートル' , '2007' , NULL , 8.3 , 'https://movie.douban.com/subject/2043546/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p982896012.jpg'    
  , 1 );
 INSERT INTO Director VALUES (201, '新海诚', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2043546 ,  201 );
@@ -2362,7 +2362,7 @@ INSERT INTO Play VALUES (   2043546 ,  547 );
 INSERT INTO Belong VALUES (  2043546,'动画');
 INSERT INTO Belong VALUES (  2043546,'剧情');
 INSERT INTO Belong VALUES (  2043546,'爱情');
-INSERT INTO movie VALUES (   2053515 , '曾经' , 'Once' , '2006' , NULL , 8.3 , 'https://movie.douban.com/subject/2053515/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173720203.jpg'    
+INSERT INTO Movie VALUES (   2053515 , '曾经' , 'Once' , '2006' , NULL , 8.3 , 'https://movie.douban.com/subject/2053515/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2173720203.jpg'    
  , 1 );
 INSERT INTO Director VALUES (202, '约翰·卡尼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2053515 ,  202 );
@@ -2375,7 +2375,7 @@ INSERT INTO Play VALUES (   2053515 ,  550 );
 INSERT INTO Belong VALUES (  2053515,'剧情');
 INSERT INTO Belong VALUES (  2053515,'音乐');
 INSERT INTO Belong VALUES (  2053515,'爱情');
-INSERT INTO movie VALUES (   2129039 , '飞屋环游记' , 'Up' , '2009' , NULL , 8.9 , 'https://movie.douban.com/subject/2129039/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364094053.webp'    
+INSERT INTO Movie VALUES (   2129039 , '飞屋环游记' , 'Up' , '2009' , NULL , 8.9 , 'https://movie.douban.com/subject/2129039/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364094053.webp'    
  , 1 );
 INSERT INTO Director VALUES (203, '彼特·道格特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2129039 ,  203 );
@@ -2388,7 +2388,7 @@ INSERT INTO Play VALUES (   2129039 ,  553 );
 INSERT INTO Belong VALUES (  2129039,'剧情');
 INSERT INTO Belong VALUES (  2129039,'喜剧');
 INSERT INTO Belong VALUES (  2129039,'动画');
-INSERT INTO movie VALUES (   2131459 , '机器人总动员' , 'WALL·E' , '2008' , NULL , 9.3 , 'https://movie.douban.com/subject/2131459/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp'  
+INSERT INTO Movie VALUES (   2131459 , '机器人总动员' , 'WALL·E' , '2008' , NULL , 9.3 , 'https://movie.douban.com/subject/2131459/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp'  
  , 1 );
 INSERT INTO Director VALUES (204, '安德鲁·斯坦顿', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2131459 ,  204 );
@@ -2401,7 +2401,7 @@ INSERT INTO Play VALUES (   2131459 ,  556 );
 INSERT INTO Belong VALUES (  2131459,'喜剧');
 INSERT INTO Belong VALUES (  2131459,'爱情');
 INSERT INTO Belong VALUES (  2131459,'科幻');
-INSERT INTO movie VALUES (   2149806 , '入殓师' , 'おくりびと' , '2008' , NULL , 8.8 , 'https://movie.douban.com/subject/2149806/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p594972928.jpg'    
+INSERT INTO Movie VALUES (   2149806 , '入殓师' , 'おくりびと' , '2008' , NULL , 8.8 , 'https://movie.douban.com/subject/2149806/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p594972928.jpg'    
  , 1 );
 INSERT INTO Director VALUES (205, '泷田洋二郎', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2149806 ,  205 );
@@ -2412,7 +2412,7 @@ INSERT INTO Play VALUES (   2149806 ,  558 );
 INSERT INTO Actor VALUES ('山崎努', NULL, NULL, NULL, 559);
 INSERT INTO Play VALUES (   2149806 ,  559 );
 INSERT INTO Belong VALUES (  2149806,'剧情');
-INSERT INTO movie VALUES (   2209573 , '贫民窟的百万富翁' , 'Slumdog Millionaire' , '2008' , NULL , 8.5 , 'https://movie.douban.com/subject/2209573/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2434249040.webp'    
+INSERT INTO Movie VALUES (   2209573 , '贫民窟的百万富翁' , 'Slumdog Millionaire' , '2008' , NULL , 8.5 , 'https://movie.douban.com/subject/2209573/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2434249040.webp'    
  , 1 );
 INSERT INTO Director VALUES (206, '丹尼·博伊尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2209573 ,  206 );
@@ -2426,7 +2426,7 @@ INSERT INTO Actor VALUES ('亚尼·卡普', NULL, NULL, NULL, 562);
 INSERT INTO Play VALUES (   2209573 ,  562 );
 INSERT INTO Belong VALUES (  2209573,'剧情');
 INSERT INTO Belong VALUES (  2209573,'爱情');
-INSERT INTO movie VALUES (   2213597 , '朗读者' , 'The Reader' , '2008' , NULL , 8.5 , 'https://movie.douban.com/subject/2213597/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1140984198.jpg'    
+INSERT INTO Movie VALUES (   2213597 , '朗读者' , 'The Reader' , '2008' , NULL , 8.5 , 'https://movie.douban.com/subject/2213597/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1140984198.jpg'    
  , 1 );
 INSERT INTO Director VALUES (208, '史蒂芬·戴德利', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2213597 ,  208 );
@@ -2438,7 +2438,7 @@ INSERT INTO Actor VALUES ('大卫·克劳斯', NULL, NULL, NULL, 565);
 INSERT INTO Play VALUES (   2213597 ,  565 );
 INSERT INTO Belong VALUES (  2213597,'剧情');
 INSERT INTO Belong VALUES (  2213597,'爱情');
-INSERT INTO movie VALUES (   2297265 , '浪潮' , 'Die Welle' , '2008' , NULL , 8.7 , 'https://movie.douban.com/subject/2297265/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1344888983.jpg'    
+INSERT INTO Movie VALUES (   2297265 , '浪潮' , 'Die Welle' , '2008' , NULL , 8.7 , 'https://movie.douban.com/subject/2297265/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1344888983.jpg'    
  , 1 );
 INSERT INTO Director VALUES (209, '丹尼斯·甘塞尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2297265 ,  209 );
@@ -2450,7 +2450,7 @@ INSERT INTO Actor VALUES ('马克思·雷迈特', NULL, NULL, NULL, 568);
 INSERT INTO Play VALUES (   2297265 ,  568 );
 INSERT INTO Belong VALUES (  2297265,'剧情');
 INSERT INTO Belong VALUES (  2297265,'惊悚');
-INSERT INTO movie VALUES (   2300586 , '这个男人来自地球' , 'The Man from Earth' , '2007' , NULL , 8.5 , 'https://movie.douban.com/subject/2300586/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p513303986.jpg'    
+INSERT INTO Movie VALUES (   2300586 , '这个男人来自地球' , 'The Man from Earth' , '2007' , NULL , 8.5 , 'https://movie.douban.com/subject/2300586/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p513303986.jpg'    
  , 1 );
 INSERT INTO Director VALUES (210, '理查德·沙因克曼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2300586 ,  210 );
@@ -2462,7 +2462,7 @@ INSERT INTO Actor VALUES ('约翰·比灵斯列', NULL, NULL, NULL, 571);
 INSERT INTO Play VALUES (   2300586 ,  571 );
 INSERT INTO Belong VALUES (  2300586,'剧情');
 INSERT INTO Belong VALUES (  2300586,'科幻');
-INSERT INTO movie VALUES (   2334904 , '禁闭岛' , 'Shutter Island' , '2010' , NULL , 8.6 , 'https://movie.douban.com/subject/2334904/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1832875827.jpg'    
+INSERT INTO Movie VALUES (   2334904 , '禁闭岛' , 'Shutter Island' , '2010' , NULL , 8.6 , 'https://movie.douban.com/subject/2334904/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1832875827.jpg'    
  , 1 );
 INSERT INTO Director VALUES (211, '马丁·斯科塞斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2334904 ,  211 );
@@ -2475,7 +2475,7 @@ INSERT INTO Play VALUES (   2334904 ,  574 );
 INSERT INTO Belong VALUES (  2334904,'剧情');
 INSERT INTO Belong VALUES (  2334904,'悬疑');
 INSERT INTO Belong VALUES (  2334904,'惊悚');
-INSERT INTO movie VALUES (   2353023 , '驯龙高手' , 'How to Train Your Dragon' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/2353023/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p450042258.jpg'    
+INSERT INTO Movie VALUES (   2353023 , '驯龙高手' , 'How to Train Your Dragon' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/2353023/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p450042258.jpg'    
  , 1 );
 INSERT INTO Director VALUES (212, '迪恩·德布洛斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2353023 ,  212 );
@@ -2490,7 +2490,7 @@ INSERT INTO Play VALUES (   2353023 ,  577 );
 INSERT INTO Belong VALUES (  2353023,'喜剧');
 INSERT INTO Belong VALUES (  2353023,'动画');
 INSERT INTO Belong VALUES (  2353023,'奇幻');
-INSERT INTO movie VALUES (   2363506 , '地球上的星星' , 'Taare Zameen Par' , '2007' , NULL , 8.8 , 'https://movie.douban.com/subject/2363506/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1973489335.jpg'    
+INSERT INTO Movie VALUES (   2363506 , '地球上的星星' , 'Taare Zameen Par' , '2007' , NULL , 8.8 , 'https://movie.douban.com/subject/2363506/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1973489335.jpg'    
  , 1 );
 INSERT INTO Director VALUES (214, '阿米尔·汗', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2363506 ,  214 );
@@ -2503,7 +2503,7 @@ INSERT INTO Play VALUES (   2363506 ,  580 );
 INSERT INTO Belong VALUES (  2363506,'剧情');
 INSERT INTO Belong VALUES (  2363506,'儿童');
 INSERT INTO Belong VALUES (  2363506,'家庭');
-INSERT INTO movie VALUES (   2365260 , '爱在暹罗' , '???????????' , '2007' , NULL , 8.3 , 'https://movie.douban.com/subject/2365260/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1024585648.jpg'    
+INSERT INTO Movie VALUES (   2365260 , '爱在暹罗' , '???????????' , '2007' , NULL , 8.3 , 'https://movie.douban.com/subject/2365260/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1024585648.jpg'    
  , 1 );
 INSERT INTO Director VALUES (215, '楚克?萨克瑞科', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   2365260 ,  215 );
@@ -2516,7 +2516,7 @@ INSERT INTO Play VALUES (   2365260 ,  583 );
 INSERT INTO Belong VALUES (  2365260,'剧情');
 INSERT INTO Belong VALUES (  2365260,'爱情');
 INSERT INTO Belong VALUES (  2365260,'同性');
-INSERT INTO movie VALUES (   3007773 , '海盗电台' , 'The Boat That Rocked' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/3007773/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p769608791.jpg'    
+INSERT INTO Movie VALUES (   3007773 , '海盗电台' , 'The Boat That Rocked' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/3007773/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p769608791.jpg'    
  , 1 );
 INSERT INTO Director VALUES (216, '理查德·柯蒂斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3007773 ,  216 );
@@ -2529,7 +2529,7 @@ INSERT INTO Play VALUES (   3007773 ,  586 );
 INSERT INTO Belong VALUES (  3007773,'剧情');
 INSERT INTO Belong VALUES (  3007773,'喜剧');
 INSERT INTO Belong VALUES (  3007773,'音乐');
-INSERT INTO movie VALUES (   3008247 , '穿条纹睡衣的男孩' , 'The Boy in the Striped Pajamas' , '2008' , NULL , 8.8 , 'https://movie.douban.com/subject/3008247/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1473670352.jpg'    
+INSERT INTO Movie VALUES (   3008247 , '穿条纹睡衣的男孩' , 'The Boy in the Striped Pajamas' , '2008' , NULL , 8.8 , 'https://movie.douban.com/subject/3008247/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1473670352.jpg'    
  , 1 );
 INSERT INTO Director VALUES (217, '马克·赫尔曼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3008247 ,  217 );
@@ -2541,7 +2541,7 @@ INSERT INTO Actor VALUES ('大卫·休里斯', NULL, NULL, NULL, 589);
 INSERT INTO Play VALUES (   3008247 ,  589 );
 INSERT INTO Belong VALUES (  3008247,'剧情');
 INSERT INTO Belong VALUES (  3008247,'战争');
-INSERT INTO movie VALUES (   3011051 , '恐怖游轮' , 'Triangle' , '2009' , NULL , 8.3 , 'https://movie.douban.com/subject/3011051/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p462470694.jpg'    
+INSERT INTO Movie VALUES (   3011051 , '恐怖游轮' , 'Triangle' , '2009' , NULL , 8.3 , 'https://movie.douban.com/subject/3011051/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p462470694.jpg'    
  , 1 );
 INSERT INTO Director VALUES (218, '克里斯托弗·史密斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3011051 ,  218 );
@@ -2554,7 +2554,7 @@ INSERT INTO Play VALUES (   3011051 ,  592 );
 INSERT INTO Belong VALUES (  3011051,'剧情');
 INSERT INTO Belong VALUES (  3011051,'悬疑');
 INSERT INTO Belong VALUES (  3011051,'惊悚');
-INSERT INTO movie VALUES (   3011091 , '忠犬八公的故事' , 'Hachi: A Dog/s Tale' , '2009' , NULL , 9.2 , 'https://movie.douban.com/subject/3011091/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p524964016.jpg'    
+INSERT INTO Movie VALUES (   3011091 , '忠犬八公的故事' , 'Hachi: A Dog/s Tale' , '2009' , NULL , 9.2 , 'https://movie.douban.com/subject/3011091/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p524964016.jpg'    
  , 1 );
 INSERT INTO Director VALUES (219, '拉斯·霍尔斯道姆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3011091 ,  219 );
@@ -2565,7 +2565,7 @@ INSERT INTO Play VALUES (   3011091 ,  594 );
 INSERT INTO Actor VALUES ('琼·艾伦', NULL, NULL, NULL, 595);
 INSERT INTO Play VALUES (   3011091 ,  595 );
 INSERT INTO Belong VALUES (  3011091,'剧情');
-INSERT INTO movie VALUES (   3011235 , '哈利·波特与死亡圣器h(下   ' , 'Harry Potter and the Deathly Hallows: Part 2' , '2011' , NULL , 8.6 , 'https://movie.douban.com/subject/3011235/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p917846733.jpg'    
+INSERT INTO Movie VALUES (   3011235 , '哈利·波特与死亡圣器h(下   ' , 'Harry Potter and the Deathly Hallows: Part 2' , '2011' , NULL , 8.6 , 'https://movie.douban.com/subject/3011235/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p917846733.jpg'    
  , 1 );
 INSERT INTO Director VALUES (220, '大卫·叶茨', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3011235 ,  220 );
@@ -2578,7 +2578,7 @@ INSERT INTO Play VALUES (   3011235 ,  598 );
 INSERT INTO Belong VALUES (  3011235,'剧情');
 INSERT INTO Belong VALUES (  3011235,'悬疑');
 INSERT INTO Belong VALUES (  3011235,'奇幻');
-INSERT INTO movie VALUES (   3072124 , '玛丽和马克思' , 'Mary and Max' , '2009' , NULL , 8.9 , 'https://movie.douban.com/subject/3072124/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1820615077.jpg'    
+INSERT INTO Movie VALUES (   3072124 , '玛丽和马克思' , 'Mary and Max' , '2009' , NULL , 8.9 , 'https://movie.douban.com/subject/3072124/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1820615077.jpg'    
  , 1 );
 INSERT INTO Director VALUES (221, '亚当·艾略特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3072124 ,  221 );
@@ -2591,7 +2591,7 @@ INSERT INTO Play VALUES (   3072124 ,  601 );
 INSERT INTO Belong VALUES (  3072124,'剧情');
 INSERT INTO Belong VALUES (  3072124,'爱情');
 INSERT INTO Belong VALUES (  3072124,'动画');
-INSERT INTO movie VALUES (   3073124 , '月球' , 'Moon' , '2009' , NULL , 8.5 , 'https://movie.douban.com/subject/3073124/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p449399746.jpg'    
+INSERT INTO Movie VALUES (   3073124 , '月球' , 'Moon' , '2009' , NULL , 8.5 , 'https://movie.douban.com/subject/3073124/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p449399746.jpg'    
  , 1 );
 INSERT INTO Director VALUES (222, '邓肯·琼斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3073124 ,  222 );
@@ -2604,7 +2604,7 @@ INSERT INTO Play VALUES (   3073124 ,  604 );
 INSERT INTO Belong VALUES (  3073124,'剧情');
 INSERT INTO Belong VALUES (  3073124,'科幻');
 INSERT INTO Belong VALUES (  3073124,'悬疑');
-INSERT INTO movie VALUES (   3075287 , '源代码' , 'Source Code' , '2011' , NULL , 8.3 , 'https://movie.douban.com/subject/3075287/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p988260245.jpg'    
+INSERT INTO Movie VALUES (   3075287 , '源代码' , 'Source Code' , '2011' , NULL , 8.3 , 'https://movie.douban.com/subject/3075287/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p988260245.jpg'    
  , 1 );
 INSERT INTO Director VALUES (223, '邓肯·琼斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3075287 ,  223 );
@@ -2617,7 +2617,7 @@ INSERT INTO Play VALUES (   3075287 ,  607 );
 INSERT INTO Belong VALUES (  3075287,'剧情');
 INSERT INTO Belong VALUES (  3075287,'动作');
 INSERT INTO Belong VALUES (  3075287,'科幻');
-INSERT INTO movie VALUES (   3157605 , '巴黎淘气帮' , 'Le petit Nicolas' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/3157605/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p465446537.jpg'    
+INSERT INTO Movie VALUES (   3157605 , '巴黎淘气帮' , 'Le petit Nicolas' , '2009' , NULL , 8.6 , 'https://movie.douban.com/subject/3157605/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p465446537.jpg'    
  , 1 );
 INSERT INTO Director VALUES (224, '洛朗·蒂拉尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3157605 ,  224 );
@@ -2630,7 +2630,7 @@ INSERT INTO Play VALUES (   3157605 ,  610 );
 INSERT INTO Belong VALUES (  3157605,'儿童');
 INSERT INTO Belong VALUES (  3157605,'喜剧');
 INSERT INTO Belong VALUES (  3157605,'家庭');
-INSERT INTO movie VALUES (   3217169 , '勇士' , 'Warrior' , '2011' , NULL , 8.9 , 'https://movie.douban.com/subject/3217169/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1145536386.jpg'    
+INSERT INTO Movie VALUES (   3217169 , '勇士' , 'Warrior' , '2011' , NULL , 8.9 , 'https://movie.douban.com/subject/3217169/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1145536386.jpg'    
  , 1 );
 INSERT INTO Director VALUES (225, '加文·欧康诺', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3217169 ,  225 );
@@ -2644,7 +2644,7 @@ INSERT INTO Belong VALUES (  3217169,'剧情');
 INSERT INTO Category VALUES ('运动' , NULL);
 INSERT INTO Belong VALUES (  3217169,'运动');
 INSERT INTO Belong VALUES (  3217169,'家庭');
-INSERT INTO movie VALUES (   3287562 , '神偷奶爸' , 'Despicable Me' , '2010' , NULL , 8.5 , 'https://movie.douban.com/subject/3287562/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792776858.jpg'    
+INSERT INTO Movie VALUES (   3287562 , '神偷奶爸' , 'Despicable Me' , '2010' , NULL , 8.5 , 'https://movie.douban.com/subject/3287562/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p792776858.jpg'    
  , 1 );
 INSERT INTO Director VALUES (226, '皮埃尔·科凡', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3287562 ,  226 );
@@ -2659,7 +2659,7 @@ INSERT INTO Play VALUES (   3287562 ,  616 );
 INSERT INTO Belong VALUES (  3287562,'喜剧');
 INSERT INTO Belong VALUES (  3287562,'动画');
 INSERT INTO Belong VALUES (  3287562,'冒险');
-INSERT INTO movie VALUES (   3319755 , '怦然心动' , 'Flipped' , '2010' , NULL , 8.9 , 'https://movie.douban.com/subject/3319755/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p663036666.jpg'    
+INSERT INTO Movie VALUES (   3319755 , '怦然心动' , 'Flipped' , '2010' , NULL , 8.9 , 'https://movie.douban.com/subject/3319755/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p663036666.jpg'    
  , 1 );
 INSERT INTO Director VALUES (228, '罗伯·莱纳', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3319755 ,  228 );
@@ -2672,7 +2672,7 @@ INSERT INTO Play VALUES (   3319755 ,  619 );
 INSERT INTO Belong VALUES (  3319755,'剧情');
 INSERT INTO Belong VALUES (  3319755,'喜剧');
 INSERT INTO Belong VALUES (  3319755,'爱情');
-INSERT INTO movie VALUES (   3395373 , '蝙蝠侠：黑暗骑士崛起' , 'The Dark Knight Rises' , '2012' , NULL , 8.5 , 'https://movie.douban.com/subject/3395373/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1706428744.jpg'    
+INSERT INTO Movie VALUES (   3395373 , '蝙蝠侠：黑暗骑士崛起' , 'The Dark Knight Rises' , '2012' , NULL , 8.5 , 'https://movie.douban.com/subject/3395373/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1706428744.jpg'    
  , 1 );
 INSERT INTO Director VALUES (229, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3395373 ,  229 );
@@ -2685,7 +2685,7 @@ INSERT INTO Play VALUES (   3395373 ,  622 );
 INSERT INTO Belong VALUES (  3395373,'剧情');
 INSERT INTO Belong VALUES (  3395373,'动作');
 INSERT INTO Belong VALUES (  3395373,'科幻');
-INSERT INTO movie VALUES (   3442220 , '海豚湾' , 'The Cove' , '2009' , NULL , 9.3 , 'https://movie.douban.com/subject/3442220/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p455222172.jpg'    
+INSERT INTO Movie VALUES (   3442220 , '海豚湾' , 'The Cove' , '2009' , NULL , 9.3 , 'https://movie.douban.com/subject/3442220/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p455222172.jpg'    
  , 1 );
 INSERT INTO Director VALUES (230, '路易·西霍尤斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3442220 ,  230 );
@@ -2696,14 +2696,14 @@ INSERT INTO Play VALUES (   3442220 ,  624 );
 INSERT INTO Actor VALUES ('Charles Hambleton', NULL, NULL, NULL, 625);
 INSERT INTO Play VALUES (   3442220 ,  625 );
 INSERT INTO Belong VALUES (  3442220,'纪录片');
-INSERT INTO movie VALUES (   3443389 , '海洋' , 'Océans' , '2009' , NULL , 9.0 , 'https://movie.douban.com/subject/3443389/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p497010372.jpg'    
+INSERT INTO Movie VALUES (   3443389 , '海洋' , 'Océans' , '2009' , NULL , 9.0 , 'https://movie.douban.com/subject/3443389/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p497010372.jpg'    
  , 1 );
 INSERT INTO Director VALUES (231, '雅克·贝汉', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3443389 ,  231 );
 INSERT INTO Actor VALUES ('雅克·克鲁奥德', NULL, NULL, NULL, 626);
 INSERT INTO Play VALUES (   3443389 ,  626 );
 INSERT INTO Belong VALUES (  3443389,'纪录片');
-INSERT INTO movie VALUES (   3541415 , '盗梦空间' , 'Inception' , '2010' , NULL , 9.2 , 'https://movie.douban.com/subject/3541415/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p513344864.jpg'    
+INSERT INTO Movie VALUES (   3541415 , '盗梦空间' , 'Inception' , '2010' , NULL , 9.2 , 'https://movie.douban.com/subject/3541415/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p513344864.jpg'    
  , 1 );
 INSERT INTO Director VALUES (232, '克里斯托弗·诺兰', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3541415 ,  232 );
@@ -2716,7 +2716,7 @@ INSERT INTO Play VALUES (   3541415 ,  629 );
 INSERT INTO Belong VALUES (  3541415,'剧情');
 INSERT INTO Belong VALUES (  3541415,'动作');
 INSERT INTO Belong VALUES (  3541415,'科幻');
-INSERT INTO movie VALUES (   3742360 , '让子弹飞' , '让子弹飞' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/3742360/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1512562287.jpg'    
+INSERT INTO Movie VALUES (   3742360 , '让子弹飞' , '让子弹飞' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/3742360/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1512562287.jpg'    
  , 1 );
 INSERT INTO Director VALUES (233, '姜文', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3742360 ,  233 );
@@ -2729,7 +2729,7 @@ INSERT INTO Play VALUES (   3742360 ,  632 );
 INSERT INTO Belong VALUES (  3742360,'剧情');
 INSERT INTO Belong VALUES (  3742360,'喜剧');
 INSERT INTO Belong VALUES (  3742360,'动作');
-INSERT INTO movie VALUES (   3792799 , '岁月神偷' , '歲月神偷' , '2010' , NULL , 8.6 , 'https://movie.douban.com/subject/3792799/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456666151.jpg'    
+INSERT INTO Movie VALUES (   3792799 , '岁月神偷' , '歲月神偷' , '2010' , NULL , 8.6 , 'https://movie.douban.com/subject/3792799/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p456666151.jpg'    
  , 1 );
 INSERT INTO Director VALUES (234, '罗启锐', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3792799 ,  234 );
@@ -2741,7 +2741,7 @@ INSERT INTO Actor VALUES ('钟绍图', NULL, NULL, NULL, 635);
 INSERT INTO Play VALUES (   3792799 ,  635 );
 INSERT INTO Belong VALUES (  3792799,'剧情');
 INSERT INTO Belong VALUES (  3792799,'家庭');
-INSERT INTO movie VALUES (   3793023 , '三傻大闹宝莱坞' , '3 Idiots' , '2009' , NULL , 9.1 , 'https://movie.douban.com/subject/3793023/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p579729551.jpg'    
+INSERT INTO Movie VALUES (   3793023 , '三傻大闹宝莱坞' , '3 Idiots' , '2009' , NULL , 9.1 , 'https://movie.douban.com/subject/3793023/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p579729551.jpg'    
  , 1 );
 INSERT INTO Director VALUES (235, '拉吉库马尔·希拉尼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   3793023 ,  235 );
@@ -2754,7 +2754,7 @@ INSERT INTO Play VALUES (   3793023 ,  638 );
 INSERT INTO Belong VALUES (  3793023,'剧情');
 INSERT INTO Belong VALUES (  3793023,'喜剧');
 INSERT INTO Belong VALUES (  3793023,'爱情');
-INSERT INTO movie VALUES (   4023638 , '国王的演讲' , 'The King/s Speech' , '2010' , NULL , 8.3 , 'https://movie.douban.com/subject/4023638/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p768879237.jpg'    
+INSERT INTO Movie VALUES (   4023638 , '国王的演讲' , 'The King/s Speech' , '2010' , NULL , 8.3 , 'https://movie.douban.com/subject/4023638/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p768879237.jpg'    
  , 1 );
 INSERT INTO Director VALUES (236, '汤姆·霍珀', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4023638 ,  236 );
@@ -2767,7 +2767,7 @@ INSERT INTO Play VALUES (   4023638 ,  641 );
 INSERT INTO Belong VALUES (  4023638,'剧情');
 INSERT INTO Belong VALUES (  4023638,'传记');
 INSERT INTO Belong VALUES (  4023638,'历史');
-INSERT INTO movie VALUES (   4202302 , '借东西的小人阿莉埃蒂' , '借りぐらしのアリエッティ' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/4202302/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p617533616.jpg'    
+INSERT INTO Movie VALUES (   4202302 , '借东西的小人阿莉埃蒂' , '借りぐらしのアリエッティ' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/4202302/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p617533616.jpg'    
  , 1 );
 INSERT INTO Director VALUES (237, '米林宏昌', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4202302 ,  237 );
@@ -2780,7 +2780,7 @@ INSERT INTO Play VALUES (   4202302 ,  644 );
 INSERT INTO Belong VALUES (  4202302,'动画');
 INSERT INTO Belong VALUES (  4202302,'奇幻');
 INSERT INTO Belong VALUES (  4202302,'冒险');
-INSERT INTO movie VALUES (   4268598 , '告白' , '告白' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/4268598/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p689520756.jpg'    
+INSERT INTO Movie VALUES (   4268598 , '告白' , '告白' , '2010' , NULL , 8.7 , 'https://movie.douban.com/subject/4268598/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p689520756.jpg'    
  , 1 );
 INSERT INTO Director VALUES (238, '中岛哲也', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4268598 ,  238 );
@@ -2792,7 +2792,7 @@ INSERT INTO Actor VALUES ('木村佳乃', NULL, NULL, NULL, 647);
 INSERT INTO Play VALUES (   4268598 ,  647 );
 INSERT INTO Belong VALUES (  4268598,'剧情');
 INSERT INTO Belong VALUES (  4268598,'惊悚');
-INSERT INTO movie VALUES (   4739952 , '初恋这件小事' , '???????????????????????...???' , '2010' , NULL , 8.2 , 'https://movie.douban.com/subject/4739952/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1505312273.jpg'    
+INSERT INTO Movie VALUES (   4739952 , '初恋这件小事' , '???????????????????????...???' , '2010' , NULL , 8.2 , 'https://movie.douban.com/subject/4739952/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1505312273.jpg'    
  , 1 );
 INSERT INTO Director VALUES (239, '普特鹏·普罗萨卡·那·萨克那卡林', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4739952 ,  239 );
@@ -2806,7 +2806,7 @@ INSERT INTO Actor VALUES ('苏达拉·布查蓬', NULL, NULL, NULL, 650);
 INSERT INTO Play VALUES (   4739952 ,  650 );
 INSERT INTO Belong VALUES (  4739952,'喜剧');
 INSERT INTO Belong VALUES (  4739952,'爱情');
-INSERT INTO movie VALUES (   4798888 , '叫我第一名' , 'Front of the Class' , '2008' , NULL , 8.6 , 'https://movie.douban.com/subject/4798888/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p628364149.webp'    
+INSERT INTO Movie VALUES (   4798888 , '叫我第一名' , 'Front of the Class' , '2008' , NULL , 8.6 , 'https://movie.douban.com/subject/4798888/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p628364149.webp'    
  , 1 );
 INSERT INTO Director VALUES (241, '彼得·维纳', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4798888 ,  241 );
@@ -2818,7 +2818,7 @@ INSERT INTO Actor VALUES ('多米尼克·斯科特·凯伊', NULL, NULL, NULL, 6
 INSERT INTO Play VALUES (   4798888 ,  653 );
 INSERT INTO Belong VALUES (  4798888,'剧情');
 INSERT INTO Belong VALUES (  4798888,'传记');
-INSERT INTO movie VALUES (   4917726 , '阳光姐妹淘' , '??' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/4917726/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1374786017.jpg'    
+INSERT INTO Movie VALUES (   4917726 , '阳光姐妹淘' , '??' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/4917726/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1374786017.jpg'    
  , 1 );
 INSERT INTO Director VALUES (242, '姜炯哲', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   4917726 ,  242 );
@@ -2830,7 +2830,7 @@ INSERT INTO Actor VALUES ('姜素拉', NULL, NULL, NULL, 656);
 INSERT INTO Play VALUES (   4917726 ,  656 );
 INSERT INTO Belong VALUES (  4917726,'剧情');
 INSERT INTO Belong VALUES (  4917726,'喜剧');
-INSERT INTO movie VALUES (   5322596 , '超脱' , 'Detachment' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/5322596/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1305562621.jpg'    
+INSERT INTO Movie VALUES (   5322596 , '超脱' , 'Detachment' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/5322596/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1305562621.jpg'    
  , 1 );
 INSERT INTO Director VALUES (243, '托尼·凯耶', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   5322596 ,  243 );
@@ -2841,7 +2841,7 @@ INSERT INTO Play VALUES (   5322596 ,  658 );
 INSERT INTO Actor VALUES ('詹姆斯·肯恩', NULL, NULL, NULL, 659);
 INSERT INTO Play VALUES (   5322596 ,  659 );
 INSERT INTO Belong VALUES (  5322596,'剧情');
-INSERT INTO movie VALUES (   5908478 , '我爱你' , '??? ?????' , '2011' , NULL , 9.0 , 'https://movie.douban.com/subject/5908478/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1075591188.jpg'    
+INSERT INTO Movie VALUES (   5908478 , '我爱你' , '??? ?????' , '2011' , NULL , 9.0 , 'https://movie.douban.com/subject/5908478/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1075591188.jpg'    
  , 1 );
 INSERT INTO Director VALUES (244, '秋昌旼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   5908478 ,  244 );
@@ -2853,7 +2853,7 @@ INSERT INTO Actor VALUES ('尹秀晶', NULL, NULL, NULL, 662);
 INSERT INTO Play VALUES (   5908478 ,  662 );
 INSERT INTO Belong VALUES (  5908478,'剧情');
 INSERT INTO Belong VALUES (  5908478,'爱情');
-INSERT INTO movie VALUES (   5912992 , '熔炉' , '???' , '2011' , NULL , 9.2 , 'https://movie.douban.com/subject/5912992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1363250216.jpg'    
+INSERT INTO Movie VALUES (   5912992 , '熔炉' , '???' , '2011' , NULL , 9.2 , 'https://movie.douban.com/subject/5912992/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1363250216.jpg'    
  , 1 );
 INSERT INTO Director VALUES (245, '黄东赫', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   5912992 ,  245 );
@@ -2864,7 +2864,7 @@ INSERT INTO Play VALUES (   5912992 ,  664 );
 INSERT INTO Actor VALUES ('金志英', NULL, NULL, NULL, 665);
 INSERT INTO Play VALUES (   5912992 ,  665 );
 INSERT INTO Belong VALUES (  5912992,'剧情');
-INSERT INTO movie VALUES (   5964718 , '一次别离' , '????? ???? ?? ?????' , '2011' , NULL , 8.7 , 'https://movie.douban.com/subject/5964718/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2189835254.jpg'    
+INSERT INTO Movie VALUES (   5964718 , '一次别离' , '????? ???? ?? ?????' , '2011' , NULL , 8.7 , 'https://movie.douban.com/subject/5964718/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2189835254.jpg'    
  , 1 );
 INSERT INTO Director VALUES (246, '阿斯哈·法哈蒂', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   5964718 ,  246 );
@@ -2876,7 +2876,7 @@ INSERT INTO Actor VALUES ('萨瑞·巴亚特', NULL, NULL, NULL, 668);
 INSERT INTO Play VALUES (   5964718 ,  668 );
 INSERT INTO Belong VALUES (  5964718,'剧情');
 INSERT INTO Belong VALUES (  5964718,'家庭');
-INSERT INTO movie VALUES (   5989818 , '萤火之森' , '蛍火の杜へ' , '2011' , NULL , 8.7 , 'https://movie.douban.com/subject/5989818/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1272904657.jpg'    
+INSERT INTO Movie VALUES (   5989818 , '萤火之森' , '蛍火の杜へ' , '2011' , NULL , 8.7 , 'https://movie.douban.com/subject/5989818/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1272904657.jpg'    
  , 1 );
 INSERT INTO Director VALUES (247, '大森贵弘', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   5989818 ,  247 );
@@ -2887,7 +2887,7 @@ INSERT INTO Play VALUES (   5989818 ,  670 );
 INSERT INTO Belong VALUES (  5989818,'剧情');
 INSERT INTO Belong VALUES (  5989818,'爱情');
 INSERT INTO Belong VALUES (  5989818,'动画');
-INSERT INTO movie VALUES (   6146955 , '寿司之神' , 'Jiro Dreams of Sushi' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/6146955/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1528763106.jpg'    
+INSERT INTO Movie VALUES (   6146955 , '寿司之神' , 'Jiro Dreams of Sushi' , '2011' , NULL , 8.8 , 'https://movie.douban.com/subject/6146955/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1528763106.jpg'    
  , 1 );
 INSERT INTO Director VALUES (248, '大卫·贾柏', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6146955 ,  248 );
@@ -2898,7 +2898,7 @@ INSERT INTO Play VALUES (   6146955 ,  672 );
 INSERT INTO Actor VALUES ('小野隆', NULL, NULL, NULL, 673);
 INSERT INTO Play VALUES (   6146955 ,  673 );
 INSERT INTO Belong VALUES (  6146955,'纪录片');
-INSERT INTO movie VALUES (   6307447 , '被解救的姜戈' , 'Django Unchained' , '2012' , NULL , 8.5 , 'https://movie.douban.com/subject/6307447/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1959232369.jpg'    
+INSERT INTO Movie VALUES (   6307447 , '被解救的姜戈' , 'Django Unchained' , '2012' , NULL , 8.5 , 'https://movie.douban.com/subject/6307447/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1959232369.jpg'    
  , 1 );
 INSERT INTO Director VALUES (249, '昆汀·塔伦蒂诺', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6307447 ,  249 );
@@ -2911,7 +2911,7 @@ INSERT INTO Play VALUES (   6307447 ,  676 );
 INSERT INTO Belong VALUES (  6307447,'剧情');
 INSERT INTO Belong VALUES (  6307447,'动作');
 INSERT INTO Belong VALUES (  6307447,'西部');
-INSERT INTO movie VALUES (   6534248 , '无敌破坏王' , 'Wreck-It Ralph' , '2012' , NULL , 8.6 , 'https://movie.douban.com/subject/6534248/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1735642656.jpg'    
+INSERT INTO Movie VALUES (   6534248 , '无敌破坏王' , 'Wreck-It Ralph' , '2012' , NULL , 8.6 , 'https://movie.douban.com/subject/6534248/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1735642656.jpg'    
  , 1 );
 INSERT INTO Director VALUES (250, '瑞奇·摩尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6534248 ,  250 );
@@ -2924,7 +2924,7 @@ INSERT INTO Play VALUES (   6534248 ,  679 );
 INSERT INTO Belong VALUES (  6534248,'喜剧');
 INSERT INTO Belong VALUES (  6534248,'动画');
 INSERT INTO Belong VALUES (  6534248,'冒险');
-INSERT INTO movie VALUES (   6786002 , '触不可及' , 'Intouchables' , '2011' , NULL , 9.1 , 'https://movie.douban.com/subject/6786002/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1454261925.jpg'    
+INSERT INTO Movie VALUES (   6786002 , '触不可及' , 'Intouchables' , '2011' , NULL , 9.1 , 'https://movie.douban.com/subject/6786002/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1454261925.jpg'    
  , 1 );
 INSERT INTO Director VALUES (251, '奥利维埃·纳卡什', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6786002 ,  251 );
@@ -2938,7 +2938,7 @@ INSERT INTO Actor VALUES ('安娜·勒尼', NULL, NULL, NULL, 682);
 INSERT INTO Play VALUES (   6786002 ,  682 );
 INSERT INTO Belong VALUES (  6786002,'剧情');
 INSERT INTO Belong VALUES (  6786002,'喜剧');
-INSERT INTO movie VALUES (   6874403 , '再次出发之纽约遇见你' , 'Begin Again' , '2013' , NULL , 8.5 , 'https://movie.douban.com/subject/6874403/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2250287733.jpg'    
+INSERT INTO Movie VALUES (   6874403 , '再次出发之纽约遇见你' , 'Begin Again' , '2013' , NULL , 8.5 , 'https://movie.douban.com/subject/6874403/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2250287733.jpg'    
  , 1 );
 INSERT INTO Director VALUES (253, '约翰·卡尼', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6874403 ,  253 );
@@ -2951,7 +2951,7 @@ INSERT INTO Play VALUES (   6874403 ,  685 );
 INSERT INTO Belong VALUES (  6874403,'喜剧');
 INSERT INTO Belong VALUES (  6874403,'爱情');
 INSERT INTO Belong VALUES (  6874403,'音乐');
-INSERT INTO movie VALUES (   6985810 , '狩猎' , 'Jagten' , '2012' , NULL , 9.0 , 'https://movie.douban.com/subject/6985810/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1546987967.jpg'    
+INSERT INTO Movie VALUES (   6985810 , '狩猎' , 'Jagten' , '2012' , NULL , 9.0 , 'https://movie.douban.com/subject/6985810/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p1546987967.jpg'    
  , 1 );
 INSERT INTO Director VALUES (254, '托马斯·温特伯格', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   6985810 ,  254 );
@@ -2962,7 +2962,7 @@ INSERT INTO Play VALUES (   6985810 ,  687 );
 INSERT INTO Actor VALUES ('安妮卡·韦德科普', NULL, NULL, NULL, 688);
 INSERT INTO Play VALUES (   6985810 ,  688 );
 INSERT INTO Belong VALUES (  6985810,'剧情');
-INSERT INTO movie VALUES (   10463953 , '模仿游戏' , 'The Imitation Game' , '2014' , NULL , 8.5 , 'https://movie.douban.com/subject/10463953/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2255040492.jpg'    
+INSERT INTO Movie VALUES (   10463953 , '模仿游戏' , 'The Imitation Game' , '2014' , NULL , 8.5 , 'https://movie.douban.com/subject/10463953/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2255040492.jpg'    
  , 1 );
 INSERT INTO Director VALUES (255, '莫滕·泰杜姆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   10463953 ,  255 );
@@ -2975,7 +2975,7 @@ INSERT INTO Play VALUES (   10463953 ,  691 );
 INSERT INTO Belong VALUES (  10463953,'剧情');
 INSERT INTO Belong VALUES (  10463953,'传记');
 INSERT INTO Belong VALUES (  10463953,'战争');
-INSERT INTO movie VALUES (   10533913 , '头脑特工队' , 'Inside Out' , '2015' , NULL , 8.7 , 'https://movie.douban.com/subject/10533913/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2266293606.webp'    
+INSERT INTO Movie VALUES (   10533913 , '头脑特工队' , 'Inside Out' , '2015' , NULL , 8.7 , 'https://movie.douban.com/subject/10533913/' , 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2266293606.webp'    
  , 1 );
 INSERT INTO Director VALUES (256, '彼特·道格特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   10533913 ,  256 );
@@ -2990,7 +2990,7 @@ INSERT INTO Play VALUES (   10533913 ,  694 );
 INSERT INTO Belong VALUES (  10533913,'喜剧');
 INSERT INTO Belong VALUES (  10533913,'动画');
 INSERT INTO Belong VALUES (  10533913,'冒险');
-INSERT INTO movie VALUES (   10577869 , '时空恋旅人' , 'About Time' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/10577869/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2070153774.jpg'    
+INSERT INTO Movie VALUES (   10577869 , '时空恋旅人' , 'About Time' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/10577869/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2070153774.jpg'    
  , 1 );
 INSERT INTO Director VALUES (258, '理查德·柯蒂斯', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   10577869 ,  258 );
@@ -3003,7 +3003,7 @@ INSERT INTO Play VALUES (   10577869 ,  697 );
 INSERT INTO Belong VALUES (  10577869,'剧情');
 INSERT INTO Belong VALUES (  10577869,'爱情');
 INSERT INTO Belong VALUES (  10577869,'奇幻');
-INSERT INTO movie VALUES (   10777687 , '7号房的礼物' , '7??? ??' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/10777687/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1816276065.jpg'    
+INSERT INTO Movie VALUES (   10777687 , '7号房的礼物' , '7??? ??' , '2013' , NULL , 8.6 , 'https://movie.douban.com/subject/10777687/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p1816276065.jpg'    
  , 1 );
 INSERT INTO Director VALUES (259, '李焕庆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   10777687 ,  259 );
@@ -3016,7 +3016,7 @@ INSERT INTO Play VALUES (   10777687 ,  700 );
 INSERT INTO Belong VALUES (  10777687,'剧情');
 INSERT INTO Belong VALUES (  10777687,'喜剧');
 INSERT INTO Belong VALUES (  10777687,'家庭');
-INSERT INTO movie VALUES (   10808442 , '爱在午夜降临前' , 'Before Midnight' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/10808442/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2074715729.webp'    
+INSERT INTO Movie VALUES (   10808442 , '爱在午夜降临前' , 'Before Midnight' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/10808442/' , 'https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2074715729.webp'    
  , 1 );
 INSERT INTO Director VALUES (260, '理查德·林克莱特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   10808442 ,  260 );
@@ -3028,7 +3028,7 @@ INSERT INTO Actor VALUES ('肖姆斯·戴维-菲茨帕特里克', NULL, NULL, NU
 INSERT INTO Play VALUES (   10808442 ,  703 );
 INSERT INTO Belong VALUES (  10808442,'剧情');
 INSERT INTO Belong VALUES (  10808442,'爱情');
-INSERT INTO movie VALUES (   11026735 , '超能陆战队' , 'Big Hero 6' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/11026735/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2224568669.jpg'    
+INSERT INTO Movie VALUES (   11026735 , '超能陆战队' , 'Big Hero 6' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/11026735/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2224568669.jpg'    
  , 1 );
 INSERT INTO Director VALUES (261, '唐·霍尔', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   11026735 ,  261 );
@@ -3043,7 +3043,7 @@ INSERT INTO Play VALUES (   11026735 ,  706 );
 INSERT INTO Belong VALUES (  11026735,'喜剧');
 INSERT INTO Belong VALUES (  11026735,'动作');
 INSERT INTO Belong VALUES (  11026735,'科幻');
-INSERT INTO movie VALUES (   11525673 , '布达佩斯大饭店' , 'The Grand Budapest Hotel' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/11525673/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2178872593.jpg'    
+INSERT INTO Movie VALUES (   11525673 , '布达佩斯大饭店' , 'The Grand Budapest Hotel' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/11525673/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2178872593.jpg'    
  , 1 );
 INSERT INTO Director VALUES (263, '韦斯·安德森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   11525673 ,  263 );
@@ -3055,7 +3055,7 @@ INSERT INTO Actor VALUES ('艾德里安·布洛迪', NULL, NULL, NULL, 709);
 INSERT INTO Play VALUES (   11525673 ,  709 );
 INSERT INTO Belong VALUES (  11525673,'剧情');
 INSERT INTO Belong VALUES (  11525673,'喜剧');
-INSERT INTO movie VALUES (   21318488 , '消失的爱人' , 'Gone Girl' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/21318488/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2221768894.jpg'    
+INSERT INTO Movie VALUES (   21318488 , '消失的爱人' , 'Gone Girl' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/21318488/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2221768894.jpg'    
  , 1 );
 INSERT INTO Director VALUES (264, '大卫·芬奇', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   21318488 ,  264 );
@@ -3068,7 +3068,7 @@ INSERT INTO Play VALUES (   21318488 ,  712 );
 INSERT INTO Belong VALUES (  21318488,'剧情');
 INSERT INTO Belong VALUES (  21318488,'犯罪');
 INSERT INTO Belong VALUES (  21318488,'悬疑');
-INSERT INTO movie VALUES (   21360417 , '恐怖直播' , '? ?? ???' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/21360417/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2016930906.jpg'    
+INSERT INTO Movie VALUES (   21360417 , '恐怖直播' , '? ?? ???' , '2013' , NULL , 8.7 , 'https://movie.douban.com/subject/21360417/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2016930906.jpg'    
  , 1 );
 INSERT INTO Director VALUES (265, '金秉祐', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   21360417 ,  265 );
@@ -3081,7 +3081,7 @@ INSERT INTO Play VALUES (   21360417 ,  715 );
 INSERT INTO Belong VALUES (  21360417,'剧情');
 INSERT INTO Belong VALUES (  21360417,'犯罪');
 INSERT INTO Belong VALUES (  21360417,'悬疑');
-INSERT INTO movie VALUES (   21937445 , '辩护人' , '???' , '2013' , NULL , 9.1 , 'https://movie.douban.com/subject/21937445/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2158166535.jpg'    
+INSERT INTO Movie VALUES (   21937445 , '辩护人' , '???' , '2013' , NULL , 9.1 , 'https://movie.douban.com/subject/21937445/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2158166535.jpg'    
  , 1 );
 INSERT INTO Director VALUES (266, '杨宇硕', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   21937445 ,  266 );
@@ -3092,7 +3092,7 @@ INSERT INTO Play VALUES (   21937445 ,  717 );
 INSERT INTO Actor VALUES ('金英爱', NULL, NULL, NULL, 718);
 INSERT INTO Play VALUES (   21937445 ,  718 );
 INSERT INTO Belong VALUES (  21937445,'剧情');
-INSERT INTO movie VALUES (   21937452 , '素媛' , '??' , '2013' , NULL , 9.1 , 'https://movie.douban.com/subject/21937452/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2118532944.jpg'    
+INSERT INTO Movie VALUES (   21937452 , '素媛' , '??' , '2013' , NULL , 9.1 , 'https://movie.douban.com/subject/21937452/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2118532944.jpg'    
  , 1 );
 INSERT INTO Director VALUES (267, '李濬益', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   21937452 ,  267 );
@@ -3104,7 +3104,7 @@ INSERT INTO Actor VALUES ('李来', NULL, NULL, NULL, 721);
 INSERT INTO Play VALUES (   21937452 ,  721 );
 INSERT INTO Belong VALUES (  21937452,'剧情');
 INSERT INTO Belong VALUES (  21937452,'家庭');
-INSERT INTO movie VALUES (   24750126 , '荒蛮故事' , 'Relatos salvajes' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/24750126/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2192834364.jpg'    
+INSERT INTO Movie VALUES (   24750126 , '荒蛮故事' , 'Relatos salvajes' , '2014' , NULL , 8.7 , 'https://movie.douban.com/subject/24750126/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2192834364.jpg'    
  , 1 );
 INSERT INTO Director VALUES (268, '达米安·斯兹弗隆', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   24750126 ,  268 );
@@ -3117,7 +3117,7 @@ INSERT INTO Play VALUES (   24750126 ,  724 );
 INSERT INTO Belong VALUES (  24750126,'剧情');
 INSERT INTO Belong VALUES (  24750126,'喜剧');
 INSERT INTO Belong VALUES (  24750126,'犯罪');
-INSERT INTO movie VALUES (   25662329 , '疯狂动物城' , 'Zootopia' , '2016' , NULL , 9.2 , 'https://movie.douban.com/subject/25662329/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2315672647.jpg'    
+INSERT INTO Movie VALUES (   25662329 , '疯狂动物城' , 'Zootopia' , '2016' , NULL , 9.2 , 'https://movie.douban.com/subject/25662329/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2315672647.jpg'    
  , 1 );
 INSERT INTO Director VALUES (269, '拜伦·霍华德', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25662329 ,  269 );
@@ -3134,7 +3134,7 @@ INSERT INTO Play VALUES (   25662329 ,  727 );
 INSERT INTO Belong VALUES (  25662329,'喜剧');
 INSERT INTO Belong VALUES (  25662329,'动作');
 INSERT INTO Belong VALUES (  25662329,'动画');
-INSERT INTO movie VALUES (   25724855 , '房间' , 'Room' , '2015' , NULL , 8.8 , 'https://movie.douban.com/subject/25724855/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2259715855.jpg'    
+INSERT INTO Movie VALUES (   25724855 , '房间' , 'Room' , '2015' , NULL , 8.8 , 'https://movie.douban.com/subject/25724855/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2259715855.jpg'    
  , 1 );
 INSERT INTO Director VALUES (272, '伦尼·阿伯拉罕森', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25724855 ,  272 );
@@ -3146,7 +3146,7 @@ INSERT INTO Actor VALUES ('琼·艾伦', NULL, NULL, NULL, 730);
 INSERT INTO Play VALUES (   25724855 ,  730 );
 INSERT INTO Belong VALUES (  25724855,'剧情');
 INSERT INTO Belong VALUES (  25724855,'家庭');
-INSERT INTO movie VALUES (   25773932 , '爆裂鼓手' , 'Whiplash' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/25773932/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2220776342.jpg'    
+INSERT INTO Movie VALUES (   25773932 , '爆裂鼓手' , 'Whiplash' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/25773932/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2220776342.jpg'    
  , 1 );
 INSERT INTO Director VALUES (273, '达米恩·查泽雷', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25773932 ,  273 );
@@ -3158,7 +3158,7 @@ INSERT INTO Actor VALUES ('保罗·雷瑟', NULL, NULL, NULL, 733);
 INSERT INTO Play VALUES (   25773932 ,  733 );
 INSERT INTO Belong VALUES (  25773932,'剧情');
 INSERT INTO Belong VALUES (  25773932,'音乐');
-INSERT INTO movie VALUES (   25807345 , '彗星来的那一夜' , 'Coherence' , '2013' , NULL , 8.4 , 'https://movie.douban.com/subject/25807345/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2187896711.jpg'    
+INSERT INTO Movie VALUES (   25807345 , '彗星来的那一夜' , 'Coherence' , '2013' , NULL , 8.4 , 'https://movie.douban.com/subject/25807345/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2187896711.jpg'    
  , 1 );
 INSERT INTO Director VALUES (274, '詹姆斯·沃德·布柯特', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25807345 ,  274 );
@@ -3171,7 +3171,7 @@ INSERT INTO Play VALUES (   25807345 ,  736 );
 INSERT INTO Belong VALUES (  25807345,'科幻');
 INSERT INTO Belong VALUES (  25807345,'悬疑');
 INSERT INTO Belong VALUES (  25807345,'惊悚');
-INSERT INTO movie VALUES (   25814705 , '小森林 夏秋篇' , 'リトル?フォレスト 夏?秋' , '2014' , NULL , 8.9 , 'https://movie.douban.com/subject/25814705/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2221319641.jpg'    
+INSERT INTO Movie VALUES (   25814705 , '小森林 夏秋篇' , 'リトル?フォレスト 夏?秋' , '2014' , NULL , 8.9 , 'https://movie.douban.com/subject/25814705/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2221319641.jpg'    
  , 1 );
 INSERT INTO Director VALUES (275, '森淳一', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25814705 ,  275 );
@@ -3182,7 +3182,7 @@ INSERT INTO Play VALUES (   25814705 ,  738 );
 INSERT INTO Actor VALUES ('松冈茉优', NULL, NULL, NULL, 739);
 INSERT INTO Play VALUES (   25814705 ,  739 );
 INSERT INTO Belong VALUES (  25814705,'剧情');
-INSERT INTO movie VALUES (   25814707 , '小森林 冬春篇' , 'リトル?フォレスト 冬?春' , '2015' , NULL , 8.9 , 'https://movie.douban.com/subject/25814707/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2215147728.jpg'    
+INSERT INTO Movie VALUES (   25814707 , '小森林 冬春篇' , 'リトル?フォレスト 冬?春' , '2015' , NULL , 8.9 , 'https://movie.douban.com/subject/25814707/' , 'https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2215147728.jpg'    
  , 1 );
 INSERT INTO Director VALUES (276, '森淳一', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25814707 ,  276 );
@@ -3193,7 +3193,7 @@ INSERT INTO Play VALUES (   25814707 ,  741 );
 INSERT INTO Actor VALUES ('松冈茉优', NULL, NULL, NULL, 742);
 INSERT INTO Play VALUES (   25814707 ,  742 );
 INSERT INTO Belong VALUES (  25814707,'剧情');
-INSERT INTO movie VALUES (   25917973 , '心迷宫' , '心迷宫' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/25917973/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2275298525.jpg'    
+INSERT INTO Movie VALUES (   25917973 , '心迷宫' , '心迷宫' , '2014' , NULL , 8.6 , 'https://movie.douban.com/subject/25917973/' , 'https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2275298525.jpg'    
  , 1 );
 INSERT INTO Director VALUES (277, '忻钰坤', NULL, NULL, NULL);
 INSERT INTO Direct VALUES (   25917973 ,  277 );

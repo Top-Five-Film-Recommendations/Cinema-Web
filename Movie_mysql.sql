@@ -143,7 +143,7 @@ create table Director
 /*==============================================================*/
 /* Table: Movie                                                 */
 /*==============================================================*/
-DROP TABLE IF EXISTS movie;
+DROP TABLE IF EXISTS Movie;
 create table Movie
 (
    M_ID                 int(11) not null  comment '',
@@ -223,7 +223,7 @@ alter table Play add constraint FK_PLAY_PLAY2_ACTOR foreign key (A_ID)
 alter table Review add constraint FK_REVIEW_REVIEW_MOVIE foreign key (M_id)
       references Movie (M_id);
       
-ALTER TABLE movie ADD INDEX yearindex (M_releasedate);
+ALTER TABLE Movie ADD INDEX yearindex (M_releasedate);
 
 -- create a view to simplify query operation
 DROP VIEW IF EXISTS fullmovie;
