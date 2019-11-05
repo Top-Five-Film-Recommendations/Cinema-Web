@@ -82,7 +82,7 @@ drop table if exists User;*/
 /*==============================================================*/
 /* Table: Actor                                                 */
 /*==============================================================*/
-DROP TABLE IF EXISTS actor;
+DROP TABLE IF EXISTS Actor;
 create table Actor
 (
    A_Name               char(255) not null  comment '',
@@ -96,7 +96,7 @@ create table Actor
 /*==============================================================*/
 /* Table: Belong                                                */
 /*==============================================================*/
-DROP TABLE IF EXISTS belong;
+DROP TABLE IF EXISTS Belong;
 create table Belong
 (
    M_id               int(11) not null  comment '',
@@ -118,7 +118,7 @@ create table Category
 /*==============================================================*/
 /* Table: Direct                                                */
 /*==============================================================*/
-DROP TABLE IF EXISTS direct;
+DROP TABLE IF EXISTS Direct;
 create table Direct
 (
    M_id              int(11) not null  comment '',
@@ -129,7 +129,7 @@ create table Direct
 /*==============================================================*/
 /* Table: Director                                              */
 /*==============================================================*/
-DROP TABLE IF EXISTS director;
+DROP TABLE IF EXISTS Director;
 create table Director
 (
    D_ID                 int(11)  not null  comment '',
@@ -162,7 +162,7 @@ DEFAULT CHARSET = utf8;
 /*==============================================================*/
 /* Table: Play                                                  */
 /*==============================================================*/
-DROP TABLE IF EXISTS play;
+DROP TABLE IF EXISTS Play;
 create table Play
 (
    M_Id               int(11) not null  comment '',
@@ -229,7 +229,7 @@ ALTER TABLE Movie ADD INDEX yearindex (M_releasedate);
 DROP VIEW IF EXISTS fullmovie;
 CREATE VIEW fullmovie AS
 SELECT Movie.M_id, M_alt, Movie.M_name, M_originalname, M_releaseDate, M_image, C_name, M_star, D_name, A_name, M_intro, M_viewnumber
-FROM Movie, Director, Direct, Actor, play, belong
+FROM Movie, Director, Direct, Actor, Play, Belong
 WHERE  Movie.M_id = Direct.M_id and Director.D_id = Direct.D_id
 	and Movie.M_id = Play.M_id and Play.A_id = Actor.A_id and Movie.M_id = Belong.M_id;
 
