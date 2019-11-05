@@ -234,8 +234,8 @@ WHERE  Movie.M_id = Direct.M_id and Director.D_id = Direct.D_id
 	and Movie.M_id = Play.M_id and Play.A_id = Actor.A_id and Movie.M_id = Belong.M_id;
 
 
-CREATE USER IF NOT EXISTS 'query'@'localhost' IDENTIFIED BY 'query';
-CREATE USER IF NOT EXISTS 'insert'@'localhost' IDENTIFIED BY 'insert';
+-- CREATE USER IF NOT EXISTS 'query'@'localhost' IDENTIFIED BY 'query';
+-- CREATE USER IF NOT EXISTS 'insert'@'localhost' IDENTIFIED BY 'insert';
 
 -- trigger for updating stars
 drop trigger if exists compute_star;
@@ -297,13 +297,13 @@ select * from fullmovie where M_releasedate < '1990';
 end$
 delimiter ;
 
-grant execute ON procedure cinema.queryid TO 'query'@'localhost' identified by 'query';
-grant execute ON procedure cinema.queryyear TO 'query'@'localhost' identified by 'query';
-grant execute ON procedure cinema.queryyear2 TO 'query'@'localhost' identified by 'query';
-grant execute ON procedure cinema.querygerne TO 'query'@'localhost' identified by 'query';
-grant select on cinema.fullmovie to 'query'@'localhost' identified by 'query';
-grant select on cinema.review to 'query'@'localhost' identified by 'query';
+-- grant execute ON procedure cinema.queryid TO 'query'@'localhost' identified by 'query';
+-- grant execute ON procedure cinema.queryyear TO 'query'@'localhost' identified by 'query';
+-- grant execute ON procedure cinema.queryyear2 TO 'query'@'localhost' identified by 'query';
+-- grant execute ON procedure cinema.querygerne TO 'query'@'localhost' identified by 'query';
+-- grant select on cinema.fullmovie to 'query'@'localhost' identified by 'query';
+-- grant select on cinema.review to 'query'@'localhost' identified by 'query';
 
-grant execute ON procedure cinema.insertreview TO 'insert'@'localhost' identified by 'insert';
+-- grant execute ON procedure cinema.insertreview TO 'insert'@'localhost' identified by 'insert';
 FLUSH PRIVILEGES;
 
