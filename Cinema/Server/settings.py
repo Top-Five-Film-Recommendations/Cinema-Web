@@ -28,7 +28,7 @@ SECRET_KEY = 't21)d($@*k+9db6-rxq=p!=e@00bc9n@w^)p0gd=rlgu(lc%6t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver', ]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*', ]
 
 
 # Application definition
