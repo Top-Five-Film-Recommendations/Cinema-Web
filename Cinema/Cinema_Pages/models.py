@@ -26,7 +26,7 @@ class Movie():
         self.original_title = _orginal_title
         self.year = _year
         self.image = _image
-        # self.image = '\'../static/vid/poster/' + self.id + '.jpg\''
+        self.image = 'file://../static/vid/poster/' + self.id + '.jpg\'
         self.genres = _genres
         self.region = _region
         scr = round(float(_rating), 1)
