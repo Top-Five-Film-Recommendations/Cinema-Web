@@ -69,14 +69,15 @@
                 <div class="row voffset">
                     <!--left-->
                     <div class="col-sm-3 col-xs-6">
-                        <img src="{{movie.image}}" onerror="localposter(this);" alt="图片找不到了" class="movie_detail_page" height="190px"/>
-                        <script language="JavaScript">
+                        <img src="{{movie.image}}" alt="图片找不到了" class="movie_detail_page" height="190px"/>
+                        {% comment %} <img src="{{movie.image}}" onerror="localposter(this);" alt="图片找不到了" class="movie_detail_page" height="190px"/> {% endcomment %}
+                        {% comment %} <script language="JavaScript">
                             function localposter(obj){
                                 var localimg = '../static/vid/poster/' + {{movie.id}} + '.jpg';
                                 obj.src = localimg;
                                 img.onerror = null;
                             }
-                        </script>
+                        </script> {% endcomment %}
                         <!--<img src="{{other_info.image}}" class="movie_detail_page" width="140px" />-->
                     </div>
                     <!--end left-->
