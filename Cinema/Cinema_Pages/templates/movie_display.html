@@ -143,8 +143,15 @@
                         {% for movie in movies %}
                         <div class="col-sm-3 col-xs-4 text-center">
                             <a href="{% url 'movie_detail' movie.id %}" data-gallery-id="gallery-1">
-                                <img src="{% if 34  %}{{movie.image}}{% endif %}" alt="图片无法显示"
+                                <img src="{% if 34  %}{{movie.image}}{% endif %}" onerror="localposter(this);" alt="图片无法显示"
                                      class="img-responsive lazyload movie-img"/>
+                                <script language="JavaScript">
+                                    function localposter(obj){
+                                        var localimg = '../static/vid/poster/' + {{movie.id}} + '.jpg';
+                                        obj.src = localimg;
+                                        img.onerror = null;
+                                    }
+                                </script>
                                 <p class="text-center" style="margin-top:6px">
                                 <span style="color:#444">
                                     {%if movie.title|length >= 8 %}
