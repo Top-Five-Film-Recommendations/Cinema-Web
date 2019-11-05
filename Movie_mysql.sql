@@ -302,7 +302,7 @@ delimiter ;
 -- grant execute ON procedure cinema.queryyear2 TO 'query'@'localhost' identified by 'query';
 -- grant execute ON procedure cinema.querygerne TO 'query'@'localhost' identified by 'query';
 -- grant select on cinema.fullmovie to 'query'@'localhost' identified by 'query';
--- grant select on cinema.review to 'query'@'localhost' identified by 'query';
+-- grant select on cinema.Review to 'query'@'localhost' identified by 'query';
 
 -- grant execute ON procedure cinema.insertreview TO 'insert'@'localhost' identified by 'insert';
 FLUSH PRIVILEGES;

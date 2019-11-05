@@ -169,7 +169,7 @@ def movie_detail(request, id):
             charset="utf8"
         )
         cursor = conn.cursor()
-        sql_str = 'SELECT * FROM review WHERE M_id = {0}'.format(id)
+        sql_str = 'SELECT * FROM Review WHERE M_id = {0}'.format(id)
         cursor.execute(sql_str)
         reviews_raw = cursor.fetchall()
         review_list = []
@@ -198,7 +198,7 @@ def add_review(request, movie_id):
             score = form.cleaned_data['score']
             content = form.cleaned_data['content']
 
-            # sql_str = "INSERT INTO review VALUES (NULL, {movie_id}, {score}, NULL, \'{author}\', \'{content}\')".format(
+            # sql_str = "INSERT INTO Review VALUES (NULL, {movie_id}, {score}, NULL, \'{author}\', \'{content}\')".format(
             #    movie_id=movie_id, score=score, author=author, content=content)
 
             sql_str = 'call insertreview({m_id}, {score}, \'{author}\', \'{content}\');'.format(m_id=movie_id,
