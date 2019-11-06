@@ -69,13 +69,14 @@
                 <div class="row voffset">
                     <!--left-->
                     <div class="col-sm-3 col-xs-6">
-                        <img src="{{movie.image}}" alt="图片找不到了" class="movie_detail_page" height="190px"/>
-                        {% comment %} <img src="{{movie.image}}" onerror="localposter(this);" alt="图片找不到了" class="movie_detail_page" height="190px"/>
+                        <img src="../../../static/img/poster/{{movie.id}}.jpg" alt="{{movie.id}}" class="movie_detail_page" height="190px"/>
+                        {% comment %} <img src="{{movie.image}}" onerror="localposter(this);" alt="{{movie.id}}" class="movie_detail_page" height="190px"/>
                         <script language="JavaScript">
                             function localposter(obj){
-                                var localimg = "file://../static/vid/poster/{{movie.id}}.jpg";
+                                var localimg = "{% static \"image/poster/" + obj.alt +".jpg\" %}";
                                 obj.src = localimg;
-                                img.onerror = null;
+                                print(localimg);
+                                obj.onerror = null;
                             }
                         </script> {% endcomment %}
                         <!--<img src="{{other_info.image}}" class="movie_detail_page" width="140px" />-->
@@ -230,7 +231,7 @@
                 {% for rec in recommend_list %}
                 <div class="col-sm-10 col-xs-1" style="margin-top:35px">
                     <a href="{% url 'movie_detail' rec.id %}" data-gallery-id="gallery-1">
-                        <img src="{{rec.image}}" alt="图片无法显示" class="img-responsive lazyload movie-img"/>
+                        <img src="../../../static/img/poster/{{rec.id}}.jpg" alt="{{rec.id}}" class="img-responsive lazyload movie-img"/>
                         <p class="text-center">
                         <span style="color:#444">
                             {%if rec.title|length >= 8 %}

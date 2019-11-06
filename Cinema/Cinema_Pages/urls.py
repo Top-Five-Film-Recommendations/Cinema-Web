@@ -3,6 +3,8 @@
 
 from django.urls import re_path
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib import staticfiles
 
 urlpatterns = [
     # Home page.
@@ -23,3 +25,6 @@ urlpatterns = [
     # re_path(r'^api/movie/year/(?P<year>[0-9]{4})/', views.search_by_year),
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()
+

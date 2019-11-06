@@ -8,6 +8,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 from django.views import View
 import random
+import traceback
 from .func import fuzzy_finder
 from .func import GetOtherInfo
 from .models import Movie
@@ -57,6 +58,7 @@ def movie_display(request):
         movies = paginator.get_page(page)
         return render(request, 'movie_display.html', {'movies': movies})
     except:
+        traceback.print_exc()
         return render(request, '404.html')
 
 
@@ -185,6 +187,7 @@ def movie_detail(request, id):
         return render(request, 'movie_detail.html', context)
 
     except (KeyError, ValueError):
+        traceback.print_exc()
         return render(request, '404.html')
 
 
@@ -272,6 +275,7 @@ def movie_search_by_genre(request, genre):
         context = {'movies': movies}
         return render(request, 'movie_display.html', context)
     except:
+        traceback.print_exc()
         return render(request, '404.html')
 
 
@@ -330,7 +334,7 @@ def movie_search_by_year(request, year):
         return render(request, 'movie_display.html', context)
 
     except:
-        print('render gots an error!')
+        traceback.print_exc()
         return render(request, '404.html')
 
 
@@ -386,6 +390,7 @@ def movie_search_form(request):
         movies = paginator.get_page(page)
         return render(request, 'movie_display.html', {'movies': movies})
     except:
+        traceback.print_exc()
         return render(request, '404.html')
 
 # API
