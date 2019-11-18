@@ -1,4 +1,4 @@
-#拿到ubuntu_django_cinema镜像后如何部署
+# 部署ubuntu_django_cinema docker镜像
 已安装好docker环境
 ```shell
 docker load --input ubuntu_django_cinema
